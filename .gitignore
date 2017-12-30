@@ -1,0 +1,13 @@
+# gitignore file to exclude the files that need not be tracked by GIT 
+
+.vscode/
+fonts/
+img/
+node_modules/
+js/
+
+# Ignore everything in the CSS/ directory
+css/*
+# allow one CSS file - styles.css (might need to split this file to multiple files in the future)
+!css/style.css
+
