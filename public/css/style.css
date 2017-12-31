@@ -33,10 +33,13 @@ h5 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+	padding: 5px;
 }
+
 a {
 	color: #0dad8d;
 }
+
 a:hover, a:focus {
 	text-decoration: none;
 	color: #222;
@@ -73,6 +76,7 @@ hr {
 	border: 0;
 	margin: 10px auto 30px;
 }
+
 /* Navigation */
 #menu {
 	padding: 20px;
@@ -164,93 +168,148 @@ header p {
 	color: #ffffff;
 	border-color: #ffffff;
 }
+
 /* Services Section */
 #services-section {
 	padding: 120px 0;
 	background-color: #fff;
+	color: #777777;
 }
-#services-section h4 {
-	font-weight: 700;
+
+#services-section .major-headings a {
+	/* text-align: left; */
+	font-size: 0.85em;
+	font-weight: 600;
+	line-height: 30px;
+	border: 1px solid #0dad8d;
+	border-radius: 15px;
+	padding: 5px 5px;
 }
-.space {
-	margin-top: 40px;
+
+#services-section .major-headings a:hover{
+	color: #eeeeee;
+	background-color: #0dad8d;
+
 }
+
+#services-section .space {
+	margin-top: 30px;
+}
+
+#services-section .card{
+	/* border: 1px solid #ccc; */
+	padding: 10px 5px 5px 5px;
+	margin: 10px 10px;
+}
+
+#services-section .card a:first-child{
+	position: absolute;
+	top: 0; left: 0;
+	height: 100%; width: 100%;
+}
+
 #services-section i.fa {
-	font-size: 40px;
-	margin-bottom: 20px;
+	font-size: 48px;
+	margin-bottom: 10px;
 	transition: all 0.5s;
-	color: #0dbf9b;
+	color: #777777;
+}	
+
+#services-section .card-title{
+	font-weight: 700;
+}	
+
+#sevices-section .card-text{
+	font-weight: 700;
+	color: #0dad8d;
 }
-/* Gallery Section 
-==============================*/
-#works-section {
-	padding: 120px 0;
-	background-color: #f6f6f6;
+
+#services-section .card:hover{
+	box-shadow: 0 0 20px rgba(0,0,0,.35);
+	background-color: #0dad8d55;
+	transition: all 0.5s;
+} 
+
+/* Individual services pages */
+.individual-service {
+	padding: 40px 0 30px 0;
+	margin: 5px;
+	font-size: 16px;
+	text-align: justify;
 }
-.categories {
-	padding-bottom: 30px;
+
+.individual-service-title {
+	text-align: left;
+	padding: 10px 0;
+	font-weight: 700;
+	color: #444;
+}
+
+.individual-service li{
+	text-indent: 30px;
+}
+
+.individual-service i{
+	font-size: 10px;
+	padding: 5px;
+}
+
+.how-can-we-help-you h2{
+	padding: 15px 0;
+	margin-bottom: 10px;
 	text-align: center;
-}
-ul.cat li {
-	display: inline-block;
-}
-ol.type li {
-	display: inline-block;
-	margin-left: 20px;
-}
-ol.type li a {
-	color: #aaa;
-	border: 1px solid #ddd;
-	padding: 8px 16px;
-	border-radius: 0;
-}
-ol.type li a.active {
-	color: #0dad8d;
+	color: #eeeeee;
+	background-color: #0dad8d;
 	border: 1px solid #0dad8d;
+	border-radius: 5px;
 }
-ol.type li a:hover {
+
+.how-can-we-help-you i{
+	font-size: 24px;
+	padding: 3px;
 	color: #0dad8d;
-	border: 1px solid #0dad8d;
 }
-.isotope-item {
-	z-index: 2
+
+.how-can-we-help-you li{
+	font-size: 16px;
+	font-weight: 600;
+	padding: 4px;
+	text-indent: 30px;
 }
-.isotope-hidden.isotope-item {
-	z-index: 1
+
+#express-entry-canadian-experience-class .row h2{
+	font-size: 1.8em;
+	line-height: 1.2em;
+	padding: 10px 20px;
+	font-weight: 600;
 }
-.isotope, .isotope .isotope-item {
-	/* change duration value to whatever you like */
-	-webkit-transition-duration: 0.8s;
-	-moz-transition-duration: 0.8s;
-	transition-duration: 0.8s;
+
+#express-entry-canadian-experience-class .row i{
+	color: #eeeeee;
+	font-size: 1.3em;
+	padding: 5px;
 }
-.isotope-item {
-	margin-right: -1px;
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
+
+#express-entry-provincial-nominee-program .row h2{
+	font-size: 1.8em;
+	line-height: 1.2em;
+	padding: 10px 20px;
+	font-weight: 600;	
+	text-align: left;
 }
-.isotope {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: height, width;
-	-moz-transition-property: height, width;
-	transition-property: height, width;
+
+#express-entry-provincial-nominee-program .row i{
+	color: #eeeeee;
+	font-size: 1.3em;
+	padding: 5px;
 }
-.isotope .isotope-item {
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition-property: -webkit-transform, opacity;
-	-moz-transition-property: -moz-transform, opacity;
-	transition-property: transform, opacity;
-}
-.portfolio-item {
-	margin-bottom: 30px;
-}
-.portfolio-item .hover-bg {
-	height: 170px;
-	overflow: hidden;
-	position: relative;
-}
+
+
+
+
+
+
+/* Extra stuff */
 .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
@@ -302,12 +361,14 @@ ol.type li a:hover {
 }
 /* About Section */
 #about-section {
-	padding: 120px 0;
+	padding: 100px 0;
 }
 #about-section p {
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 }
+
+
 /* Team Section */
 #team-section {
 	padding: 100px 0;
@@ -335,26 +396,7 @@ img.img-circle.team-img {
 #team-section .thumbnail .caption {
 	padding: 9px;
 }
-/* Achivements Section */
-#achievements {
-	padding: 80px 0;
-	background-color: #0dbf9b;
-}
-.achievement-box {
-	text-align: center;
-	margin: 20px 0;
-}
-.achievement-box h4 {
-	font-size: 16px;
-	color: rgba(255,255,255,0.8);
-	text-transform: uppercase;
-}
-.achievement-box span.count {
-	color: #fff;
-	font-size: 50px;
-	font-weight: 500;
-	display: block;
-}
+
 /* Contact Section */
 #contact-section {
 	padding: 120px 0 60px 0;
