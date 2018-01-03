@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
 
   <!-- Bootstrap & Font Awesome-->
-  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap4.css">
   <link rel="stylesheet" type="text/css" href="../fonts/font-awesome/css/font-awesome.css">
 
   <!-- Stylesheet
@@ -25,6 +25,7 @@
   <link rel="stylesheet" type="text/css" href="../css/prettyPhoto.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet" type="text/css">
   <script type="text/javascript" src="../js/modernizr.custom.js"></script>
 
   <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -38,39 +39,257 @@
 <body>
   <!-- Navigation
     ==========================================-->
-  <nav id="menu" class="navbar navbar-default navbar-fixed-top on">
+  <nav id="menu" class="navbar navbar-expand-lg sticky-top ">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/">
-          <span><img src="./img/logo/logo.png" alt=""></span> Fastway Immigration</a>
+        <a class="navbar-brand" href="#"><span><img src="../img/logo/logo.png" alt=""></span><span class="brand-name">Fastway Immigration</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-expanded="false" aria-controls="navbarContent" aria-label="Toggle Navigation"><i class="fa fa-bars"></i></button>
       </div>
-
+      
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right" role="menu" aria-labelledby="dropdownMenu" style="display:block; position:static;margin-bottom:5px;*width: 180px;">
-          <li class="nav-item"><a href="/">Home</a></li>
-          <li class="dropdown-submenu">
-            <a tabindex="-1" href="/services">Services</a>
-            <ul class="dropdown-menu">
-              <li><a tabindex= "-1" href="/">Home</a></li>
-              <li><a href="/">Home 2</a></li>
-            </ul>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-item active"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">About us</a></li>
+          <li class="nav-item dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+	            <ul class="dropdown-menu dropdown-menu-center multi-column">
+                  <div class="row custom-row-dropdown-menu">
+                    <div class="col-md-4">
+                      <ul class="multi-column-dropdown">
+                        <li class="dropdown-header"><a href="#">Immigration</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Express Entry</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Federal Skilled Worker</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Federal Skilled Trades</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Canadian Experience Class</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Provincial Nomination</a></li>
+
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Family Sponsorship</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Spousal</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Parents & Grandparents</a></li>
+
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Provincial Nomination</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Alberta PNP</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Manitoba PNP</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Nova Scotia PNP</a></li>
+
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Business Immigration</a></li>
+
+                      </ul>
+                    </div>
+                    
+                    <div class="col-md-4">
+                      <ul class="multi-column-dropdown">
+                        <li class="dropdown-header"><a href="#">Temporary Visa </a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Tourist Visa</a></li>
+
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Business Visa</a></li>
+                        
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Study Permit</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Post-graduation Work permit</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Restoration of Status</a></li>
+
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Work Permit</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>LMIA</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Work Permit inside/outside</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Extension of Work permit</a></li>
+                        <li class="dropdown-item"><a href="#"><i class="fa fa-circle"></i>Restoration of status</a></li>
+
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Live-in caregiver</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Super Visa</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Electronic Travel Authorization (eTA)</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                      <ul class="multi-column-dropdown">
+                        <li class="dropdown-header"><a href="#">Miscellaneous</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Canadian Citizenship</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Issuance & Renewal of PR card</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Issuance of OCI card</a></li>
+                        <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Renewal of Passports</a></li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <a id="all-services-button" href="#" class="btn btn-primary btn-lg btn-block center-btn">Detailed list of all Services offered</a>
+                    </div>
+                  </div>
+                </ul>
           </li>
-          <li class="nav-item"><a href="/">Portfolio</a></li>
-          <li class="nav-item"><a href="/about">About us</a></li>
-          <li class="nav-item"><a href="#contact-section">Contact Us</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
+          <li class="nav-item"><a href="#">What's NEW <i class="fa fa-bell"></i></a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
   </nav>
+
+   <!-- Header -->
+   <header class="text-center" name="home">
+    <div class="intro-text" id="landing-header">
+      <h1>Welcome to
+        <strong>Fastway Immigration</strong>
+      </h1>
+      <p>We are a full-service integrated creative agency</p>
+      <a href="/services" class="btn btn-default btn-lg page-scroll">LEARN MORE</a>
+    </div>
+
+    <ul class="slideshow">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </header>
+
+  <!-- Services Section -->
+  <div id="services-section" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>What Services we offer</h2>
+        <hr>
+        <div class="clearfix"></div>
+        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus. Eleifend pellentesque natoque faucibus magna ut
+          etiam.
+        </p>
+      </div>
+      <div class="space"></div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 service">
+          <i class="fa fa-desktop"></i>
+          <h3>Express Entry Program</h3>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service">
+          <i class="fa fa-gears"></i>
+          <h4>App Development</h4>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service">
+          <i class="fa fa-rocket"></i>
+          <h4>Branding</h4>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        </div>
+        <div class="col-md-3 col-sm-6 service">
+          <i class="fa fa-line-chart"></i>
+          <h4>Marketing</h4>
+          <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Portfolio Section -->
+
+  <!-- About Section -->
+  <div id="about-section">
+    <div class="container">
+      <div class="section-title text-center center">
+        <h2>About Us</h2>
+        <hr>
+        <div class="clearfix"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/about.jpg" class="img-responsive"> </div>
+        <div class="col-md-6">
+          <div class="about-text">
+            <h4>Who We Are</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+              ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis
+              bibendum.
+            </p>
+            <h4>What We Do</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+              ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh ante facilisis
+              bibendum.
+            </p>
+            <h4>Why Choose Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh
+              ante facilisis bibendum dolor feugiat at.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Achievements Section -->
+
+  <!-- Team Section -->
+  <div id="team-section" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Meet the Team</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+      </div>
+      <div id="row">
+        <div class="col-md-3 col-sm-6 team">
+          <div class="thumbnail">
+            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+            <div class="caption">
+              <h3>John Doe</h3>
+              <p>Founder / CEO</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 team">
+          <div class="thumbnail">
+            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+            <div class="caption">
+              <h3>Mike Doe</h3>
+              <p>Web Designer</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 team">
+          <div class="thumbnail">
+            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
+            <div class="caption">
+              <h3>Jane Doe</h3>
+              <p>Creative Director</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 team">
+          <div class="thumbnail">
+            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
+            <div class="caption">
+              <h3>Larry Show</h3>
+              <p>Project Manager</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="../js/bootstrap4.js"></script>
+    <script type="text/javascript" src="../js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="../js/jquery.counterup.js"></script>
+    <script type="text/javascript" src="../js/waypoints.js"></script>
+    <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="../js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="../js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="../js/contact_me.js"></script>
+  
+    <!-- Javascripts
+      ================================================== -->
+    <script type="text/javascript" src="../js/main.js"></script>
   </body>
   
