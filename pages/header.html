@@ -51,10 +51,11 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
         <ul class="nav navbar-nav navbar-right">
           <li class="nav-item active"><a href="#">Home</a></li>
-          <li class="nav-item"><a href="#">About us</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Contact Us</a></li>
           <li class="nav-item dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
-	            <ul class="dropdown-menu dropdown-menu-center multi-column">
+	            <ul class="dropdown-menu dropdown-menu-right multi-column">
                   <div class="row custom-row-dropdown-menu">
                     <div class="col-md-4">
                       <ul class="multi-column-dropdown">
@@ -104,7 +105,7 @@
 
                     <div class="col-md-4">
                       <ul class="multi-column-dropdown">
-                        <li class="dropdown-header"><a href="#">Miscellaneous</a></li>
+                        <li class="dropdown-header"><a href="#">Other services</a></li>
                         <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Canadian Citizenship</a></li>
                         <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Issuance & Renewal of PR card</a></li>
                         <li class="dropdown-subheader"><a href="#"><i class="fa fa-angle-right"></i>Issuance of OCI card</a></li>
@@ -114,13 +115,14 @@
                   </div>
 
                   <div class="row">
-                    <div class="col-sm-12">
-                      <a id="all-services-button" href="#" class="btn btn-primary btn-lg btn-block center-btn">Detailed list of all Services offered</a>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6">
+                      <a id="all-services-button" class="btn btn-dark btn-md btn-block"><i class="fa fa-shield"></i>List of all Services</a>
                     </div>
+                    <div class="col-md-3"></div>
                   </div>
                 </ul>
           </li>
-          <li class="nav-item"><a href="#">Contact Us</a></li>
           <li class="nav-item"><a href="#">What's NEW <i class="fa fa-bell"></i></a></li>
         </ul>
       </div>
@@ -132,11 +134,11 @@
    <!-- Header -->
    <header class="text-center" name="home">
     <div class="intro-text" id="landing-header">
-      <h1>Welcome to
-        <strong>Fastway Immigration</strong>
-      </h1>
-      <p>We are a full-service integrated creative agency</p>
-      <a href="/services" class="btn btn-default btn-lg page-scroll">LEARN MORE</a>
+      <p>
+        <h1>Welcome to <strong>Fastway Immigration</strong></h1>
+        <h3>Your Trusted & Reliable partners in all Immigration related matters... </h3>
+      </p>
+      <a href="/services" class="btn btn-primary btn-lg page-scroll">LEARN MORE</a>
     </div>
 
     <ul class="slideshow">
@@ -219,61 +221,99 @@
     </div>
   </div>
 
-  <!-- Achievements Section -->
-
-  <!-- Team Section -->
-  <div id="team-section" class="text-center">
-    <div class="container">
-      <div class="section-title center">
-        <h2>Meet the Team</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
-      </div>
-      <div id="row">
-        <div class="col-md-3 col-sm-6 team">
-          <div class="thumbnail">
-            <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
-            <div class="caption">
-              <h3>John Doe</h3>
-              <p>Founder / CEO</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
+  <!-- Contact Section -->
+  <div id="contact-section" class="text-center">
+      <div class="container">
+        <div class="section-title center">
+          <h2>Contact Us</h2>
+          <hr>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
         </div>
-        <div class="col-md-3 col-sm-6 team">
-          <div class="thumbnail">
-            <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
-            <div class="caption">
-              <h3>Mike Doe</h3>
-              <p>Web Designer</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-4">
+            <i class="fa fa-map-marker"></i>
+            <p>
+              2908 49A Street NW <br> 
+              Edmonton, AB - T6L5J5 <br> 
+              Canada
+            </p>
           </div>
+          <div class="col-sm-12 col-lg-4">
+            <i class="fa fa-envelope"></i>
+            <p class="contact-email"><a href="mailto:info@fastwayimmigration.com">info@fastwayimmigration.com</a><br>
+              <a href="mailto:fastway.immi@outlook.com">fastway.immi@outlook.com</a>
+            </p>
+          </div>
+          <div class="col-sm-12 col-lg-4">
+            <i class="fa fa-phone"></i>
+            <p><strong>Cellphone :</strong> +1(204) 590-5516 <br>
+                <strong>Landline :</strong> +1(780) 669-9779
+              <br>
+            </p>
+          </div>
+          <hr>
+          <div class="clearfix"></div>
         </div>
-        <div class="col-md-3 col-sm-6 team">
-          <div class="thumbnail">
-            <img src="img/team/03.jpg" alt="..." class="img-circle team-img">
-            <div class="caption">
-              <h3>Jane Doe</h3>
-              <p>Creative Director</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="col-md-12 col-lg-8 offset-md-2">
+          <h3>Leave us a Message</h3>
+          <form name="sentMessage" id="contactForm" novalidate>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6 team">
-          <div class="thumbnail">
-            <img src="img/team/04.jpg" alt="..." class="img-circle team-img">
-            <div class="caption">
-              <h3>Larry Show</h3>
-              <p>Project Manager</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="form-group">
+              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+              <p class="help-block text-danger"></p>
             </div>
-          </div>
+            <div id="success"></div>
+            <button type="submit" class="btn btn-default">Send Message</button>
+          </form>
         </div>
       </div>
     </div>
-  </div>
-
+    </div>
+    <div id="social-section">
+      <div class="container">
+        <div class="social">
+          <ul>
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container">
+        <div class="fnav">
+          <p>Copyright &copy; 2018 - Designed by Vivek Malhotra & thanks to
+            <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a>
+          </p>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
