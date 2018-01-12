@@ -6,6 +6,8 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	color: #373d3f;
 	background-color: #f1f3f4;
+	max-width: 100%;
+	/* overflow-x: hidden; */
 }
 
 h1 strong {
@@ -78,7 +80,9 @@ hr {
 	margin: 10px auto 30px;
 }
 
-/* Navigation */
+/* ========================================
+Main Navigation bar menu that appears on each page
+ */
 #menu {
 	padding: 0.5vmin;
 	transition: all 0.8s;
@@ -87,29 +91,35 @@ hr {
 	font-family: 'Roboto', sans-serif;
 }
 
+#menu .navbar-header{
+	color: #eeeeee;
+	/* width: 80%; */
+}
+
 #menu a.navbar-brand img {
-	width : 50px;
+	width : 45px;
 	padding: 4px;
 	margin-bottom: 5px;
 }
 
-#menu a.navbar-brand .brand-name{
-	margin-left :5px;
-	margin-right: 3vw;
+#menu .brand-name{
+	margin-top: 1px;
+	margin-right: 1vw;
 	color: #fff;
-	font-size: 1.7em;
+	font-size: 1.5em;
 	font-weight: 500;
 }
 
-#menu .navbar-header i{
+#menu button.navbar-toggler{
+	border: 2px solid #eee;
+	border-radius: 7px;
+	margin-bottom: 3px;
 	color: #eeeeee;
-	width: 100%;
-	/* float: right; */
+	float: right;
 }
 
-#menu .navbar-toggler{
-	border: 2px solid #eee;
-	border-radius: 5px;
+#menu .navbar-nav > li{
+	margin: 3px 0;
 }
 
 #menu .navbar-nav > li > a {
@@ -124,7 +134,6 @@ hr {
 }
 
 #menu .navbar-nav > li:hover {
-	/* background-color: #0dad8d; */
 	background-color: #3aafa9;
 	color: #feffff;
 	border-radius: 5px;
@@ -133,8 +142,7 @@ hr {
 
 #menu .dropdown-menu {
 	margin-top: 5px;
-	/* background-color: #0dad8d;  */
-	background-color: #3aafa9; 
+	background-color: #3aafa9;
 	color: #feffff;
 	box-shadow: 0 0 20px rgba(0,0,0,0.65);
 	min-width:60vw;
@@ -234,63 +242,111 @@ hr {
 	}
 }
 
-/* .on {
-	background-color: #222222 !important;
-	padding: 0 !important;
-} */
 
-/* .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #0dad8d !important;
-	background-color: transparent;
-}
-.navbar-toggle {
-	border-radius: 0;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #0dad8d;
-	border-color: #0dad8d;
-}
-.navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFF;
-} */
+/* ========================================
+Landing page's header items
+Includes:
+	-- Some images that keep switching automatically
+	-- A welcome greeting text overlaid over images
+	-- Services & Contact us buttons
+A 
+*/
 
-/* Home Style */
-header {
-	color: #cfcfcf;
+#landing-header {
+	/* width: 100%;
+	height: 100%; */
+	z-index: 1;
+	text-align: center;
 	position: relative;
-	height: 100%;
-	/* margin-top: 50px; */
+	padding: unset;
+	padding: 10vh 0 30vh 0;
+	font-size: 3.7vmin;
 }
 
-header p {
-	color: rgba(255,255,255,0.8);
-	font-size: 20px;
-	margin-bottom: 40px;
-}
-.intro-text {
-	position: relative;
-	padding-top: 250px;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 170px;
-}
-
-.intro-text h1 {
-	background-color: rgba(0, 105, 217, 0.7);
-	font-size: 7vmin;
+#landing-header h1 {
+	color: #feffff;
+	font-size: 1.9em;
 	padding: 1.5vmin;
 	text-transform: uppercase;
-	color: #feffff;
-	margin-bottom: unset;
 }
 
-.intro-text h3 {
-	background-color: rgba(0, 105, 217, 0.7);
-	font-size: 3vmin;
+#landing-header h3 {
 	color: #feffff;
-	margin-top: unset;
+	font-size: 1.0em;
 	padding: 1.5vmin;
 }
+
+#landing-header a{
+	font-size: 0.8em;
+}
+
+
+.slideshow { 
+	position: unset;
+	width: 100%;
+	height: 100%;
+	border: none;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+
+  .slideshow li { 
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	opacity: 0;
+	z-index: 0;
+	animation: imageAnimation 50s linear infinite; 
+  }
+
+  .slideshow li:nth-child(1) {  
+	background-image: url(../img/header/header-bg1.jpg);
+  }
+  .slideshow li:nth-child(2) { 
+	background-image: url(../img/header/header-bg2.jpg);
+	animation-delay: 10s; 
+  }
+  .slideshow li:nth-child(3) { 
+	background-image: url(../img/header/header-bg3.jpg);
+	animation-delay: 20s; 
+  }
+  .slideshow li:nth-child(4) { 
+	background-image: url(../img/header/header-bg4.jpg);
+	animation-delay: 30s; 
+  }
+  .slideshow li:nth-child(5) { 
+	background-image: url(../img/header/header-bg5.jpg);
+	animation-delay: 40s; 
+  }
+
+  @keyframes imageAnimation { 
+	0% { 
+	  opacity: 0.2; 
+	  animation-timing-function: ease-in;
+	}
+	10% {
+	  opacity: 1;
+	  animation-timing-function: ease-out;
+	}
+	20% {
+	  opacity: 1
+	}
+	30% {
+	  opacity: 0
+	}
+  }
+
+/* =======================================  */
+
 
 .btn-default {
 	color: #fff;
@@ -309,6 +365,7 @@ header p {
 	border-color: #ffffff;
 }
 
+
 /* Services Section */
 #services-section {
 	padding: 120px 0;
@@ -321,7 +378,6 @@ header p {
 }
 
 #services-section .major-headings a {
-	/* text-align: left; */
 	font-size: 0.85em;
 	font-weight: 600;
 	line-height: 30px;
@@ -449,12 +505,8 @@ header p {
 }
 
 
-
-
-
-
 /* Extra stuff */
-.hover-bg .hover-text {
+/* .hover-bg .hover-text {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
@@ -495,56 +547,13 @@ header p {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
-}
-#works-section i.fa {
-	height: 30px;
-	width: 30px;
-	border: 1px solid #F5AB35;
-	font-size: 20px;
-	padding: 5px;
-	border-radius: 50%;
-	color: #F5AB35;
-}
-/* About Section */
-#about-section {
-	padding: 100px 0;
-}
-#about-section p {
-	margin-top: 10px;
-	margin-bottom: 30px;
-}
+} */
 
 
-/* Team Section */
-#team-section {
-	padding: 100px 0;
-}
-.section-title.center {
-	padding: 30px 0;
-}
-.section-title h2 {
-	margin-bottom: 30px;
-}
-img.img-circle.team-img {
-	width: 150px;
-	height: 150px;
-	border: 4px solid transparent;
-	transition: all 0.5s;
-}
-#team-section .team .thumbnail:hover>img.img-circle.team-img {
-	border: 4px solid #fff;
-	font-size: medium;
-}
-#team-section .thumbnail {
-	background: transparent;
-	border: 0;
-}
-#team-section .thumbnail .caption {
-	padding: 9px;
-}
 
-/* Contact Section */
+/* Contact Section for every page */
 #contact-section {
+	top: 20px;
 	padding: 120px 0 60px 0;
 	background-color: #f6f6f6;
 }
@@ -696,79 +705,3 @@ label {
 }
 }
 
-/* Code for Background switching in the header tag */
-#landing-header {
-	z-index: 1;
-	position: relative;
-	text-align: center;
-	padding-top: 40vh;
-  }
-
-  #landing-header h1 {
-	color: #fff;
-  }
-
-  .slideshow { 
-	position: unset;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	z-index: 0;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-  }
-
-  .slideshow li { 
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-size: cover;
-	background-position: 50% 50%;
-	background-repeat: no-repeat;
-	opacity: 0;
-	z-index: 0;
-	animation: imageAnimation 50s linear infinite; 
-  }
-
-  .slideshow li:nth-child(1) {  
-	background-image: url(../img/header/header-bg1.jpg);
-  }
-  .slideshow li:nth-child(2) { 
-	background-image: url(../img/header/header-bg2.jpg);
-	animation-delay: 10s; 
-  }
-  .slideshow li:nth-child(3) { 
-	background-image: url(../img/header/header-bg3.jpg);
-	animation-delay: 20s; 
-  }
-  .slideshow li:nth-child(4) { 
-	background-image: url(../img/header/header-bg4.jpg);
-	animation-delay: 30s; 
-  }
-  .slideshow li:nth-child(5) { 
-	background-image: url(../img/header/header-bg5.jpg);
-	animation-delay: 40s; 
-  }
-
-  @keyframes imageAnimation { 
-	0% { 
-	  opacity: 0.2; 
-	  animation-timing-function: ease-in;
-	}
-	10% {
-	  opacity: 1;
-	  animation-timing-function: ease-out;
-	}
-	20% {
-	  opacity: 1
-	}
-	30% {
-	  opacity: 0
-	}
-  }
-  
-  /* ****************** */
