@@ -2,7 +2,24 @@
 All notable changes for this projct - "fastwayimmigration.com website" will be documented in this file
 
 ## [Unreleased]
+    - Create a css template for individual services' page
+    - Create a css template for about us & contact us page
+    - Put content in each individual service html page
+    - create about us & contact us page contents
+    - setup mail on the contact us page
+    - ? What's new page needs to created ~ for now maybe a landing page saying under development/coming soon can be made
 
+######+++++++++++++++++++++++++++++++++++++++++++++
+## [0.3] - 2018-01-14
+services.html page is complete & starting work on css template & html files for individual services
+### Added
+    - Services page has been structured - at least the content. 
+    - Added proper styling to the Services page
+    - All links working properly to the individual services.
+### Changed
+### Removed
+    - Removed a buggy hr element from the index.html page
+    
 ######+++++++++++++++++++++++++++++++++++++++++++++
 ## [0.2] - 2018-01-13
 The main change in the strategy going forward is to keep a seperate html file for services tab instead of the dropdown menu

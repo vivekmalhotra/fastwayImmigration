@@ -107,14 +107,13 @@ Includes:
 #landing-header h3 {
 	color: #feffff;
 	font-size: 0.7em;
-	/* line-height: 40px; */
 	text-align: left;
 }
 
 #landing-header a{
 	font-size: 0.7em;
 	font-weight: 600;
-	color: #000000;
+	color: #222222;
 	background-color: #FF9800;
 	border: none;
 	text-decoration: none;
@@ -133,7 +132,7 @@ Includes:
 #landing-header a:hover{
 	background-color: #EF6C00;
 	color: #ffffff;
-	transition: 0.4s;
+	transition: 0.3s;
 	font-weight: 600;
 }
 
