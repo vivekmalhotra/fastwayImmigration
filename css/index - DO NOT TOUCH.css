@@ -88,7 +88,7 @@ Main Navigation bar menu that appears on each page
 	transition: all 0.8s;
 	background-color: #181818;
 	border-color: rgba(0, 0, 0);
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #menu .navbar-header{

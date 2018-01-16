@@ -1,13 +1,26 @@
 # Changelog 
-All notable changes for this projct - "fastwayimmigration.com website" will be documented in this file
+All notable changes for this project - "fastwayimmigration.com website" will be documented in this file
 
 ## [Unreleased]
-    - Create a css template for individual services' page
-    - Create a css template for about us & contact us page
-    - Put content in each individual service html page
-    - create about us & contact us page contents
+    - (completed) Create a css template for individual services' page
+    - (completed) Create a css template for about us & contact us page
+    - (partially completed) Put content in each individual service html page
+    - (partially completed) create about us & contact us page contents
     - setup mail on the contact us page
     - ? What's new page needs to created ~ for now maybe a landing page saying under development/coming soon can be made
+    - (partially completed - maybe needs more tweaking)Upload and setup fastwayimmigration.com
+
+######+++++++++++++++++++++++++++++++++++++++++++++
+## [0.4] - 2018-01-16
+First almost complete version of the website
+### Added
+    - Federal Skilled Worker page has been setup as a template for future service pages
+    - ALl other services' page has been created (some are missing - waiting on the content to be created)
+    - Hosted the website on FastwayImmigration.com
+### Changed
+    - Footer has been modified across site
+### Removed
+    - Cleaned up some CSS files
 
 ######+++++++++++++++++++++++++++++++++++++++++++++
 ## [0.3] - 2018-01-14

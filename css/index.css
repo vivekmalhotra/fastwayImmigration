@@ -37,11 +37,20 @@ Main Navigation bar menu that appears on each page
 	font-size: 1.5em;
 	font-weight: 600;
 }
+@media (max-width: 420px){
+	#menu .brand-name {
+		font-size: 1.3em;
+	}
+	#menu a.navbar-brand img{
+		width: 40px;
+	}
+}
 
 #menu button.navbar-toggler{
 	border: 2px solid #eeeeee;
 	border-radius: 8px;
 	margin-bottom: 3px;
+	padding: 4px 8px !important;
 	color: #eeeeee;
 }
 
@@ -66,13 +75,6 @@ Main Navigation bar menu that appears on each page
 	border-radius: 5px;
 }
 
-@media (max-width: 767px) {
-	.dropdown-menu.multi-column {
-		min-width: 240px !important;
-		overflow-x: hidden;
-	}
-}
-
 
 
 /* ========================================
@@ -84,7 +86,7 @@ Includes:
 */
 
 #landing-header {
-	top: 45vh;
+	top: 40vh;
 	z-index: 1;
 	text-align: left;
 	position: relative;
@@ -108,6 +110,21 @@ Includes:
 	color: #feffff;
 	font-size: 0.7em;
 	text-align: left;
+	margin: 0 0 5px 0 !important;
+}
+@media (max-width: 420px){
+	#landing-header h1{
+		font-size: 2.5em;
+	}
+	#landing-header h2{
+		font-size: 1.8em;
+	}
+	#landing-header h3{
+		font-size: 1.2em;
+	}
+	#landing-header a{
+		font-size: 1.5em;
+	}
 }
 
 #landing-header a{
@@ -117,15 +134,16 @@ Includes:
 	background-color: #FF9800;
 	border: none;
 	text-decoration: none;
-	margin-right: 40px;
-	padding: 3px 5px;
+	margin: 5px 0 0 0;
+	padding: 2px 5px 2px 2px;
 	transition: 0.3s;
 }
 
 #landing-header a.prefix{
-	margin: 0;
+	margin: 5px 0 0 0;
 	padding: 0 0;
 	width: 2vmin;
+	max-width: 15px;
 	background-color: #EF6C00;
 }
 

@@ -1,7 +1,6 @@
 /* Style sheet for the entire Fastway immigration website */
 
-body,
-html {
+body, html {
 	color: #feffff;
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -11,17 +10,10 @@ html {
 	max-width: 100%;
 }
 
-ul,
-ol {
-	padding: 0;
-	list-style: none;
-}
-
-
 /* ========================================
 Main Navigation bar menu that appears on each page
  */
- #menu {
+#menu {
 	padding: 2px;
 	transition: all 0.8s;
 	background-color: rgb(27, 27, 27);
@@ -85,82 +77,81 @@ Main Navigation bar menu that appears on each page
 
 
 /* ========================================
-Services section
-*/
-#services-section {
-	padding: 60px 0;
-	background-color: #feffff;
-	color: #555555;
+Colorstrip on the top of the page */
+#colorstrip{
+    margin-top: 10px;
+    background-color: #0375B4;
 }
 
-#services-section .space {
-	margin-top: 40px;
+#colorstrip h1.individual-service-title{
+    font-weight: 600;
+    font-size: 2.0em;
+    color: #eeeeee;
+    padding: 10px 0;    
 }
 
-#services-section .section-title h1 {
-	font-weight: 600;
-	font-size: 2.7em;
-	text-align: center;
-}
-
-#services-section p.heading {
+/* Individual services pages */
+.individual-service {
+	padding: 5px 0 30px 0;
+	font-size: 1.0em;
 	text-align: justify;
 }
 
-#services-section button.services-options-button {
-	margin: 5px 10px;
-	border: none;
+.individual-service-body{
+    font-weight: 400;
 }
 
-#services-section button.services-options-button:hover {
-	box-shadow: 0 0 20px 2px #0375B4;
+img.individual-service-image {
+	margin: 5px 10px 5px 5px;
+	width: 50%;
 }
+	@media(max-width: 1000px){
+		img.individual-service-image{
+			width: 70%;
+		}
+	}
 
-#services-section .row {
-	padding: 10px 5px;
-	margin: 2px 5px;
-}
-
-#services-section h3.major-headings {
-	font-weight: 600;
+	@media(max-width: 780px){
+		img.individual-service-image{
+			width: 100%;
+			margin: 5px 0 !important;
+		}
+	}
+h2{
+	margin-top: 10px;
 	font-size: 1.5em;
-	text-transform: uppercase;
-}
-
-#services-section .services-card {
-	border: 1px solid #99999958;
-	border-radius: 5px;
-	margin: 5px 0;
-	padding: 0 !important;
-}
-
-#services-section .services-card img {
-	width: 80px;
-	height: 80px;
-	padding: 0.2vmin;
-	margin-right: 10px;
-}
-
-#services-section .services-card h4 {
-	font-size: 1.1em;
 	font-weight: 600;
-	text-align: left;
 }
 
-#services-section .services-card a:first-child {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	transition: all 0.3s;
+div.individual-service ul.list, div.individual-service ol.list{
+	/* padding-left: 50px; */
+	overflow-x: hidden;
+	font-size: 0.9em;
 }
 
-#services-section .services-card a:hover {
-	box-shadow: 0 0 20px 5px #0376b451;
-	background-color: #0376b453;
-	transition: all 0.3s;
-	color: white;
+.individual-service i{
+	font-size: 10px;
+	padding: 5px;
+}
+
+#how_we_help {
+    background-color: #0375B4;
+    margin-bottom: 100px;
+    padding: 5px 0;
+}
+
+#how_we_help h1{
+    color: #eeeeee;
+    font-weight: 600;
+}
+
+#how_we_help p{
+	color: #eeeeee;
+}
+
+#how_we_help ul{
+	text-align: justify;
+    color: #eeeeee;
 }
 
 /* Footer */
@@ -203,47 +194,39 @@ Services section
 
 
 @media (max-width: 768px) {
-	.content {
-		padding: 40% 0 0;
-	}
+.content {
+	padding: 40% 0 0;
+}
 }
 
 @media (max-width: 603px) {
-	#menu.navbar-default {
-		background-color: rgba(0, 0, 0, 0.7);
-	}
-	label {
-		float: none !important
-	}
-	.hover-bg .hover-text {
-		padding: 12% 10%;
-	}
+#menu.navbar-default {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+label {
+	float: none !important
+}
+.hover-bg .hover-text {
+	padding: 12% 10%;
+}
 }
 
 @media (max-width: 360px) {
-	.hover-bg .hover-text {
-		padding: 22% 10%;
-	}
+.hover-bg .hover-text {
+	padding: 22% 10%;
+}
 }
 
 
 /* =======================================  */
-
-
 /* Miscellaneous Styles */
-
 .noselect {
-	-webkit-touch-callout: none;
-	/* iOS Safari */
-	-webkit-user-select: none;
-	/* Safari */
-	-khtml-user-select: none;
-	/* Konqueror HTML */
-	-moz-user-select: none;
-	/* Firefox */
-	-ms-user-select: none;
-	/* Internet Explorer/Edge */
-	user-select: none;
-	/* Non-prefixed version, currently
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
 									supported by Chrome and Opera */
-}
+  }
