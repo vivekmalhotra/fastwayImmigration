@@ -689,7 +689,7 @@ Call us and Send us an email*/
 /* Complete CONTACT US Section */
 
 #contact-us {
-    background: url("/img/contact-us-photo.jpg");
+    background: url("../img/contact-us-photo.jpg");
     background-size: cover;
 }
 
