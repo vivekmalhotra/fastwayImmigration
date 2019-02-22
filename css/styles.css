@@ -1,0 +1,862 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F7F7F7;
+}
+
+/*  Primary Color    #0A3055
+    Secondary Color  #CDA34F
+    Tertiary Color   #93ADB6
+    Quaternary Color #24647A
+*/
+
+
+/* --------------------------------------------------- */
+/* TITLE BAR - All Elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* TITLE BAR - div */
+.title-bar-div {
+    background-color: #F7F7F7;
+}
+
+/* TITLE BAR - Main Logo image*/
+.title-bar-logo-img {
+    width: 90%;
+}
+
+/* TITLE BAR - Call Us - Font Awesome Logo for both
+Call us and Send us an email*/
+.title-bar-fa {
+    color: #B21212;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* TITLE BAR - TEXT HEADINGS
+- Call Us & Send us an Email */
+.title-bar-text-heading {
+    color: #999999;
+    font-size: 0.8rem;
+}
+
+/* TITLE BAR - Call us - Phone number text*/
+.title-bar-call-us-phone {
+    color: #333333;
+    line-height: 1.3;
+    font-size: 1.1rem;
+}
+
+/* TITLE BAR - Call us - Phone number on Hover */
+.title-bar-call-us-phone:hover {
+    text-decoration: none;
+}
+
+/* TITLE BAR - Email us - Email*/
+.title-bar-email {
+    color: #333333;
+    line-height: 1.4;
+}
+
+/* TITLE BAR - Email us - Email on Hover*/
+.title-bar-email:hover{
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------------- */
+/* TITLE BAR - All elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    .title-bar-fa {
+        font-size: 1.5rem;
+    }
+
+    .title-bar-text-heading {
+        font-size: 1rem;
+    }
+
+    .title-bar-call-us-phone {
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    .title-bar-fa {
+        font-size: 1.8rem;
+    }
+
+    .title-bar-text-heading {
+        font-size: 1rem;
+    }
+
+    .title-bar-call-us-phone {
+        font-size: 1.4rem;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    .title-bar-call-us-phone {
+        font-size: 1.6rem;
+    }
+
+    .title-bar-email {
+        font-size: 0.8rem;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {
+    .title-bar-fa {
+        font-size: 2rem;
+    }
+
+    .title-bar-text-heading {
+        font-size: 1rem;
+    }
+
+    .title-bar-call-us-phone {
+        font-size: 1.8rem;
+    }
+
+    .title-bar-email {
+        font-size: 1.1rem;
+    }
+
+}
+
+/* --------------------------------------------------- */
+/* NAVIGATION BAR */
+/* --------------------------------------------------- */
+/* NAVIGATION BAR - Navbar element of Bootstrap */
+.navigation-bar-nav {
+    line-height: 1.4;
+    font-size: 0.9rem;
+    font-weight: bold;
+    /* background: #233142; */
+    background: #26538a;
+}
+
+/* NAVIGATION BAR - Anchor element under list element */
+#navigation-bar-main-ul li>a {
+    color: #ffffff;
+}
+
+#navigation-bar-main-ul li>a:hover {
+    color: black;
+    background-color: #F7F7F7;
+}
+
+/* --------------------------------------------------- */
+/* NAVIGATION BAR - All elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Exception case - even smaller devices (less than 350px)*/
+@media all and (max-width: 360px) {
+    .navigation-bar-nav{
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+}
+
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    .navigation-bar-nav {
+        font-size: 1.2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    .navigation-bar-nav {
+        font-size: 1.4rem;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    .navigation-bar-nav {
+        font-size: 1.5rem;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {
+    .navigation-bar-nav {
+        font-size: 1.6rem;
+    }
+}
+
+
+
+/* --------------------------------------------------- */
+/* MAIN IMAGE - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* MAIN IMAGE - Using Jumbotron of Bootstrap */
+
+.carousel-inner{
+    position: relative;
+}
+
+.carousel-item{
+    max-height: 60vh;
+    min-height: 50vh;
+}
+
+.main-image-text-h3{
+    background: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: "Merriweather", serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    line-height: 1.3;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 60%;
+    padding: 2%;
+}
+
+.main-image-text-h4{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 70%;
+    padding: 2%;
+}
+
+/* The background images of each carousel item */
+/* BACKGROUND IMAGE #1 */
+.background-image-1{
+    background-color:#F7F7F7;
+    background-image:url('/img/600px/main-image-1-600px.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* BACKGROUND IMAGE #2 */
+.background-image-2{
+    background-color:#F7F7F7;
+    background-image:url('/img/600px/main-image-2-600px.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* BACKGROUND IMAGE #3 */
+.background-image-3{
+    background-color:#F7F7F7;
+    background-image:url('/img/600px/main-image-3-600px.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+/* --------------------------------------------------- */
+/* MAIN IMAGE - All elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Exception case - even smaller devices (less than 350px)*/
+@media all and (max-width: 360px) {
+    /* Main Image - overlay text - heading title */
+    .main-image-text-h3{
+        font-size: 1.1rem;
+        top: 10%;
+        width: 70%;
+        padding: 1%;
+    }
+
+    /* Main Image - Overlay Text - Body text */
+    .main-image-text-h4{
+        font-size: 0.9rem;
+        top: 30%;
+        width: 70%;
+        padding: 2%;
+        margin: auto;
+    }
+}
+
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    /* 768px width images for screen sizes greater than 576px and smaller than 768px*/
+    .background-image-1{
+        background-image: url('/img/900px/main-image-1-900px.jpg');
+    }
+    .background-image-2{
+        background-image: url('/img/900px/main-image-2-900px.jpg');
+    }
+    .background-image-3{
+        background-image: url('/img/900px/main-image-3-900px.jpg');
+    }
+
+    /* Center all three background images for anything bigger than 576 px */
+    .background-image-1,
+    .background-image-2,
+    .background-image-3{
+        background-position:center;
+    }
+    /* Main Image - overlay text - heading title */
+    .main-image-text-h3{
+        font-size: 1.5rem;
+        top: 20%;
+        left: 15%;
+        width: 50%;
+        padding: 1%;
+    }
+
+    /* Main Image - Overlay Text - Body text */
+    .main-image-text-h4{
+        font-size: 1.1rem;
+        top: 40%;
+        left: 15%;
+        padding: 1%;
+        width: 60%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    /* Main Image - overlay text - heading title */
+    .main-image-text-h3{
+        font-size: 1.6rem;
+        top: 20%;
+        width: 40%;
+    }
+
+    /* Main Image - Overlay Text - Body text */
+    .main-image-text-h4{
+        font-size: 1.2rem;
+        top: 40%;
+        width: 50%;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    /* 1200px width images for screen sizes greater than 768px and smaller than 1200px*/
+    .background-image-1{
+        background-image: url('/img/1200px/main-image-1-1200px.jpg');
+    }
+    .background-image-2{
+        background-image: url('/img/1200px/main-image-2-1200px.jpg');
+    }
+    .background-image-3{
+        background-image: url('/img/1200px/main-image-3-1200px.jpg');
+    }
+
+    /* Main Image - overlay text - heading title */
+    .main-image-text-h3{
+        font-size: 1.7rem;
+        top: 20%;
+        width: 30%;
+    }
+
+    /* Main Image - Overlay Text - Body text */
+    .main-image-text-h4{
+        font-size: 1.4rem;
+        top: 40%;
+        width: 40%;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {
+    /* Very large images for screen sizes greater than 1200px*/
+    .background-image-1{
+        background-image: url('/img/2000px/main-image-1.jpg');
+    }
+    .background-image-2{
+        background-image: url('/img/2000px/main-image-2.jpg');
+    }
+    .background-image-3{
+        background-image: url('/img/2000px/main-image-3.jpg');
+    }
+
+     /* Main Image - overlay text - heading title */
+     .main-image-text-h3{
+        font-size: 2rem;
+        top: 20%;
+        width: 30%;
+        padding: 0.5%;
+    }
+
+    /* Main Image - Overlay Text - Body text */
+    .main-image-text-h4{
+        font-size: 1.6em;
+        top: 40%;
+        width: 40%;
+        padding: 0.5%;
+    }
+}
+
+
+/* --------------------------------------------------- */
+/* COMPANY DETAIL SECTION - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+
+/* COMPANY DETAIL SECTION - Complete section*/
+#company-detail-section {
+    background: #F7F7F7;
+}
+
+/* COMPANY DETAIL - Who we are & Commitment - Heading*/
+.company-detail-heading {
+    color: #00204a;
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* COMPANY DETAIL - Who we are & Commitment - Text*/
+.company-detail-text {
+    color: #34495E;
+    font-family: "roboto", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+/* COMPANY DETAIL - Who we are - Read more... */
+#company-detail-read-more {
+    color: #93ADB6;
+    font-size: 1.1rem;
+}
+
+#company-detail-read-more:hover {
+    color: #00204a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* --------------------------------------------------- */
+/* COMPANY DETAIL - All elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    .company-detail-heading {
+        font-size: 1.6rem;
+    }
+
+    .company-detail-text {
+        font-size: 1.3rem;
+    }
+    #company-detail-read-more {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    .company-detail-heading {
+        font-size: 1.7rem;
+    }
+
+    .company-detail-text {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+    #company-detail-read-more {
+        font-size: 1.3rem;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {
+    .company-detail-heading {
+        font-size: 1.9rem;
+    }
+
+    .company-detail-text {
+        font-size: 1.6rem;
+    }
+    #company-detail-read-more {
+        font-size: 1.5rem;
+    }
+
+    #company-detail-who-we-are {
+        padding: 5% !important;
+    }
+
+    #company-detail-our-commitment {
+        padding: 5% !important;
+    }
+}
+
+/* --------------------------------------------------- */
+/* SERVICES SECTION - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* SERVICES SECTION - whole section */
+#services{
+    background: #FFFFFF;
+}
+
+/* SERVICES SECTION - Heading */
+.services-heading {
+    color: #00204a;
+    font-family: "Merriweather", serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* SERVICES SECTION - Main content */
+.services-text-p{
+    color: #34495E;
+    font-family: "roboto", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: justify;
+}
+
+/* SERVICES SECTION - Cards for each service group */
+.services-card-individual{
+    background:#F7F7F7;
+    border-radius: 15px;
+}
+
+/* SERVICES SECTION - Title of each card in the section */
+#services .card-title{
+    color: #CDA34F;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+/* SERVICES SECTION - Card Text  */
+#services .card-text{
+    color: #34495E;
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+/* SERVICES SECTION - Card list items */
+#services .card-list-items{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+/* SERVICES SECTION - All the buttons in the section */
+#services button{
+    max-width: 350px;
+    font-size: 1.2rem;
+}
+
+#services button:hover {
+    font-weight: bold;
+}
+
+
+/* --------------------------------------------------- */
+/* SERVICES SECTION - All elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    .services-heading {
+        font-size: 1.6rem;
+    }
+
+    .services-text-p {
+        font-size: 1.3rem;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    .services-heading {
+        font-size: 1.7rem;
+    }
+
+    .services-text-p {
+        font-size: 1.4rem;
+        line-height: 1.3;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {
+    .services-heading {
+        font-size: 1.9rem;
+    }
+
+    .services-text-p {
+        font-size: 1.6rem;
+    }
+}
+
+
+/* --------------------------------------------------- */
+/* TESTIMONIALS SECTION - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* TESTIMONIALS SECTION - Complete Section */
+#testimonials-section {
+    text-align: center;
+    background: #CDA34F;
+    color: #ffffff;
+}
+
+/* TESTIMONIALS SECTION - Carousel Individual item */
+.carousel-item {
+    padding: 5% 7% 20%;
+}
+
+/* TESTIMONIALS SECTION - Quotation mark */
+.testimonials-quotation-mark {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+/* TESTIMONIALS SECTION - Text */
+.testimonials-text {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+/* TESTIMONIALS SECTION - Name & city */
+.testimonials-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    margin-bottom: 150px;
+}
+
+
+/* --------------------------------------------------- */
+/* TESTIMONIALS SECTION - All Elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    .testimonials-quotation-mark {
+        font-size: 2.2rem;
+    }
+
+    .testimonials-text {
+        font-size: 1.5rem;
+    }
+
+    .testimonials-name {
+        font-size: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    .carousel-item {
+        padding: 5% 10% 8%;
+    }
+
+    .testimonials-quotation-mark {
+        font-size: 3rem;
+    }
+
+    .testimonials-text {
+        font-size: 1.2rem;
+    }
+
+    .testimonials-name {
+        font-size: 1.1rem;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    .testimonials-text {
+        font-size: 1.9rem;
+    }
+
+    .testimonials-name {
+        font-size: 1.2rem;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {}
+
+/* --------------------------------------------------- */
+/* CONTACT US SECTION - All Elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* Complete CONTACT US Section */
+
+#contact-us {
+    background: url("/img/contact-us-photo.jpg");
+    background-size: cover;
+}
+
+#contact-us h2 {
+    color: #00204a;
+    font-family: "Merriweather", serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/* Strike through the word stranger */
+#contact-us-stranger-word {
+    color: #93ADB6;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#contact-us h3 {
+    font-size: 1.5rem;
+}
+
+/* Social media contact options - Twitter and FB Messenger */
+.contact-us-social{
+color: #00204a;
+font-size: 1.2rem;
+}
+
+a.contact-us-social:hover{
+    background: #00204a;
+    border-radius: 15px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
+
+.contact-us-social i{
+    font-size: 1.8rem;
+    /* margin-right: 15px; */
+}
+
+.contact-us-section-phone-i {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.contact-us-social span{
+    font-weight: none;
+    font-size: 1.4rem;
+}
+
+a.contact-us-email-a{
+    font-size: 1.2rem;
+}
+
+h4.contact-us-message-form{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00204a;
+}
+
+.input-group-text{
+    color: #00204a;
+    font-size: 1rem;
+}
+
+button.contact-us-message-form{
+    font-size: 1.3rem;
+}
+
+
+
+/* --------------------------------------------------- */
+/* CONTACT US SECTION - All Elements - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    #contact-us {
+        background: url("/img/contact-us-photo.jpg");
+        background-size: cover;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {}
+
+
+
+/* --------------------------------------------------- */
+/* FOOTER - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* FOOTER Section - Complete Section */
+#footer {
+    padding: 2% 0%;
+    /* background: #233142; */
+    background: #26538a;
+}
+
+/* FOOTER - Company logo white */
+#footer-logo {
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 0.8rem;
+    color: #bbbbbb;
+}
+
+.footer-text a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* --------------------------------------------------- */
+/* FOOTER BAR  - RESPONSIVE STYLING*/
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    .footer-text {
+        font-size: 1rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    #footer {
+        padding: 1% 0%;
+    }
+}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {}
+
+
+
+
+/* --------------------------------------------------- */
+/* ALL COMMON ELEMENTS - NORMAL STYLING */
+/* --------------------------------------------------- */
+/* ALL ELEMENTS - Horizontal Row */
+.all-sections-hr {
+    width: 20%;
+    max-width: 80px;
+    margin-top: 1px;
+    border-top: 10px dotted #dadada;
+}
+
+
+/* --------------------------------------------------- */
+/* XXXXX  - RESPONSIVE STYLING */
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {}
