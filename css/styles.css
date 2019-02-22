@@ -691,6 +691,7 @@ Call us and Send us an email*/
 #contact-us {
     background: url("../img/600px/contact-us-photo-600px.jpg");
     background-size: cover;
+    background-repeat:no-repeat;
 }
 
 #contact-us h2 {
@@ -767,6 +768,8 @@ button.contact-us-message-form{
 @media all and (min-width: 576px) {
     #contact-us {
         background: url("../img/900px/contact-us-photo-900px.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
     }
 }
 
@@ -777,6 +780,8 @@ button.contact-us-message-form{
 @media all and (min-width: 992px) {
     #contact-us {
         background: url("../img/1200px/contact-us-photo-1200px.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
     }
 }
 
@@ -784,6 +789,8 @@ button.contact-us-message-form{
 @media all and (min-width: 1200px) {
     #contact-us {
         background: url("../img/2000px/contact-us-photo.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
     }
 }
 
