@@ -689,7 +689,7 @@ Call us and Send us an email*/
 /* Complete CONTACT US Section */
 
 #contact-us {
-    background: url("../img/contact-us-photo.jpg");
+    background: url("../img/600px/contact-us-photo-600px.jpg");
     background-size: cover;
 }
 
@@ -766,8 +766,7 @@ button.contact-us-message-form{
 /* Small devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
     #contact-us {
-        background: url("../img/contact-us-photo.jpg");
-        background-size: cover;
+        background: url("../img/900px/contact-us-photo-900px.jpg");
     }
 }
 
@@ -775,10 +774,18 @@ button.contact-us-message-form{
 @media all and (min-width: 768px) {}
 
 /* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {}
+@media all and (min-width: 992px) {
+    #contact-us {
+        background: url("../img/1200px/contact-us-photo-1200px.jpg");
+    }
+}
 
 /* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {}
+@media all and (min-width: 1200px) {
+    #contact-us {
+        background: url("../img/2000px/contact-us-photo.jpg");
+    }
+}
 
 
 
