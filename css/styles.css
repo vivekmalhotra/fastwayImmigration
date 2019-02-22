@@ -237,7 +237,7 @@ Call us and Send us an email*/
 /* BACKGROUND IMAGE #1 */
 .background-image-1{
     background-color:#F7F7F7;
-    background-image:url('/img/600px/main-image-1-600px.JPG');
+    background-image:url('../img/600px/main-image-1-600px.JPG');
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -245,7 +245,7 @@ Call us and Send us an email*/
 /* BACKGROUND IMAGE #2 */
 .background-image-2{
     background-color:#F7F7F7;
-    background-image:url('/img/600px/main-image-2-600px.jpg');
+    background-image:url('../img/600px/main-image-2-600px.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -253,7 +253,7 @@ Call us and Send us an email*/
 /* BACKGROUND IMAGE #3 */
 .background-image-3{
     background-color:#F7F7F7;
-    background-image:url('/img/600px/main-image-3-600px.jpg');
+    background-image:url('../img/600px/main-image-3-600px.jpg');
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -285,13 +285,13 @@ Call us and Send us an email*/
 @media all and (min-width: 576px) {
     /* 768px width images for screen sizes greater than 576px and smaller than 768px*/
     .background-image-1{
-        background-image: url('/img/900px/main-image-1-900px.jpg');
+        background-image: url('../img/900px/main-image-1-900px.jpg');
     }
     .background-image-2{
-        background-image: url('/img/900px/main-image-2-900px.jpg');
+        background-image: url('../img/900px/main-image-2-900px.jpg');
     }
     .background-image-3{
-        background-image: url('/img/900px/main-image-3-900px.jpg');
+        background-image: url('../img/900px/main-image-3-900px.jpg');
     }
 
     /* Center all three background images for anything bigger than 576 px */
@@ -340,13 +340,13 @@ Call us and Send us an email*/
 @media all and (min-width: 992px) {
     /* 1200px width images for screen sizes greater than 768px and smaller than 1200px*/
     .background-image-1{
-        background-image: url('/img/1200px/main-image-1-1200px.jpg');
+        background-image: url('../img/1200px/main-image-1-1200px.jpg');
     }
     .background-image-2{
-        background-image: url('/img/1200px/main-image-2-1200px.jpg');
+        background-image: url('../img/1200px/main-image-2-1200px.jpg');
     }
     .background-image-3{
-        background-image: url('/img/1200px/main-image-3-1200px.jpg');
+        background-image: url('../img/1200px/main-image-3-1200px.jpg');
     }
 
     /* Main Image - overlay text - heading title */
@@ -368,13 +368,13 @@ Call us and Send us an email*/
 @media all and (min-width: 1200px) {
     /* Very large images for screen sizes greater than 1200px*/
     .background-image-1{
-        background-image: url('/img/2000px/main-image-1.jpg');
+        background-image: url('../img/2000px/main-image-1.jpg');
     }
     .background-image-2{
-        background-image: url('/img/2000px/main-image-2.jpg');
+        background-image: url('../img/2000px/main-image-2.jpg');
     }
     .background-image-3{
-        background-image: url('/img/2000px/main-image-3.jpg');
+        background-image: url('../img/2000px/main-image-3.jpg');
     }
 
      /* Main Image - overlay text - heading title */
