@@ -766,7 +766,7 @@ button.contact-us-message-form{
 /* Small devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
     #contact-us {
-        background: url("/img/contact-us-photo.jpg");
+        background: url("../img/contact-us-photo.jpg");
         background-size: cover;
     }
 }
