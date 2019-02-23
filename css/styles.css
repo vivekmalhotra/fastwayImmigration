@@ -692,12 +692,14 @@ Call us and Send us an email*/
 /* --------------------------------------------------- */
 /* Complete CONTACT US Section */
 
+/* CONTACT US - Background image */
 #contact-us {
     background: url("../img/600px/contact-us-photo-600px.jpg");
     background-size: cover;
     background-repeat:no-repeat;
 }
 
+/* CONTACT US - Heading - h2 */
 #contact-us h2 {
     color: #00204a;
     font-family: "Merriweather", serif;
@@ -705,21 +707,23 @@ Call us and Send us an email*/
     font-weight: bold;
 }
 
-/* Strike through the word stranger */
+/* Strike through the word STRANGER */
 #contact-us-stranger-word {
     color: #93ADB6;
     font-weight: normal;
     text-decoration: line-through;
 }
 
+/* CONTACT US - Heading - h3 */
 #contact-us h3 {
     font-size: 1.5rem;
 }
 
-/* Social media contact options - Twitter and FB Messenger */
+/* Social media contact options class for all*/
 .contact-us-social{
-color: #00204a;
-font-size: 1.2rem;
+    color: #00204a;
+    font-size: 1.3rem;
+    padding: 4px;
 }
 
 a.contact-us-social:hover{
@@ -731,26 +735,16 @@ a.contact-us-social:hover{
 
 .contact-us-social i{
     font-size: 1.8rem;
-    /* margin-right: 15px; */
 }
 
-.contact-us-section-phone-i {
+.contact-us-section-phone {
     font-weight: bold;
     font-size: 1.8rem;
 }
 
-.contact-us-social span{
-    font-weight: none;
-    font-size: 1.4rem;
-}
-
-a.contact-us-email-a{
-    font-size: 1.2rem;
-}
-
 h4.contact-us-message-form{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #00204a;
 }
 
@@ -761,13 +755,25 @@ h4.contact-us-message-form{
 
 button.contact-us-message-form{
     font-size: 1.3rem;
+    /* font-weight: bold; */
 }
-
-
 
 /* --------------------------------------------------- */
 /* CONTACT US SECTION - All Elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
+/* Exception case - even smaller devices (less than 350px)*/
+@media all and (max-width: 360px) {
+    .contact-us-social{
+        font-size: 1.2rem;
+    }
+    .contact-us-social i{
+        font-size: 1.4rem;
+    }
+    .contact-us-section-phone{
+        font-size: 1.7rem;
+    }
+}
+
 /* Small devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
     #contact-us {
@@ -775,10 +781,63 @@ button.contact-us-message-form{
         background-size: cover;
         background-repeat:no-repeat;
     }
+    /* CONTACT US - Headings */
+    #contact-us h2{
+        font-size: 2.5rem;
+    }
+    #contact-us h3{
+        font-size: 1.6rem;
+    }
+    .contact-us-social{
+        font-size: 1.4rem;
+    }
+    .contact-us-section-phone{
+        font-size: 2rem;
+    }
+    /* Message form - input field icons */
+     .input-group-text{
+        font-size: 1.2rem;
+    }
+    /* Message form - Input fields */
+    .input-group input{
+        font-size: 1.2rem;
+    }
+    /* Message form - Text Area field */
+    .input-group textarea{
+        font-size: 1.1rem;
+    }
+    /* Message form - Send button */
+    button.contact-us-message-form{
+        font-size: 1.4rem;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {}
+@media all and (min-width: 768px) {
+    /* Message form - input field icons */
+    .input-group-text{
+        font-size: 1.4rem;
+    }
+    /* Message form - Input fields */
+    .input-group input{
+        font-size: 1.3rem;
+    }
+    /* Message form - Text Area field */
+    .input-group textarea{
+        font-size: 1.2rem;
+    }
+    /* Message form - Send button */
+    button.contact-us-message-form{
+        font-size: 1.5rem;
+    }
+    /* CONTACT US - Headings */
+    #contact-us h2{
+        font-size: 2.6rem;
+    }
+    #contact-us h3{
+        font-size: 1.7rem;
+    }
+}
 
 /* Large devices (Desktops, 992 px and up)*/
 @media all and (min-width: 992px) {
@@ -786,6 +845,13 @@ button.contact-us-message-form{
         background: url("../img/1200px/contact-us-photo-1200px.jpg");
         background-size: cover;
         background-repeat:no-repeat;
+    }
+    /* CONTACT US - Headings */
+    #contact-us h2{
+        font-size: 3rem;
+    }
+    #contact-us h3{
+        font-size: 2rem;
     }
 }
 
@@ -795,6 +861,30 @@ button.contact-us-message-form{
         background: url("../img/2000px/contact-us-photo.jpg");
         background-size: cover;
         background-repeat:no-repeat;
+    }
+    .contact-us-social i{
+        font-size: 2rem;
+    }
+    .contact-us-social{
+        font-size: 1.6rem;
+    }
+    .contact-us-section-phone{
+        font-size: 2rem;
+    }
+    h4.contact-us-message-form{
+        font-size: 2rem;
+    }
+    /* Message form - input field icons */
+    .input-group-text{
+        font-size: 1.6rem;
+    }
+    /* Message form - Input fields */
+    .input-group input{
+        font-size: 1.4rem;
+    }
+    /* Message form - Text Area field */
+    .input-group textarea{
+        font-size: 1.3rem;
     }
 }
 
@@ -806,7 +896,6 @@ button.contact-us-message-form{
 /* FOOTER Section - Complete Section */
 #footer {
     padding: 2% 0%;
-    /* background: #233142; */
     background: #26538a;
 }
 
@@ -832,7 +921,7 @@ button.contact-us-message-form{
 /* Small devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
     .footer-text {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -869,24 +958,24 @@ button.contact-us-message-form{
     background-color: #CDA34F;
 }
 
-/* ABOUT US - OUR COMMITMENT body text */
-.about-us-commitment-text{
-    color: #F7F7F7;
-    font-family: "roboto", sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    text-align: justify;
-}
-
 /* ABOUT US - Heading */
 .about-us-heading{
     color: #00204a;
     font-family: "Merriweather", serif;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     line-height: 1.5;
     font-weight: bolder;
     text-align: center;
     letter-spacing: 5px;
+}
+
+/* ABOUT US - OUR COMMITMENT body text */
+.about-us-commitment-text{
+    color: #F7F7F7;
+    font-family: "roboto", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 /* ABOUT US - Body Text */
@@ -904,6 +993,55 @@ button.contact-us-message-form{
     max-width: 100%;
 }
 
+/* --------------------------------------------------- */
+/* ABOUT US PAGE - RESPONSIVE STYLING */
+/* --------------------------------------------------- */
+/* Small devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    .about-us-heading{
+        font-size: 1.8rem;
+    }
+    .about-us-commitment-text{
+        font-size: 1.5rem;
+    }
+    .about-us-text{
+        font-size: 1.3rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media all and (min-width: 768px) {
+    .about-us-heading{
+        font-size: 1.9rem;
+    }
+    .about-us-commitment-text{
+        font-size: 1.6rem;
+    }
+    .about-us-text{
+        font-size: 1.4rem;
+    }
+}
+
+/* Large devices (Desktops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* For extra large device - Desktops and 1200px and up */
+@media all and (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------------------------------------- */
 /* XXXXX  - RESPONSIVE STYLING */
@@ -919,3 +1057,22 @@ button.contact-us-message-form{
 
 /* For extra large device - Desktops and 1200px and up */
 @media all and (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
