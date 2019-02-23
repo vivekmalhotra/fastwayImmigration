@@ -203,6 +203,7 @@ Call us and Send us an email*/
     min-height: 50vh;
 }
 
+/* MAIN IMAGE - Text overlay title */
 .main-image-text-h3{
     background: rgba(255, 255, 255, 0.7);
     border-top-right-radius: 15px;
@@ -218,6 +219,7 @@ Call us and Send us an email*/
     padding: 2%;
 }
 
+/* MAIN IMAGE - Text overlay body */
 .main-image-text-h4{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -411,6 +413,7 @@ Call us and Send us an email*/
     font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 5px;
 }
 
 /* COMPANY DETAIL - Who we are & Commitment - Text*/
@@ -506,6 +509,7 @@ Call us and Send us an email*/
     font-size: 1.5rem;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 5px;
 }
 
 /* SERVICES SECTION - Main content */
@@ -859,7 +863,46 @@ button.contact-us-message-form{
     border-top: 10px dotted #dadada;
 }
 
-/* INDIVIDUAL SERVICES - PAGE SPECIFIC STYLES */
+/* ABOUT US PAGE - SPECIFIC STYLES */
+/* ABOUT US - OUR COMMITMENT */
+#about-us-commitment{
+    background-color: #CDA34F;
+}
+
+/* ABOUT US - OUR COMMITMENT body text */
+.about-us-commitment-text{
+    color: #F7F7F7;
+    font-family: "roboto", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* ABOUT US - Heading */
+.about-us-heading{
+    color: #00204a;
+    font-family: "Merriweather", serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+/* ABOUT US - Body Text */
+.about-us-text{
+    color: #34495E;
+    font-family: "roboto", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* ABOUT US - Display Img */
+.about-us-img{
+    max-height: 50vh;
+    max-width: 100%;
+}
 
 
 /* --------------------------------------------------- */
