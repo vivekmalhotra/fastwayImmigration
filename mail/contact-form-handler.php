@@ -15,13 +15,14 @@ $message = $_POST['message'];
 $phone = $_POST['phone'];
 
 // Create the email and send the message
-$recipient1 = "pass.magnet@gmail.com"; // This is where the form will send a message to.
+$recipient1 = "fastway.immigration@outlook.com"; // This is where the form will send a message to.
 
-$email_subject = "Website Contact Form : $name";
-$email_body = "You have received a new message from your website contact form. \n \n".
+$email_subject = "FastwayImmigration Contact Form : $name";
+$email_body = "You have received a new message from your website (fastwayimmigration.com) contact form. \n \n".
 "Here are the details:\n\n".
    "Name    : $name \n \n".
    "Email   : $email_address \n \n".
+   "Phone   : $phone \n \n".
    "Message : \n $message";
 
 $headers = "From: info@fastwayimmigration.com\n"; // This is the email address the generated message will be from
