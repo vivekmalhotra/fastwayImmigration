@@ -15,7 +15,7 @@ $message = $_POST['message'];
 $phone = $_POST['phone'];
 
 // Create the email and send the message
-$recipient1 = "fastway.immigration@outlook.com"; // This is where the form will send a message to.
+$recipient1 = "pass.magnet@gmail.com"; // This is where the form will send a message to.
 
 $email_subject = "Website Contact Form : $name";
 $email_body = "You have received a new message from your website contact form. \n \n".
@@ -24,7 +24,7 @@ $email_body = "You have received a new message from your website contact form. \
    "Email   : $email_address \n \n".
    "Message : \n $message";
 
-$headers = "From: noreply@fastwayimmigration.com\n"; // This is the email address the generated message will be from
+$headers = "From: info@fastwayimmigration.com\n"; // This is the email address the generated message will be from
 $headers .= "Reply-To: $email_address";
 mail($recipient1,$email_subject,$email_body,$headers);
 echo "Thank you! - We will reach out to you soon.";
