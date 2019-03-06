@@ -15,7 +15,7 @@ $message = $_POST['message'];
 $phone = $_POST['phone'];
 
 // Create the email and send the message
-$recipient1 = "fastway.immigration@outlook.com"; // This is where the form will send a message to.
+$recipient1 = "info@fastwayimmigration.com"; // This is where the form will send a message to.
 
 $email_subject = "FastwayImmigration Contact Form : $name";
 $email_body = "You have received a new message from your website (fastwayimmigration.com) contact form. \n \n".
