@@ -10,7 +10,7 @@ if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['message'])	||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
-      echo "No arguments Provided!";
+      $result = '<div class="alert alert-danger">Invalid data. Please try again</div>';
       return false;
 }
 
@@ -35,10 +35,10 @@ if($verify->success){
    $headers .= "Reply-To: $email_address";
    mail($recipient1,$email_subject,$email_body,$headers);
    $result = '<div class="alert alert-success">Thank You! I will be in touch</div>';
-   echo $result
-   }
-   else{
-      $result = '<div class="alert alert-danger">Sorry there was an error sending your message! Please try again</div>';
-      echo $result
-   }
+   return true;
+}
+else{
+   $result = '<div class="alert alert-danger">Sorry there was an error sending your message! Please try again</div>';
+   return false;
+}
 ?>
