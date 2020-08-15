@@ -1,0 +1,110 @@
+<!-- PAGE TOP AREA - Persistent bar on top of the page showing :
+- Office address
+- Email
+- Social Media logos
+Expands/Collapses the information at different screen-widths. The ID home lets Scrollspy track it on the landing page-->
+<div class="navbar navbar-expand py-1 py-md-2 color-background-grey-dark font-type-sans-serif" id="home">
+    <div class="container">
+        <!-- Split the container in 2 equal width columns - one for Address and other for social media links and email -->
+        <!-- First Column : Company Office Address -->
+        <div class="col-2 col-md-3 col-lg-5 top-navbar-div">
+            <a href="https://www.google.com/maps/search/?api=1&query=Fastway+Immigration+%26+Visa+Services&query_place_id=ChIJ558XX40foFMR5FjExyAB2uo" title="Office Address | Fastway Immigration">
+                <span class="fas fa-map-marker-alt color-font-brand-primary opacity-0_5-on-hover-opacity-1">
+                    <span class="d-none d-md-inline d-lg-none font-type-sans-serif font-size-5 bold-link-hover color-font-dark-grey">Office Address</span>
+                    <span class="d-none d-lg-inline font-type-sans-serif font-size-5 bold-link-hover color-font-dark-grey">#204 - 3818A 97 St. NW, Edmonton, AB, Canada</span>
+                </span>
+            </a>
+        </div>
+
+        <!-- Second Column : Social Media & email icons
+            This shows up only in medium and higher width screens. For smaller screens, it's hidden -->
+        <div class="col-10 col-md-9 col-lg-7 text-right top-navbar-div">
+            <!-- Icon #1 - Email icon -->
+            <a href="mailto:fastway.immigration.com" target="_blank" class="mr-3" title="Email Fastway Immigration team">
+                <span class="fas fa-envelope color-font-brand-primary opacity-0_5-on-hover-opacity-1">
+                    <span class="d-none d-sm-inline font-type-sans-serif font-size-5 bold-link-hover color-font-dark-grey">fastway.immigration@outlook.com</span>
+                </span>
+            </a>
+
+                <!-- Icon #2 - Twitter icon -->
+            <a href="https://twitter.com/fastwayim" target="_blank" rel="noreferrer" class="mr-3" title="Twitter | Fastway Immigration">
+                <span class="fab fa-twitter color-font-brand-primary opacity-0_5-on-hover-opacity-1">
+                    <span class="d-none d-xl-inline font-type-sans-serif font-size-5 bold-link-hover color-font-dark-grey">@fastwayim</span>
+                </span>
+            </a>
+
+            <!-- Icon #3 - FB Messenger icon -->
+            <a href="https://www.m.me/fastwayim" target="_blank" rel="noreferrer" class="mr-3" title="Facebook Messenger | Fastway Immigration">
+                <span class="fab fa-facebook-messenger color-font-brand-primary opacity-0_5-on-hover-opacity-1">
+                    <span class="d-none d-xl-inline font-type-sans-serif font-size-5 bold-link-hover color-font-dark-grey">fastwayim</span>
+                </span>
+            </a>
+
+            <!-- Icon #4 - YouTube icon -->
+            <a href=" https://www.youtube.com/channel/UCzw8oUWjGUG2O4SR4FzDkvg" target="_blank" rel="noreferrer" class="d-inline" title="YouTube Channel | Fastway Immigration">
+                <span class="fab fa-youtube color-font-brand-primary opacity-0_5-on-hover-opacity-1"></span>
+            </a>
+            </div>
+    </div>
+</div>
+
+<!-- TITLE BAR - Contains company logo and Phone number contact information  -->
+<!-- Title bar is setup as a single container row with phone numbers and logo as columns of the row -->
+<div class="container p-2 font-type-sans-serif">
+        <!-- Row - Title Bar -->
+    <div class="row text-center m-0">
+        <!-- Column 1 - Company Logo -->
+        <div class="col-5 col-sm-4 col-md-3 p-0">
+            <a href="/"><img class="img-fluid" id="titleBarLogoImg" src="/img/logo-fastway-immigration-main.png" alt="Fastway-Immigration-company-logo" title="Fastway Immigration"></a>
+        </div>
+
+        <!-- Column 2 - Phone numbers -->
+        <div class="col-7 col-sm-8 col-md-9 p-0 align-self-center">
+            <div class="container p-0">
+                <!-- Phone Numbers of the company -->
+                <div class="text-right p-0">
+                    <span title="Contact Phone | Fastway Immigration">
+                        <!-- Phone Logo - Font Awesome -->
+                        <i class="font-size-2 title-bar-phone-icon fas fa-phone-alt p-2 color-font-brand-primary animate__animated animate__flash animate__delay-5s"></i>
+                        <!-- Phone Number #1 - Only starts showing up on sm and above screen sizes -->
+                        <span class="d-none d-md-inline-block font-size-2 font-weight-bold pr-md-3 border-right color-font-black">780.995.9779</span>
+                        <!-- Phone Number #2 - Always displayed -->
+                        <span class="d-inline-block font-size-2 font-weight-bold pr-2 pl-md-3 color-font-black">780.669.9779</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--NAVBAR - below the title bar with navigation links to the following pages:
+    - Home, About Us, Services, Contact Us -->
+<nav class="navbar navbar-expand-sm color-background-grey-dark navbar-light navbar-inverse sticky-top shadow-sm p-0 font-type-sans-serif" id="mainNavigationBar">
+    <div class="container">
+        <!-- Hamburger button that comes on below a certain screen width  -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar" id="hamburger" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 0; border-style: none;"><span class="fa fa-bars"></span>
+        </button>
+        <!-- The rest of the main navigation bar. Uses Bootstrap's Scrollspy feature to track  -->
+        <div class="ml-auto">
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="navbar-nav d-flex flex-row flex-wrap">
+                    <li class="nav-item m-auto p-0 mr-2 mr-md-3">
+                        <a class="nav-link p-2 font-type-sans-serif font-size-5" href="https://fastwayimmigration.com/#home" data-target="#home">Home</a>
+                    </li>
+                    <li class="nav-item m-auto p-0 mx-2 mx-md-3">
+                        <a class="nav-link p-2 font-type-sans-serif font-size-5 test-class1" href="https://fastwayimmigration.com/#companyDetailSection" data-target="#companyDetailSection">About Us</a>
+                    </li>
+                    <li class="nav-item m-auto p-0 mx-2 mx-md-3">
+                        <a class="nav-link p-2 font-type-sans-serif font-size-5" href="https://fastwayimmigration.com/#services" data-target="#services">Services</a>
+                    </li>
+                    <li class="nav-item m-auto p-0 mx-2 mx-md-3">
+                        <a class="nav-link p-2 font-type-sans-serif font-size-5" href="https://fastwayimmigration.com/#contactUs" data-target="#contactUs">Contact Us</a>
+                    </li>
+                        <li class="nav-item m-auto p-0 mx-2 mx-md-3">
+                        <a class="nav-link p-2 font-type-sans-serif font-size-5" href="#">BLOG</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>

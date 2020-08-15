@@ -1,0 +1,126 @@
+<!-- SECTION : CONTACT US -->
+<section id="contactUs">
+    <div class="container pt-4 pt-md-5">
+        <!-- Heading of the Contact Us Section -->
+        <h2 class="font-type-serif font-size-2 text-center py-1 color-font-black"><strong>CONTACT OUR TEAM</strong></h2>
+        <hr class="horizontal-row-divider">
+        <h3 class="font-type-sans-serif font-size-5 text-center py-2 color-font-black">We are here for you, Say Hi!</h3>
+
+        <!-- Container for all Contact options and Contact form -->
+        <div class="container">
+            <div class="row">
+                <!-- Column #1 - Phone numbers, Email & Social Media Icons -->
+                <div class="col-12 col-md-7 col-xl-6 p-3 d-flex flex-column justify-content-center">
+                    <!-- Row of phone numbers for Fastway Immigration -->
+                    <div class="container">
+                        <div class="row font-size-3 text-center">
+                            <div class="col-12 col-sm-6 p-3">
+                                <a class="phone-icon font-type-sans-serif color-font-black font-weight-bold" title="Call Fastway Immigration" href="tel:+7806699779"><i class="mr-3 fas fa-phone-alt color-font-brand-secondary"></i>780.669.9779</a>
+                            </div>
+                            <div class="col-12 col-sm-6 p-3">
+                                <a class="phone-icon font-type-sans-serif color-font-black font-weight-bold" title="Call Fastway Immigration" href="tel:+7806699779"><i class="mr-3 fas fa-phone-alt color-font-brand-secondary"></i>780.995.9779</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row for Email -->
+                    <div class="container font-size-4 p-3 text-center">
+                        <a class="email-icon font-type-sans-serif color-font-black font-weight-bold" title="Email | Fastway Immigration" href="mailto:fastway.immigration@outlook.com"><i class="mr-3 fas fa-envelope color-font-brand-secondary"></i>fastway.immigration@outlook.com</a>
+                    </div>
+
+                    <!-- Row for all social media icons - Facebook, Twitter, Instagram, Messenger, Youtube buttons  -->
+                    <div class="container">
+                        <div class="row social-media text-center p-1 p-md-3 font-size-3">
+                            <!-- Facebook Button -->
+                            <div class="col px-1 px-md-2"><a class="social-media-button" title="Facebook | Fastway Immigration & Visa Services" href="https://www.facebook.com/fastwayim"><i class="fab fa-facebook-f"></i></a></div>
+                            <!-- Twitter Button -->
+                            <div class="col px-1 px-md-2"><a class="social-media-button" title="Twitter | Fastway Immigration & Visa Services" href="https://www.twitter.com/fastwayim"><i class="fab fa-twitter"></i></a></div>
+                            <!-- Instagram Button -->
+                            <div class="col px-1 px-md-2"><a class="social-media-button" title="Instagram | Fastway Immigration & Visa Services" href="https://www.instagram.com/fastway.immigration"><i class="fab fa-instagram"></i></a></div>
+                            <!-- Facebook Messenger -->
+                            <div class="col px-1 px-md-2"><a class="social-media-button" title="Facebook Messenger | Fastway Immigration & Visa Services" href="https://www.m.me/fastwayim"><i class="fab fa-facebook-messenger"></i></a></div>
+                            <!-- YouTube Channel -->
+                            <div class="col px-1 px-md-2"><a class="social-media-button" title="YouTube Channel | Fastway Immigration & Visa Services" href="https://www.youtube.com/channel/UCzw8oUWjGUG2O4SR4FzDkvg"><i class="fab fa-youtube"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column #2 - Empty column that Stays hidden till xl screen size to create buffer -->
+                <div class="d-none d-xl-inline col-xl-1"></div>
+
+                <!-- Column #3 - Contact us form  -->
+                <div class="col-12 col-md-5 col-xl-5 p-3">
+                    <!-- Form with fields to get the client name, email & their message to send to our email - Using Bootstrap forms  -->
+                    <div class="container">
+                        <h3 class="font-size-3 font-weight-bold text-center color-font-brand-secondary p-2">Request a Free Consultation</h3>
+                        <form action="/assets/contact-form-handler.php" method="POST" class="needs-validation" novalidate>
+                            <!-- Form field - Sender's Name -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text rounded-0" id="sender-name"><i class="fas fa-user color-font-brand-secondary"></i></span>
+                                    </div>
+                                    <input type="text" name="name" class="form-control rounded-0" placeholder="Your name" aria-label="Sender's Full name" required>
+                                </div>
+                            </div>
+
+                            <!-- Form field - Sender's Email -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text rounded-0" id="sender-email"><i class="fas fa-at color-font-brand-secondary"></i></span>
+                                    </div>
+                                    <input type="email" name="email" class="form-control rounded-0" placeholder="Your email" aria-label="Sender's email address" required >
+                                    <div class="invalid-feedback">Invalid email address!</div>
+                                </div>
+                            </div>
+
+                            <!-- Form field - Sender's Phone number -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text rounded-0" id="sender-phone"><i class="fas fa-phone-alt color-font-brand-secondary"></i></span>
+                                    </div>
+                                    <input type="tel" name="phone" class="form-control rounded-0" placeholder="Your phone number (recommended)" aria-label="Sender's phone number" >
+                                </div>
+                            </div>
+
+                            <!-- Form Field - Message Text area -->
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text rounded-0"><i class="fas fa-comment-alt color-font-brand-secondary"></i></span>
+                                    </div>
+                                    <textarea class="form-control rounded-0" name="message" aria-label="Message to send" placeholder="Write your message here..." rows="5" required></textarea>
+                                </div>
+                            </div>
+
+                            <!-- Displays a CAPTCHA image that contains a text to verify it is not a Bot -->
+                            <div class="row justify-content-center mb-3">
+                                <div class="g-recaptcha" data-sitekey="6Lc15-YUAAAAAOIt3_Nm6_dvEDZpJO1I__-XLZiE"></div>
+                            </div>
+
+                            <!-- Button to submit the message -->
+                            <div class="text-center">
+                                <button class="btn btn-sm btn-primary w-75 pt-2 pb-2 font-size-4 contact-us-form-submit-button rounded-0 border-0 shadow" type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Embedded Google Maps location of Fastway Edmonton Office -->
+    <div class="container-fluid google-map p-0">
+        <h4 class="text-center font-size-5 p-0 font-weight-lighter">Fastway Immigration's Edmonton, AB office location</h4>
+        <iframe
+            title="Google Map location of Fastway Immigration's Edmonton Office location"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAAsuKfVg9IT7aWwjBTWGFwEsvAzjDmh44&q=place_id:ChIJ558XX40foFMR5FjExyAB2uo&zoom=15"
+            allow="fullscreen">
+        </iframe>
+    </div>
+</section>
