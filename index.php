@@ -150,7 +150,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="./pages/study_permit.php" title="Study Permit service">
+                        <a href="./pages/study_in_canada/study_permit.php" title="Study Permit service">
                         <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-4-image">
                                 <!-- Text overlay of the card-container  -->

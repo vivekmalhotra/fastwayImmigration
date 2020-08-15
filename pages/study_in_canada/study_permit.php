@@ -50,7 +50,7 @@
 
         <!-- Main image for Study permit services page -->
         <div class="container-md px-3">
-            <div id="mainImage" class="study-permit-main-image" title="photo of students studying together"></div>
+            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
         </div>
 
         <div class="container py-2 text-justify">
@@ -62,26 +62,26 @@
             <p class="font-size-4 px-3 py-1">
                 <span>Person applying for Study Permit <span class="font-weight-bold font-underline color-font-black">must</span> also:</span>
                 <ul class="fa-ul font-size-5 px-2 px-md-4">
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>prove that they have enough money to pay for their:
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>prove that they have enough money to pay for their:
                         <ul class="list fa-ul">
-                            <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark bullet-point"></i></span>tuition fees,</li>
-                            <li><span class="fa-li"><i class="fas fa-asterisk fa-xs color-font-brand-tertiary-dark"></i></span>living expenses for themselves & any family members accompanying them to Canada, and</li>
-                            <li><span class="fa-li"><i class="fas fa-asterisk fa-xs color-font-brand-tertiary-dark"></i></span>return transportation for self and any accompanying family members.</li>
+                            <li><span class="fa-li"><i class="fas fa-caret-right color-font-brand-tertiary-dark bullet-point"></i></span>tuition fees,</li>
+                            <li><span class="fa-li"><i class="fas fa-caret-right color-font-brand-tertiary-dark"></i></span>living expenses for themselves & any family members accompanying them to Canada, and</li>
+                            <li><span class="fa-li"><i class="fas fa-caret-right color-font-brand-tertiary-dark"></i></span>return transportation for self and any accompanying family members.</li>
                         </ul>
                     </li>
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>be a law-abiding citizen with no criminal record and not be a risk to the security of Canada. You may have to provide a police certificate.</li>
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>be in good health. You may need to complete a medical exam.</li>
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>convince an immigration officer that you will leave Canada at the end of your studies.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>be a law-abiding citizen with no criminal record and not be a risk to the security of Canada. You may have to provide a police certificate.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>be in good health. You may need to complete a medical exam.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>convince an immigration officer that you will leave Canada at the end of your studies.</li>
                 </ul>
             </p>
 
             <p class="font-size-4 px-3 py-1">
                 <span>Additionally, you <span class="font-weight-bold font-underline color-font-black">must</span> meet the following requirements for a Canadian Student visa: </span>
                 <ul class="fa-ul font-size-5 px-2 px-md-4">
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>You must be able to prove that you have enough money to pay for your: tuition fees, living expenses for yourself and any family members who accompany you, return transportation for you and any family members who accompany you.</li>
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>You must be a law-abiding citizen with no criminal record.</li>
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>You must be in good health and willing to complete a medical examination, if necessary.</li>
-                    <li><span class="fa-li"><i class="fas fa-hand-point-right color-font-brand-tertiary-dark"></i></span>You must satisfy an immigration officer that you will leave Canada when you have completed your studies.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>You must be able to prove that you have enough money to pay for your: tuition fees, living expenses for yourself and any family members who accompany you, return transportation for you and any family members who accompany you.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>You must be a law-abiding citizen with no criminal record.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>You must be in good health and willing to complete a medical examination, if necessary.</li>
+                    <li><span class="fa-li"><i class="fas fa-circle fa-xs color-font-brand-tertiary-dark"></i></span>You must satisfy an immigration officer that you will leave Canada when you have completed your studies.</li>
                 </ul>
             </p>
         </div>
@@ -103,21 +103,21 @@
             <h2 class="font-size-2 px-3 py-2 color-font-black font-weight-bolder">Post-Graduation Work Permit</h2>
 
             <!-- TODO Proper Thumbnail image needed along with Alt text -->
-            <div class="square-right-floating-thumbnail-image study-permit-image2 mx-3 my-2" title="photo of an new student graduates"></div>
+            <div class="square-right-floating-thumbnail-image study-permit-image2 mx-3 my-2 shadow" title="photo of an new student graduates"></div>
             <p class="font-size-4 px-3 py-1">
                 If you have graduated from a designated learning institution, and want to stay in Canada temporarily while working, you may be eligible to apply for a post-graduation work permit (PGWP).  You need to apply for a work permit within 90 days of when it was confirmed that you completed your program and have a valid study permit when you apply for the work permit.   How long the post-graduation work permit is valid for depends on the length of your study program.   You can work full-time until a decision is made on your work permit application if you :
             </p>
             <ul class="fa-ul font-size-5 px-2 px-md-4">
-                <li class="my-1 my-md-2"><span class="fa-li"><i class="fas fa-asterisk color-font-brand-tertiary-dark"></i></span>completed your study program,</li>
-                <li class="my-1 my-md-2"><span class="fa-li"><i class="fas fa-asterisk color-font-brand-tertiary-dark"></i></span>applied for a work permit before your study permit expired, and</li>
-                <li class="my-1 my-md-2"><span class="fa-li"><i class="fas fa-asterisk color-font-brand-tertiary-dark"></i></span>were eligible to work off-campus without a work permit while studying and did not work more hours than you were allowed to while working off-campus.</li>
+                <li class="my-1 my-md-2"><span class="fa-li"><i class="fas fa-caret-right color-font-brand-tertiary-dark"></i></span>completed your study program,</li>
+                <li class="my-1 my-md-2"><span class="fa-li"><i class="fas fa-caret-right color-font-brand-tertiary-dark"></i></span>applied for a work permit before your study permit expired, and</li>
+                <li class="my-1 my-md-2"><span class="fa-li"><i class="fas fa-caret-right color-font-brand-tertiary-dark"></i></span>were eligible to work off-campus without a work permit while studying and did not work more hours than you were allowed to while working off-campus.</li>
             </ul>
             <p class="font-size-4 px-3 py-1">
                 The Post-Graduation Work Permit Program (PGWPP) allows students, who have graduated from an eligible Canadian post-secondary institutions, to gain valuable Canadian work experience. Skilled Canadian work experience gained through the PGWPP helps graduates qualify for permanent residence in Canada.
             </p>
             <h2 class="font-size-2 px-3 py-2 color-font-black font-weight-bolder">Express Entry</h3>
             <!-- TODO Proper Thumbnail image needed along with Alt text -->
-            <div class="square-right-floating-thumbnail-image study-permit-image3 mx-3 my-2" title="photo of a new intern"></div>
+            <div class="square-right-floating-thumbnail-image study-permit-image3 mx-3 my-2 shadow" title="photo of a new intern"></div>
             <p class="font-size-4 px-3 py-1">
                 Express Entry is the first step for most people who wish to immigrate to Canada permanently as a skilled worker. After you have studied and worked in Canada, complete an online profile to see if you have the education, skills, work experience and language ability to be accepted into the pool of candidates. The top candidates are invited to apply for permanent residence.
             </p>
