@@ -1,345 +1,672 @@
-/* TODO - Need to verify if there is any compatibility issue for using pre-defined variables in CSS for older browsers */
-/* Defined some variables for the CSS file */
-:root{
-    /* colors used for backgrounds */
-    /* --color-gray-dark: #e4e4e4; */
-    --color-gray-dark: #eeeeee;
-    --color-gray-light: #f7f7f7;
-    --color-gray-semi-transparent-dark:#484848e0;
-    --color-gray-semi-transparent-light:#f7f7f7d0;
-
-    /* Colors used for foregrounds */
-    --color-font-gray-dark: #555555;
-    --color-font-gray-light: #c4c4c4;
-    --color-font-black:#323232;
-    /* --color-font-black:#081B33; */
-    --color-font-icons-red: #B21212;
-    --color-font-icons-white: #FFFFFF;
-    /* --color-brand-color-1:#2063a2; */
-    --color-brand-color-1:#007AC9;
-
-    /* Default font family */
-    --font-family: "Roboto", Arial, Helvetica, sans-serif;
-    --font-family-serif: "Merriweather", serif;
-
-    /* Default transition time for animations */
-    --transition-time-quick: 0.3s;
-    --transition-time-normal: 0.6s;
-    --transition-time-slow: 0.9s;
-}
-
-body {
-    font-family: var(--font-family);
-}
-
-/*  Primary Color    #0A3055
-    Secondary Color  #CDA34F
-    Tertiary Color   #93ADB6
-    Quaternary Color #24647A
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
 */
 
+/* Defined some variables for the CSS file */
+:root {
+    /* Colors Chosen for backgrounds (may be used elsewhere too) */
+    --color-background-grey-dark: #eeeeee;
+    --color-background-grey-light: #f7f7f7;
+
+    /* Colors chosen as Font foreground colors (may be used elsewhere too) */
+    --color-grey-dark: #555555;
+    --color-grey-dark-transparent: #55555533;
+    --color-grey-light: #bbbbbb;
+    --color-black: #242424;
+    /* --color-black:#081B33; */
+
+    /* General Colors used for icons and other element coloring */
+
+    --color-brand-primary: #B21212;
+    --color-brand-secondary: #0E365E;
+    --color-brand-secondary-dark: #091246;
+    --color-brand-secondary-light: #0a5ec5;
+    --color-brand-tertiary: #DEA031;
+    --color-brand-tertiary-dark: #d88d0b;
+    --color-brand-tertiary-light: #ca9e53;
+    --color-white: #FFFFFF;
+    --color-green-success: #2BBBAD;
+    --color-red-fail:#ff5959;
+    /* --color-brand-color-1:#007AC9; */
+
+    /* Default font family */
+    --font-family-sans-serif: "Roboto", Arial, Helvetica, Tahoma, sans-serif;
+    --font-family-serif: "Roboto Slab", Georgia, serif;
+    /* --font-family-serif: "Merriweather", Georgia, serif; */
+
+    /* Default transition time for animations */
+    --transition-time-quick: 0.2s;
+    --transition-time-normal: 0.4s;
+    --transition-time-slow: 0.7s;
+}
+
 /* --------------------------------------------------- */
-/* COMMON classes for all elements */
+/* Styling for HTML elements */
 /* --------------------------------------------------- */
-/* Sets a Dark gray background color */
-.horizontal-row-divider{
+html {
+    scroll-behavior: smooth;
+}
+
+/* Styling for Body element */
+body {
+    font-family: var(--font-family-sans-serif);
+}
+
+/* --------------------------------------------------- */
+/* COMMON classes for all elements - NORMAL STYLING */
+/* --------------------------------------------------- */
+/* Sets styling of the horizontal row dividers */
+.horizontal-row-divider {
     width: 20%;
-    max-width: 80px;
-    margin-top: 1px;
-    border-top: 10px dotted #dadada;
+    max-width: 70px;
+    border-top: 10px dotted var(--color-brand-tertiary-dark);
 }
 
-.background-color-1{
-    background-color: var(--color-gray-dark);
+/* Sets a Dark grey background color */
+.color-background-grey-dark {
+    background-color: var(--color-background-grey-dark);
 }
 
-/* Sets a Light gray background color */
-.background-color-2{
-    background-color: var(--color-gray-light);
+/* Sets a Light grey background color */
+.color-background-grey-light {
+    background-color: var(--color-background-grey-light);
 }
 
-/* Font for Icons on the page */
-.font-type-icons{
-    color: var(--color-font-icons-red);
-    font-size: 1.2rem;
-    opacity: 0.6;
+/* Sets the background to the Secondary Brand color */
+.color-background-brand-secondary {
+    background-color: var(--color-brand-secondary);
 }
 
-/* Font for Icons when hovered on the icon */
-.font-type-icons:hover{
+/* Sets the background to the Secondary Dark Brand color */
+.color-background-brand-secondary-dark {
+    background-color: var(--color-brand-secondary-dark);
+}
+
+/* Sets the background to the Secondary light Brand color */
+.color-background-brand-secondary-light {
+    background-color: var(--color-brand-secondary-light);
+}
+
+/* Sets the background to the Tertiary Brand color */
+.color-background-brand-tertiary {
+    background-color: var(--color-brand-tertiary);
+}
+
+/* Sets the background to the Tertiary Brand Dark color */
+.color-background-brand-tertiary-dark {
+    background-color: var(--color-brand-tertiary-dark);
+}
+
+/* Sets the background to the Tertiary Brand Light color */
+.color-background-brand-tertiary-light {
+    background-color: var(--color-brand-tertiary-light);
+}
+
+/* Sets Font color to the Primary brand color */
+.color-font-brand-primary {
+    color: var(--color-brand-primary);
+}
+
+/* Sets Font color to the Secondary brand color */
+.color-font-brand-secondary {
+    color: var(--color-brand-secondary);
+}
+
+/* Sets Font color to the Secondary dark brand color */
+.color-font-brand-secondary-dark {
+    color: var(--color-brand-secondary-dark);
+}
+
+/* Sets Font color to the Secondary light brand color */
+.color-font-brand-secondary-light {
+    color: var(--color-brand-secondary-light);
+}
+
+/* Sets Font color to the Tertiary brand color */
+.color-font-brand-tertiary {
+    color: var(--color-brand-tertiary);
+}
+
+/* Sets Font color to the Tertiary Dark brand color */
+.color-font-brand-tertiary-dark {
+    color: var(--color-brand-tertiary-dark);
+}
+
+/* Sets Font color to the Tertiary Light brand color */
+.color-font-brand-tertiary-light {
+    color: var(--color-brand-tertiary-light);
+}
+
+/* Sets Font color to a dark grey color */
+.color-font-dark-grey {
+    color: var(--color-grey-dark);
+}
+
+/* Sets Font color to a dark grey color */
+.color-font-light-grey {
+    color: var(--color-grey-light);
+}
+
+/* Set Font color to a black color */
+.color-font-black {
+    color: var(--color-black);
+}
+
+/* Set Font color to a White color */
+.color-font-white {
+    color: var(--color-white);
+}
+
+/* Set the Opacity to 0.5 */
+.opacity-0_5-on-hover-opacity-1 {
+    opacity: 0.5;
+}
+
+/* Changes the Opacity to 1.0 upon hover */
+.opacity-0_5-on-hover-opacity-1:hover {
     opacity: 1.0;
+    -webkit-transition: opacity var(--transition-time-quick);
+    -o-transition: opacity var(--transition-time-quick);
     transition: opacity var(--transition-time-quick);
 }
 
-/* Italicized font to show text with less importance */
-.font-type-1{
-    color: var(--color-font-gray-dark);
-    font-family: var(--font-family);
-    font-size: calc(0.8rem + 0.2vw);
-    font-style: italic;
-    font-weight: 400;
-}
-
-/* Normal readable font type - Color Black
-Will be used for the links on the page*/
-.font-type-2{
-    color: var(--color-font-black);
-    font-family: var(--font-family);
-    font-size: calc(0.8rem + 0.45vw);
-    font-weight: 400;
-    line-height: calc(1.1rem + 0.5vw);
-    text-align: justify;
-}
-
-/* Serif type font to be used intermittently */
-.font-type-3{
-    color: var(--color-font-black);
-    font-family: var(--font-family-serif);
-    font-size: calc(0.8rem + 1vw);
-    font-weight: 400;
-    letter-spacing: 2px;
+/* This styling will allow any link to have a bold effect when hovered */
+.bold-link-hover:hover {
+    font-weight: bold;
+    -webkit-transition: opacity var(--transition-time-quick);
+    -o-transition: opacity var(--transition-time-quick);
+    transition: opacity var(--transition-time-quick);
 }
 
 /* Styling for all hyperlink hovers */
-a:hover{
-    color:inherit;
+a:hover {
+    /* font-weight: bold; */
+    color: var(--color-brand-secondary-light);
     font-weight: bold;
     text-decoration: none;
-    transition: font-weight var(--transition-time-quick);
 }
 
-/* Sets a light color transparent background for the element along with a contrasting darker text color*/
-.transparent-background-light{
-    background-color: var(--color-gray-semi-transparent-light);
-    color: var(--color-font-gray-dark);
+/* ----- FONT-TYPE-SERIF -------------------- */
+/*A serif font used very specifically for big headings to create contrast
+with the sans-serif text. Use sparringly only.*/
+.font-type-serif {
+    font-family: var(--font-family-serif);
+    font-style: normal;
+    font-weight: normal;
 }
 
-/* Sets a dark color transparent background for the element along with a contrasting lighter text color*/
-.transparent-background-dark{
-    background-color: var(--color-gray-semi-transparent-dark);
-    color: var(--color-font-gray-light);
+/* ------ FONT-TYPE-SANS-SERIF --------------- */
+/* Sans-serif font used on the webpage
+Most common font type and used on general texts including normal reading text,
+paragraphs, hyperlinks etc.*/
+.font-type-sans-serif {
+    font-family: var(--font-family-sans-serif);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.7;
 }
 
-/* Sets a transparent bottom border underline the element. As needed, a hover class can flip the color of border*/
-.transparent-border-bottom{
-    border-width: 0 0 0.2rem 0;
-    border-style: solid;
-    border-color: transparent;
-    border-radius: 0.1rem;
-}
+/* ------ FONT SIZES ------------------------- */
+/* Five different Font sizes are defined font-size-1, font-size-2,
+font-size-3, font-size-4, and font-size-5 with decreasing size
+    It is my opinion that we steer toward the following convention
+        font-size-1 : Only big headings e.g. elements
+        font-size-2 : For other headings in the page e.g. h2 elements
+        font-size-3 : For sub-headings e.g. h3 elements placed above/below h1 or h2
+        font-size-4 : General font for normal reading e.g. Paragraphs
+        font-size-5 : For hyperlinks and other general non-emphasized texts
 
-.transparent-border-bottom:hover{
-    border-color: var(--color-brand-color-1);
-    transition: all var(--transition-time-normal);
-}
+Have tried to define the parameters for these sizes at different screen width
+scalings especially for responsive design. Implemented below in the
+Responsive Design styling for COMMON classes
+
+****** font-size-1 ********
+    Screen Widths      | Min Font Size  | Max font size
+    -------------------|----------------|----------------
+    < 360px            | NA             | 30px
+    360px to 576px     | 30px           | 36px
+    576px to 768px     | 36px           | 42px
+    768px to 992px     | 42px           | 48px
+    992px to 1200px    | 48px           | 60px
+    > 1200px           | 60px           |  NA
+
+
+****** font-size-2 ********
+    Screen Widths      | Min Font Size  | Max font size
+    -------------------|----------------|----------------
+    < 360px            | NA             | 20px
+    360px to 576px     | 20px           | 24px
+    576px to 768px     | 24px           | 28px
+    768px to 992px     | 28px           | 32px
+    992px to 1200px    | 32px           | 34px
+    > 1200px           | 34px           |  NA
+
+
+****** font-size-3 ********
+    Screen Widths      | Min Font Size  | Max font size
+    -------------------|----------------|----------------
+    < 360px            | NA             | 18px
+    360px to 576px     | 18px           | 20px
+    576px to 768px     | 20px           | 22px
+    768px to 992px     | 22px           | 24px
+    992px to 1200px    | 24px           | 26px
+    > 1200px           | 26px           |  NA
+
+
+****** font-size-4 ********
+    Screen Widths      | Min Font Size  | Max font size
+    -------------------|----------------|----------------
+    < 360px            | NA             | 16px
+    360px to 576px     | 16px           | 16px
+    576px to 768px     | 16px           | 16px
+    768px to 992px     | 16px           | 18px
+    992px to 1200px    | 18px           | 20px
+    > 1200px           | 20px           |  NA
+
+
+****** font-size-5 ********
+    Screen Widths      | Min Font Size  | Max font size
+    -------------------|----------------|----------------
+    < 360px            | NA             | 16px
+    360px to 576px     | 16px           | 16px
+    576px to 768px     | 16px           | 16px
+    768px to 992px     | 16px           | 16px
+    992px to 1200px    | 16px           | 16px
+    > 1200px           | 18px           |  NA
+
+----------------------------------------------------------
+The responsive Font size change is implemented in responsive design styling by
+using a linear correlation calculation :
+
+calculated_font_size = Min_font_size + ((Max_font_size - Min_font_size) * (Viewport_width - Min_screen width) / (Max_screen_width - Min_screen_width))
+*/
+
 
 /* --------------------------------------------------- */
 /* COMMON classes for all elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
+/* Unusually small Devices (Screen-width even smaller than 360px) */
 @media all and (max-width: 360px) {
+
+    /* Read Font sizes above to know reasoning for these sizes  */
+    .font-size-1 {
+        font-size: 30px;
+    }
+
+    .font-size-2 {
+        font-size: 20px;
+    }
+
+    .font-size-3 {
+        font-size: 18px;
+    }
+
+    .font-size-4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .font-size-5 {
+        font-size: 16px;
+    }
 }
 
-/* Small devices (Landscape phones, 576px and up) */
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {
+
+    /* Read "Font sizes" to understand the reasoning for the
+    linear equations for font size increment  */
+    .font-size-1 {
+        font-size: calc(30px + calc((36 - 30) / 216) * (100vw - 360px));
+    }
+
+    .font-size-2 {
+        font-size: calc(20px + calc((24 - 20) / 216) * (100vw - 360px));
+    }
+
+    .font-size-3 {
+        font-size: calc(18px + calc((20 - 18) / 216) * (100vw - 360px));
+    }
+
+    .font-size-4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .font-size-5 {
+        font-size: 16px;
+    }
+
+}
+
+/* Small screen-width devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
+
+    /* Read "Font sizes" to understand the reasoning for the
+    linear equation for font size increment  */
+    .font-size-1 {
+        font-size: calc(36px + calc((42 - 36) / 192) * (100vw - 576px));
+    }
+
+    .font-size-2 {
+        font-size: calc(24px + calc((28 - 24) / 192) * (100vw - 576px));
+    }
+
+    .font-size-3 {
+        font-size: calc(20px + calc((22 - 20) / 192) * (100vw - 576px));
+    }
+
+    .font-size-4 {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .font-size-5 {
+        font-size: 16px;
+    }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium screen-width devices (Tablets, 768px and up) */
 @media all and (min-width: 768px) {
+    .font-size-1 {
+        font-size: calc(42px + calc((48 - 42) / 224) * (100vw - 768px));
+    }
+
+    .font-size-2 {
+        font-size: calc(28px + calc((32 - 28) / 224) * (100vw - 768px));
+    }
+
+    .font-size-3 {
+        font-size: calc(22px + calc((24 - 22) / 224) * (100vw - 768px));
+        line-height: 1.3;
+    }
+
+    .font-size-4 {
+        font-size: calc(16px + calc((18 - 16) / 224) * (100vw - 768px));
+        line-height: 1.5;
+    }
+
+    .font-size-5 {
+        font-size: 16px;
+    }
 }
 
-/* Large devices (Desktops, 992 px and up)*/
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
 @media all and (min-width: 992px) {
+    .font-size-1 {
+        font-size: calc(48px + calc((60 - 48) / 208) * (100vw - 992px));
+    }
+
+    .font-size-2 {
+        font-size: calc(32px + calc((34 - 32) / 208) * (100vw - 992px));
+    }
+
+    .font-size-3 {
+        font-size: calc(24px + calc((26 - 24) / 208) * (100vw - 992px));
+    }
+
+    .font-size-4 {
+        font-size: calc(18px + calc((20 - 18) / 208) * (100vw - 992px));
+        line-height: 1.5;
+    }
+
+    .font-size-5 {
+        font-size: 16px;
+    }
 }
 
-/* For extra large device - Desktops and 1200px and up */
+/* Large devices screen-width devices (Desktops above 1200px and up) */
 @media all and (min-width: 1200px) {
-}
+    .font-size-1 {
+        font-size: 60px;
+    }
 
-/* --------------------------------------------------- */
-/* PAGE TOP AREA - All Elements */
-/* --------------------------------------------------- */
-/* PAGE TOP AREA - ADDRESS */
+    .font-size-2 {
+        font-size: 34px;
+    }
 
-/* Exception - Specific styling on hover of the hyperlinks of the top area div */
-.top-area-div > a:hover .font-type-1{
-    font-weight: bold;
+    .font-size-3 {
+        font-size: 26px;
+    }
+
+    .font-size-4 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .font-size-5 {
+        font-size: 16px;
+    }
 }
 
 /* --------------------------------------------------- */
 /* TITLE BAR - All Elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
 /* TITLE BAR - Main Logo image*/
-#title-bar-logo-img {
+#titleBarLogoImg {
     width: auto;
-}
-
-/* TITLE BAR - Phone Text & Font Awesome Logo */
-.title-bar-phone-text {
-    font-size: calc(0.9rem + 1vw);
-    font-weight: bold;
-    opacity: 1.0;
 }
 
 /* --------------------------------------------------- */
 /* TITLE BAR - All elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {
-}
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-}
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {
-}
+/* Small screen-width devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
 
-/* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {
-}
+/* Medium screen-width devices (Tablets, 768px and up) */
+@media all and (min-width: 768px) {}
+
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* Large devices screen-width devices (Desktops above 1200px and up) */
+@media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
 
 /* --------------------------------------------------- */
-/* NAVIGATION BAR */
+/*  NAVIGATION BAR below Title Bar section - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
-/* NAVIGATION BAR - Scrolling case - This class is added via javascript when page is scrolled.  Changes the background color of navbar*/
-.scrolled{
-    background: var(--color-brand-color-1);
-    transition: all var(--transition-time-slow);
+/* Normal styling for Navbar items - Home, About Us, Services, Contact Us, BLOG */
+#mainNavigationBar a.nav-link {
+    color: var(--color-black);
+    font-weight: bold;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
 }
 
-/* This class inverses the text color to a light gray. Is toggled upon page scroll*/
-.inverse-navbar-items-text-color{
-    color:var(--color-gray-light);
+/* NAVIGATION BAR - This selector's styling changes the color of the navbar links as the page is scrolled through different sections */
+#mainNavigationBar a.active,
+#myNavBar ul>li.active {
+    background-color: var(--color-brand-primary);
+    color: white;
+    transition: background-color var(--transition-time-normal);
+    -webkit-transition: background-color var(--transition-time-normal);
+    -o-transition: background-color var(--transition-time-normal);
 }
 
-/* Sets color change upon hover for navigation bar Hyperlinks */
-a.navigation-bar-item:hover{
-    color: var(--color-brand-color-1);
+#mainNavigationBar a.nav-link:hover {
+    border-bottom: 3px solid var(--color-brand-primary);
+    color: var(--color-brand-primary);
 }
 
-/* Color of Navigation bar Hyperlinks when Page scrolling in progress */
-#main-navigation-bar.scrolled a.navigation-bar-item:hover{
-    color: var(--color-gray-light);
-    border-color: var(--color-gray-light);
+/* Exception - Keep font color white when hovering over an active
+nav link.  Avoids primary color text over primary color background */
+#mainNavigationBar a.active:hover{
+    color: var(--color-white);
 }
+
+/* Styling for the Navbar li items - Home, About Us, Contact Us, Services etc.
+The border is put on as transparent and then the color is shifted upon hover
+This avoids the jitter effect*/
 
 /* --------------------------------------------------- */
 /* NAVIGATION BAR - All elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Exception case - even smaller devices (less than 350px)*/
-@media all and (max-width: 360px) {
-}
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
-/* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {
-}
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-}
+/* Small screen-width devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {
-}
+/* Medium screen-width devices (Tablets, 768px and up) */
+@media all and (min-width: 768px) {}
 
-/* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {
-}
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* Large devices screen-width devices (Desktops above 1200px and up) */
+@media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
 
 /* --------------------------------------------------- */
 /* MAIN IMAGE - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
 /* MAIN IMAGE - Using Jumbotron of Bootstrap */
 
-/* TODO Not sure if this is needed */
-.carousel-inner{
-    position: relative;
+.carousel-item {
+    /* Sets the width of the Main image carousel. Setting the height relative
+    to Vmax instead of Vh helps with landscape mobile devices. And to check
+    unwanted height increase on laptops/desktops, max-height is restricted to Vh */
+    height: 65vmax;
+    max-height: 65vh;
 }
 
-.carousel-item{
-    height: 60vh;
+.carousel-overlay {
+    /* Min height ensures that the white overlay background box does not shrink too small due at very high screen-widths (due to default padding settings of carousel-inner) */
+    min-height: 300px;
+    /* The code below creates a background gradient for better contrast of carousel heading created using the website cssgradient.io or css-gradient.com */
+    background: #FFFFFF;
+    background: -o-linear-gradient(left, #FFFFFF, #FFFFFF, #FFFFFF00);
+    background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(#FFFFFF), to(#FFFFFF00));
+    background: linear-gradient(to right, #FFFFFF, #FFFFFF, #FFFFFF00);
 }
 
 /* The background images of each carousel item */
 /* BACKGROUND IMAGE #1 */
-.background-image-1{
-    background-image:url('../img/600px/main-image-1-600px.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
+.background-image-1 {
+    background-image: url('../img/background_img_1_900px.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* BACKGROUND IMAGE #2 */
-.background-image-2{
-    background-image:url('../img/600px/main-image-2-600px.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
+.background-image-2 {
+    background-image: url('../img/background_img_2_900px.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 /* BACKGROUND IMAGE #3 */
-.background-image-3{
-    background-image:url('../img/600px/main-image-3-600px.jpg');
-    background-size:cover;
-    background-repeat:no-repeat;
+.background-image-3 {
+    background-image: url('../img/background_img_3_900px.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 40% 0%;
 }
 
 /* --------------------------------------------------- */
 /* MAIN IMAGE - All elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Exception case - even smaller devices (less than 360px)*/
-@media all and (max-width: 360px) {
-}
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
-/* Small devices (Landscape phones, 576px and up) */
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
+
+/* Small screen-width devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
-    /* 768px width images for screen sizes greater than 576px and smaller than 768px*/
-    .background-image-1{
-        background-image: url('../img/900px/main-image-1-900px.jpg');
-    }
-    .background-image-2{
-        background-image: url('../img/900px/main-image-2-900px.jpg');
-    }
-    .background-image-3{
-        background-image: url('../img/900px/main-image-3-900px.jpg');
-    }
 
     /* Center all three background images for anything bigger than 576 px */
     .background-image-1,
     .background-image-2,
-    .background-image-3{
-        background-position:center;
+    .background-image-3 {
+        background-position: center;
+        background-color: var(--color-grey-dark);
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium screen-width devices (Tablets, 768px and up) */
 @media all and (min-width: 768px) {
+
+    /* 1200px width images for screen sizes greater than 768px */
+    .background-image-1 {
+        background-image: url(../img/background_img_1_1200px.jpg);
+    }
+
+    .background-image-2 {
+        background-image: url(../img/background_img_2_1200px.jpg);
+    }
+
+    .background-image-3 {
+        background-image: url(../img/background_img_3_1200px.jpg);
+    }
 }
 
-/* Large devices (Desktops, 992 px and up)*/
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
 @media all and (min-width: 992px) {
+
     /* 1200px width images for screen sizes greater than 768px and smaller than 1200px*/
-    .background-image-1{
-        background-image: url('../img/1200px/main-image-1-1200px.jpg');
+    .background-image-1 {
+        background-image: url(../img/background_img_1_1600px.jpg);
     }
-    .background-image-2{
-        background-image: url('../img/1200px/main-image-2-1200px.jpg');
+
+    .background-image-2 {
+        background-image: url(../img/background_img_2_1600px.jpg);
     }
-    .background-image-3{
-        background-image: url('../img/1200px/main-image-3-1200px.jpg');
+
+    .background-image-3 {
+        background-image: url(../img/background_img_3_1600px.jpg);
     }
 }
 
-/* For extra large device - Desktops and 1200px and up */
+/* Large devices screen-width devices (Desktops above 1200px and up) */
 @media all and (min-width: 1200px) {
+
     /* Full size (high resolution and large size)images for screen sizes greater than 1200px*/
-    .background-image-1{
-        background-image: url('../img/2000px/main-image-1.jpg');
+    .background-image-1 {
+        background-image: url(../img/background_img_1_3000px.jpg);
     }
-    .background-image-2{
-        background-image: url('../img/2000px/main-image-2.jpg');
+
+    .background-image-2 {
+        background-image: url(../img/background_img_2_3000px.jpg);
     }
-    .background-image-3{
-        background-image: url('../img/2000px/main-image-3.jpg');
+
+    .background-image-3 {
+        background-image: url(../img/background_img_3_3000px.jpg);
+    }
+}
+
+/* Extra large screen-width devices (Desktops above 2700px screen-width) */
+@media all and (min-width: 2700px) {
+
+    /* Full size images ONLY for extremely large screen-widths */
+    .background-image-1 {
+        background-image: url(../img/background_img_1_max.jpg);
+    }
+
+    .background-image-2 {
+        background-image: url(../img/background_img_2_max.jpg);
+    }
+
+    .background-image-3 {
+        background-image: url(../img/background_img_3_max.jpg);
     }
 }
 
@@ -347,429 +674,355 @@ a.navigation-bar-item:hover{
 /* COMPANY DETAIL SECTION - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
 
-/* COMPANY DETAIL SECTION - Complete section*/
-#company-detail-section {
-    background: var(--color-gray-dark);
-}
-
-.thumbnail-image{
-    width: 150px;
-    height: 150px;
-}
-
 /* --------------------------------------------------- */
 /* COMPANY DETAIL SECTION - All elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {
-}
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-}
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {
-}
+/* Small screen-width devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
 
-/* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {
-}
+/* Medium screen-width devices (Tablets, 768px and up) */
+@media all and (min-width: 768px) {}
+
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* Large devices screen-width devices (Desktops above 1200px and up) */
+@media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
 
 /* --------------------------------------------------- */
 /* SERVICES SECTION - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
 /* SERVICES SECTION - whole section */
-#services{
-    background: #FFFFFF;
+
+/* Styling of each service card
+    Transition delay is set after mouse hover is completed
+    Sets Position ot relative*/
+#services .card-container {
+    position: relative;
+    padding: 30% 0;
+    background-color: var(--color-brand-secondary);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: var(--transition-time-quick);
+    -o-transition: var(--transition-time-quick);
+    transition: var(--transition-time-quick);
 }
 
-/* SERVICES SECTION - Heading */
-.services-heading {
-    color: #00204a;
-    font-family: "Merriweather", serif;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    text-align: center;
-    letter-spacing: 5px;
+/* Styling of service cards upon hover
+    Creates a box-shadow around the services card
+    Transition delay effect*/
+#services .card-container:hover {
+    -webkit-box-shadow: 0px 5px 10px var(--color-black);
+    box-shadow: 0px 5px 10px var(--color-black);
+    -webkit-transition: var(--transition-time-quick);
+    -o-transition: var(--transition-time-quick);
+    transition: var(--transition-time-quick);
 }
 
-/* SERVICES SECTION - Main content */
-.services-text-p{
-    color: #34495E;
-    font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.3;
-    text-align: justify;
+/* Sets the After pseudo element for service cards
+    Sets position to absolute center with 100% width and height
+    Sets a background color to black with low opacity. This opacity is
+    changed to high upon hover on the card-container
+    z-index is set to 0 to allow text overlay to come above */
+#services .card-container::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-brand-secondary);
+    opacity: 0.3;
+    -webkit-transition: var(--transition-time-quick);
+    -o-transition: var(--transition-time-quick);
+    transition: var(--transition-time-quick);
+    z-index: 0;
 }
 
-/* SERVICES SECTION - Cards for each service group */
-.services-card-individual{
-    background:#F7F7F7;
-    border-radius: 15px;
+/* Sets the z-index of all the immediate children of card-container
+    higher than the the z-index of the card-container::after pseudo element */
+.card-container > *{
+    z-index: 10;
+    position: relative;
 }
 
-/* SERVICES SECTION - Title of each card in the section */
-#services .card-title{
-    color: #CDA34F;
-    font-size: 1.7rem;
-    line-height: 1.2;
-    font-weight: bold;
+/* Styling of After pseudo element upon hover on the service card
+    Increases the opacity of the after element with a transition delay*/
+#services .card-container:hover::after {
+    opacity: 0.9;
+    -webkit-transition: var(--transition-time-normal);
+    -o-transition: var(--transition-time-normal);
+    transition: var(--transition-time-normal);
 }
 
-/* SERVICES SECTION - Card Text  */
-#services .card-text{
-    color: #34495E;
-    font-size: 1.2rem;
-    line-height: 1.3;
+/* Background images of all the service cards */
+#services .service-card-1-image{
+    background-image: url(../img/thumbnail_service_permanent_residence_300px.jpg);
 }
 
-/* SERVICES SECTION - Card list items */
-#services .card-list-items{
-    list-style: none;
-    font-size: 1.3rem;
+#services .service-card-2-image{
+    background-image: url(../img/thumbnail_service_work_permit_300px.jpg);
 }
 
-/* SERVICES SECTION - All the buttons in the section */
-#services button{
-    max-width: 350px;
-    font-size: 1.2rem;
+#services .service-card-3-image {
+    background-image: url(../img/thumbnail_service_family_sponsorship_300px.jpg);
 }
 
-#services button:hover {
-    font-weight: bold;
+#services .service-card-4-image {
+    background-image: url(../img/thumbnail_service_study_permit_300px.jpg);
 }
 
+#services .service-card-5-image {
+    background-image: url(../img/thumbnail_service_express_entry_300px.jpg);
+}
+
+#services .service-card-6-image {
+    background-image: url(../img/thumbnail_service_tourist_visa_300px.jpg);
+}
+
+#services .service-card-7-image {
+    background-image: url(../img/thumbnail_service_provincial_nomination_300px.jpg);
+}
+
+#services .service-card-8-image {
+    background-image: url(../img/thumbnail_service_other_300px.jpg);
+}
 
 /* --------------------------------------------------- */
 /* SERVICES SECTION - All elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
 /* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-    .services-heading {
-        font-size: 1.6rem;
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
+
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
+
+/* Small screen-width devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {
+    /* Background images of all the service cards at higher screen widths */
+    #services .service-card-1-image{
+        background-image: url(../img/thumbnail_service_permanent_residence_600px.jpg);
     }
 
-    .services-text-p {
-        font-size: 1.3rem;
+    #services .service-card-2-image{
+        background-image: url(../img/thumbnail_service_work_permit_600px.jpg);
+    }
+
+    #services .service-card-3-image {
+        background-image: url(../img/thumbnail_service_family_sponsorship_600px.jpg);
+    }
+
+    #services .service-card-4-image {
+        background-image: url(../img/thumbnail_service_study_permit_600px.jpg);
+    }
+
+    #services .service-card-5-image {
+        background-image: url(../img/thumbnail_service_express_entry_600px.jpg);
+    }
+
+    #services .service-card-6-image {
+        background-image: url(../img/thumbnail_service_tourist_visa_600px.jpg);
+    }
+
+    #services .service-card-7-image {
+        background-image: url(../img/thumbnail_service_provincial_nomination_600px.jpg);
+    }
+
+    #services .service-card-8-image {
+        background-image: url(../img/thumbnail_service_other_600px.jpg);
     }
 }
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {
-    .services-heading {
-        font-size: 1.7rem;
+/* Medium screen-width devices (Tablets, 768px and up) */
+@media all and (min-width: 768px) {}
+
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* Large devices screen-width devices (Desktops above 1200px and up) */
+@media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {
+    /* Background images of all the service cards at higher screen widths */
+    #services .service-card-1-image{
+        background-image: url(../img/thumbnail_service_permanent_residence_900px.jpg);
     }
 
-    .services-text-p {
-        font-size: 1.4rem;
-        line-height: 1.3;
+    #services .service-card-2-image{
+        background-image: url(../img/thumbnail_service_work_permit_900px.jpg);
+    }
+
+    #services .service-card-3-image {
+        background-image: url(../img/thumbnail_service_family_sponsorship_900px.jpg);
+    }
+
+    #services .service-card-4-image {
+        background-image: url(../img/thumbnail_service_study_permit_900px.jpg);
+    }
+
+    #services .service-card-5-image {
+        background-image: url(../img/thumbnail_service_express_entry_900px.jpg);
+    }
+
+    #services .service-card-6-image {
+        background-image: url(../img/thumbnail_service_tourist_visa_900px.jpg);
+    }
+
+    #services .service-card-7-image {
+        background-image: url(../img/thumbnail_service_provincial_nomination_900px.jpg);
+    }
+
+    #services .service-card-8-image {
+        background-image: url(../img/thumbnail_service_other_900px.jpg);
     }
 }
-
-/* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {
-    .services-heading {
-        font-size: 1.9rem;
-    }
-
-    .services-text-p {
-        font-size: 1.6rem;
-    }
-}
-
 
 /* --------------------------------------------------- */
 /* TESTIMONIALS SECTION - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
 /* TESTIMONIALS SECTION - Complete Section */
-#testimonials-section {
-    text-align: center;
-    background: #CDA34F;
-    color: #ffffff;
-}
 
-/* TESTIMONIALS SECTION - Carousel Individual item */
-.carousel-item {
-    padding: 5% 7% 20%;
+/* Sets a white dotted horizontal divider - as an exception from normal case */
+#testimonials-section .horizontal-row-divider {
+    border-top: 10px dotted var(--color-white);
 }
-
-/* TESTIMONIALS SECTION - Quotation mark */
-.testimonials-quotation-mark {
-    font-size: 2rem;
-    font-family: 'Merriweather', serif;
-}
-
-/* TESTIMONIALS SECTION - Text */
-.testimonials-text {
-    font-family: 'Merriweather', serif;
-    font-size: 1.2rem;
-    line-height: 1.4;
-}
-
-/* TESTIMONIALS SECTION - Name & city */
-.testimonials-name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.9rem;
-    margin-bottom: 150px;
-}
-
 
 /* --------------------------------------------------- */
 /* TESTIMONIALS SECTION - All Elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {
-    .testimonials-quotation-mark {
-        font-size: 2.2rem;
-    }
 
-    .testimonials-text {
-        font-size: 1.5rem;
-    }
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
-    .testimonials-name {
-        font-size: 1rem;
-    }
-}
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-    .carousel-item {
-        padding: 5% 10% 8%;
-    }
+/* Small screen-width devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
 
-    .testimonials-quotation-mark {
-        font-size: 3rem;
-    }
+/* Medium screen-width devices (Tablets, 768px and up) */
+@media all and (min-width: 768px) {}
 
-    .testimonials-text {
-        font-size: 1.2rem;
-    }
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {}
 
-    .testimonials-name {
-        font-size: 1.1rem;
-    }
-}
-
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {
-    .testimonials-text {
-        font-size: 1.9rem;
-    }
-
-    .testimonials-name {
-        font-size: 1.2rem;
-    }
-}
-
-/* For extra large device - Desktops and 1200px and up */
+/* Large devices screen-width devices (Desktops above 1200px and up) */
 @media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
+
+
 
 /* --------------------------------------------------- */
 /* CONTACT US SECTION - All Elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
 /* Complete CONTACT US Section */
 
-/* CONTACT US - Background image */
-#contact-us {
-    background: url("../img/600px/contact-us-photo-600px.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
+/* CONTACT US - Background styling*/
+#contactUs {
+    background: var(--color-background-grey-dark);
 }
 
-/* CONTACT US - Heading - h2 */
-#contact-us h2 {
-    color: #00204a;
-    font-family: "Merriweather", serif;
-    font-size: 2.4rem;
+/* Contact Us - Styles the Social Media icons  */
+#contactUs .social-media-button {
+    display: inline-block;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    background-color: var(--color-white);
+    border-radius: 60%;
+    -webkit-box-shadow: 0 5px 15px -5px #00000070;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: var(--color-brand-secondary);
+}
+
+/* Contact Us - Styling of Phone and Email icon upon hover */
+#contactUs .phone-icon:hover,
+.email-icon:hover {
+    color: var(--color-brand-tertiary-dark);
     font-weight: bold;
 }
 
-/* Strike through the word STRANGER */
-#contact-us-stranger-word {
-    color: #93ADB6;
-    font-weight: normal;
-    text-decoration: line-through;
+/* Styling the Social Media icon on hover */
+#contactUs .social-media-button:hover {
+    background-color: var(--color-brand-secondary);
+    -webkit-transition: var(--transition-time-normal);
+    -o-transition: var(--transition-time-normal);
+    transition: var(--transition-time-normal);
 }
 
-/* CONTACT US - Heading - h3 */
-#contact-us h3 {
-    font-size: 1.5rem;
+/* Styling of the icon element inside the social media button */
+#contactUs .social-media-button i {
+    line-height: 2em;
 }
 
-/* Social media contact options class for all*/
-.contact-us-social{
-    color: #00204a;
-    font-size: 1.3rem;
-    padding: 4px;
+/* Styling of icon element upon hover of social media button */
+#contactUs .social-media-button:hover i {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    color: var(--color-white);
 }
 
-a.contact-us-social:hover{
-    background: #00204a;
-    border-radius: 15px;
-    color: #F7F7F7;
-    text-decoration: none;
+#contactUs .contact-us-form-submit-button {
+    background-color: var(--color-brand-tertiary-dark);
+    color: var(--color-white);
 }
 
-.contact-us-social i{
-    font-size: 1.8rem;
+#contactUs .contact-us-form-submit-button:hover {
+    background-color: var(--color-brand-secondary);
 }
 
-.contact-us-section-phone {
-    font-weight: bold;
-    font-size: 1.8rem;
-}
-
-h4.contact-us-message-form{
-    font-weight: bold;
-    font-size: 1.8rem;
-    color: #00204a;
-}
-
-.input-group-text{
-    color: #00204a;
-    font-size: 1rem;
-}
-
-button.contact-us-message-form{
-    font-size: 1.3rem;
-    /* font-weight: bold; */
+.google-map {
+    width: 100%;
+    height: 30vh;
+    min-height: 300px;
+    max-height: 450px;
+    position: relative;
 }
 
 /* --------------------------------------------------- */
 /* CONTACT US SECTION - All Elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Exception case - even smaller devices (less than 350px)*/
-@media all and (max-width: 360px) {
-    .contact-us-social{
-        font-size: 1.2rem;
-    }
-    .contact-us-social i{
-        font-size: 1.4rem;
-    }
-    .contact-us-section-phone{
-        font-size: 1.7rem;
-    }
-}
 
-/* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {
-    #contact-us {
-        background: url("../img/900px/contact-us-photo-900px.jpg");
-        background-size: cover;
-        background-repeat:no-repeat;
-    }
-    /* CONTACT US - Headings */
-    #contact-us h2{
-        font-size: 2.5rem;
-    }
-    #contact-us h3{
-        font-size: 1.6rem;
-    }
-    .contact-us-social{
-        font-size: 1.4rem;
-    }
-    .contact-us-section-phone{
-        font-size: 2rem;
-    }
-    /* Message form - input field icons */
-     .input-group-text{
-        font-size: 1.2rem;
-    }
-    /* Message form - Input fields */
-    .input-group input{
-        font-size: 1.2rem;
-    }
-    /* Message form - Text Area field */
-    .input-group textarea{
-        font-size: 1.1rem;
-    }
-    /* Message form - Send button */
-    button.contact-us-message-form{
-        font-size: 1.4rem;
-    }
-}
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-    /* Message form - input field icons */
-    .input-group-text{
-        font-size: 1.4rem;
-    }
-    /* Message form - Input fields */
-    .input-group input{
-        font-size: 1.3rem;
-    }
-    /* Message form - Text Area field */
-    .input-group textarea{
-        font-size: 1.2rem;
-    }
-    /* Message form - Send button */
-    button.contact-us-message-form{
-        font-size: 1.5rem;
-    }
-    /* CONTACT US - Headings */
-    #contact-us h2{
-        font-size: 2.6rem;
-    }
-    #contact-us h3{
-        font-size: 1.7rem;
-    }
-}
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {
-    #contact-us {
-        background: url("../img/1200px/contact-us-photo-1200px.jpg");
-        background-size: cover;
-        background-repeat:no-repeat;
-    }
-    /* CONTACT US - Headings */
-    #contact-us h2{
-        font-size: 3rem;
-    }
-    #contact-us h3{
-        font-size: 2rem;
-    }
-}
+/* Small screen-width devices (Landscape phones, 576px and up) */
+@media all and (min-width: 576px) {}
 
-/* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {
-    #contact-us {
-        background: url("../img/2000px/contact-us-photo.jpg");
-        background-size: cover;
-        background-repeat:no-repeat;
-    }
-    .contact-us-social i{
-        font-size: 2rem;
-    }
-    .contact-us-social{
-        font-size: 1.6rem;
-    }
-    .contact-us-section-phone{
-        font-size: 2rem;
-    }
-    h4.contact-us-message-form{
-        font-size: 2rem;
-    }
-    /* Message form - input field icons */
-    .input-group-text{
-        font-size: 1.6rem;
-    }
-    /* Message form - Input fields */
-    .input-group input{
-        font-size: 1.4rem;
-    }
-    /* Message form - Text Area field */
-    .input-group textarea{
-        font-size: 1.3rem;
-    }
-}
+/* Medium screen-width devices (Tablets, 768px and up) */
+@media all and (min-width: 768px) {}
 
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {}
+
+/* Large devices screen-width devices (Desktops above 1200px and up) */
+@media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
 
 
 /* --------------------------------------------------- */
@@ -778,7 +1031,7 @@ button.contact-us-message-form{
 /* FOOTER Section - Complete Section */
 #footer {
     padding: 2% 0%;
-    background: var(--color-brand-color-1);
+    background: var(--color-brand-secondary);
 }
 
 /* FOOTER - Company logo white */
@@ -788,7 +1041,7 @@ button.contact-us-message-form{
 
 .footer-text {
     font-size: 0.6rem;
-    color: #bbbbbb;
+    color: var(--color-grey-light);
 }
 
 .footer-text a:hover {
@@ -800,168 +1053,244 @@ button.contact-us-message-form{
 /* --------------------------------------------------- */
 /* FOOTER BAR  - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
+
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
+
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
+
+/* Small screen-width devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
+
+    /* Makes the footer text slightly larger  */
     .footer-text {
         font-size: 0.7rem;
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium screen-width devices (Tablets, 768px and up) */
 @media all and (min-width: 768px) {}
 
-/* Large devices (Desktops, 992 px and up)*/
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
 @media all and (min-width: 992px) {
+
+    /* Reduces the padding for footer on larger screens  */
     #footer {
         padding: 1% 0%;
     }
 }
 
-/* For extra large device - Desktops and 1200px and up */
+/* Large devices screen-width devices (Desktops above 1200px and up) */
 @media all and (min-width: 1200px) {}
 
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
+
+/* --------------------------------------------------- */
+/* Services Pages - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* Breadcrumbs for Page navigation*/
+ol.breadcrumb {
+    background-color: unset;
+}
+
+ol.breadcrumb a {
+    color: var(--color-brand-tertiary-dark);
+}
+
+.no-bullets {
+    list-style-type: none;
+}
+
+/* General styling for the entire section  */
+#howCanWeHelpSection {
+    color: var(--color-white);
+}
+
+/* The main image for each of the Services page.
+The image for each page is set by a different class */
+#mainImage {
+    height: 50vh;
+    min-height: 300px;
+    max-height: 600px;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* The image is a square sized to have a minimum height and width of 150 px
+    and linearly increase as the screen width increases to a max of 300 px  */
+.square-right-floating-thumbnail-image {
+    min-width: 150px;
+    min-height: 150px;
+    height: calc(150px + calc((300 - 150) / (1200 - 360)) * (100vw - 360px));
+    width: calc(150px + calc((300 - 150) / (1200 - 360)) * (100vw - 360px));
+    max-height: 300px;
+    max-width: 300px;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+/* TODO set the correct Background image */
+/* Main Image for Study Permit page */
+.study-permit-main-image {
+    /* fallback background color in case image does not display */
+    background-color: var(--color-brand-secondary-light);
+    background-image: url(../img/study_permit_main_img_900px.jpg);
+    background-position: center;
+}
+
+/* Second Thumbnail Image for Permit page*/
+.study-permit-image2 {
+    background-color: var(--color-brand-secondary-light);
+    background-image: url(../img/study_permit_img_2_300px.jpg);
+    background-position: center;
+}
+
+/* Third Thumbnail Image for Permit page*/
+.study-permit-image3 {
+    background-color: var(--color-brand-secondary-light);
+    background-image: url(../img/study_permit_img_3_300px.jpg);
+    background-position: center;
+}
 
 
 
 /* --------------------------------------------------- */
-/* ALL COMMON ELEMENTS - NORMAL STYLING */
+/* Services Pages - All elements - RESPONSIVE STYLING*/
 /* --------------------------------------------------- */
-/* ALL ELEMENTS - Horizontal Row */
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
 
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
 
-/* ABOUT US PAGE - SPECIFIC STYLES */
-/* ABOUT US - OUR COMMITMENT */
-#about-us-commitment{
-    background-color: #CDA34F;
-}
-
-/* ABOUT US - Heading */
-.about-us-heading{
-    color: #00204a;
-    font-family: "Merriweather", serif;
-    font-size: 1.7rem;
-    line-height: 1.5;
-    font-weight: bolder;
-    text-align: center;
-    letter-spacing: 5px;
-}
-
-/* ABOUT US - OUR COMMITMENT body text */
-.about-us-commitment-text{
-    color: #F7F7F7;
-    font-family: "roboto", sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.5;
-    text-align: justify;
-}
-
-/* ABOUT US - Body Text */
-.about-us-text{
-    color: #34495E;
-    font-family: "roboto", sans-serif;
-    font-size: 1.2rem;
-    line-height: 1.5;
-    text-align: justify;
-}
-
-/* ABOUT US - Display Img */
-.about-us-img{
-    max-height: 50vh;
-    max-width: 100%;
-}
-
-/* --------------------------------------------------- */
-/* ABOUT US PAGE - RESPONSIVE STYLING */
-/* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
+/* Small screen-width devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
-    .about-us-heading{
-        font-size: 1.8rem;
+    .study-permit-main-image {
+        background-image: url(../img/study_permit_main_img_1200px.jpg);
     }
-    .about-us-commitment-text{
-        font-size: 1.5rem;
+
+    .study-permit-image2 {
+        background-image: url(../img/study_permit_img_2_600px.jpg);
     }
-    .about-us-text{
-        font-size: 1.3rem;
+
+    .study-permit-image3 {
+        background-image: url(../img/study_permit_img_3_600px.jpg);
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium screen-width devices (Tablets, 768px and up) */
 @media all and (min-width: 768px) {
-    .about-us-heading{
-        font-size: 1.9rem;
+    .study-permit-image2 {
+        background-image: url(../img/study_permit_img_2_900px.jpg);
     }
-    .about-us-commitment-text{
-        font-size: 1.6rem;
-    }
-    .about-us-text{
-        font-size: 1.4rem;
+
+    .study-permit-image3 {
+        background-image: url(../img/study_permit_img_3_900px.jpg);
     }
 }
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {}
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
+@media all and (min-width: 992px) {
+    .study-permit-main-image {
+        background-image: url(../img/study_permit_main_img_1600px.jpg);
+    }
+}
 
-/* For extra large device - Desktops and 1200px and up */
+/* Large devices screen-width devices (Desktops above 1200px and up) */
 @media all and (min-width: 1200px) {}
 
-
-
-/* --------------------------------------------------- */
-/* INDIVIDUAL SERVICES PAGES - RESPONSIVE STYLING */
-/* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
-@media all and (min-width: 576px) {
-    .about-us-heading{
-        font-size: 1.8rem;
-    }
-    .about-us-commitment-text{
-        font-size: 1.5rem;
-    }
-    .about-us-text{
-        font-size: 1.3rem;
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {
+    .study-permit-main-image {
+        background-image: url(../img/study_permit_main_img_3000px.jpg);
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media all and (min-width: 768px) {
-    .about-us-heading{
-        font-size: 1.9rem;
-    }
-    .about-us-commitment-text{
-        font-size: 1.6rem;
-    }
-    .about-us-text{
-        font-size: 1.4rem;
-    }
+/* --------------------------------------------------- */
+/* Success & Fail Message Pages - All elements - NORMAL STYLING*/
+/* --------------------------------------------------- */
+/* Styling for Styles.php page */
+.success-message{
+    background: var(--color-green-success);
+    max-width: 25rem;
+    max-height: 40rem;
 }
 
-/* Large devices (Desktops, 992 px and up)*/
-@media all and (min-width: 992px) {}
-
-/* For extra large device - Desktops and 1200px and up */
-@media all and (min-width: 1200px) {}
-
-
-
-
-
-
-
-
-
+/* Styling for Fail.php page */
+.fail-message{
+    background: var(--color-red-fail);
+    max-width: 25rem;
+    max-height: 40rem;
+}
 
 /* --------------------------------------------------- */
 /* XXXXX  - RESPONSIVE STYLING */
 /* --------------------------------------------------- */
-/* Small devices (Landscape phones, 576px and up) */
+
+/* Unusually small Devices (Screen-width even smaller than 360px) */
+@media all and (max-width: 360px) {}
+
+/* Mobile devices with screen-width between 360px and 576px */
+@media all and (min-width: 360px) {}
+
+/* Small screen-width devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {}
 
-/* Medium devices (tablets, 768px and up) */
+/* Medium screen-width devices (Tablets, 768px and up) */
 @media all and (min-width: 768px) {}
 
-/* Large devices (Desktops, 992 px and up)*/
+/* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
 @media all and (min-width: 992px) {}
 
-/* For extra large device - Desktops and 1200px and up */
+/* Large devices screen-width devices (Desktops above 1200px and up) */
 @media all and (min-width: 1200px) {}
+
+/* Extra large screen-width devices (Desktops above 2560px and up) */
+@media all and (min-width: 2700px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TODO Delete everything below this - Only needed this for Pesticide while designing */
+/* pesticide v1.3.0 . @mrmrs . MIT */
+/* body{outline:1px solid #2980b9!important}article{outline:1px solid #3498db!important}nav{outline:1px solid #0088c3!important}aside{outline:1px solid #33a0ce!important}section{outline:1px solid #66b8da!important}header{outline:1px solid #99cfe7!important}footer{outline:1px solid #cce7f3!important}h1{outline:1px solid #162544!important}h2{outline:1px solid #314e6e!important}h3{outline:1px solid #3e5e85!important}h4{outline:1px solid #449baf!important}h5{outline:1px solid #c7d1cb!important}h6{outline:1px solid #4371d0!important}main{outline:1px solid #2f4f90!important}address{outline:1px solid #1a2c51!important}div{outline:1px solid #036cdb!important}p{outline:1px solid #ac050b!important}hr{outline:1px solid #ff063f!important}pre{outline:1px solid #850440!important}blockquote{outline:1px solid #f1b8e7!important}ol{outline:1px solid #ff050c!important}ul{outline:1px solid #d90416!important}li{outline:1px solid #d90416!important}dl{outline:1px solid #fd3427!important}dt{outline:1px solid #ff0043!important}dd{outline:1px solid #e80174!important}figure{outline:1px solid #f0b!important}figcaption{outline:1px solid #bf0032!important}table{outline:1px solid #0c9!important}caption{outline:1px solid #37ffc4!important}thead{outline:1px solid #98daca!important}tbody{outline:1px solid #64a7a0!important}tfoot{outline:1px solid #22746b!important}tr{outline:1px solid #86c0b2!important}th{outline:1px solid #a1e7d6!important}td{outline:1px solid #3f5a54!important}col{outline:1px solid #6c9a8f!important}colgroup{outline:1px solid #6c9a9d!important}button{outline:1px solid #da8301!important}datalist{outline:1px solid #c06000!important}fieldset{outline:1px solid #d95100!important}form{outline:1px solid #d23600!important}input{outline:1px solid #fca600!important}keygen{outline:1px solid #b31e00!important}label{outline:1px solid #ee8900!important}legend{outline:1px solid #de6d00!important}meter{outline:1px solid #e8630c!important}optgroup{outline:1px solid #b33600!important}option{outline:1px solid #ff8a00!important}output{outline:1px solid #ff9619!important}progress{outline:1px solid #e57c00!important}select{outline:1px solid #e26e0f!important}textarea{outline:1px solid #cc5400!important}details{outline:1px solid #33848f!important}summary{outline:1px solid #60a1a6!important}command{outline:1px solid #438da1!important}menu{outline:1px solid #449da6!important}del{outline:1px solid #bf0000!important}ins{outline:1px solid #400000!important}img{outline:1px solid #22746b!important}iframe{outline:1px solid #64a7a0!important}embed{outline:1px solid #98daca!important}object{outline:1px solid #0c9!important}param{outline:1px solid #37ffc4!important}video{outline:1px solid #6ee866!important}audio{outline:1px solid #027353!important}source{outline:1px solid #012426!important}canvas{outline:1px solid #a2f570!important}track{outline:1px solid #59a600!important}map{outline:1px solid #7be500!important}area{outline:1px solid #305900!important}a{outline:1px solid #ff62ab!important}em{outline:1px solid #800b41!important}strong{outline:1px solid #ff1583!important}i{outline:1px solid #803156!important}b{outline:1px solid #cc1169!important}u{outline:1px solid #ff0430!important}s{outline:1px solid #f805e3!important}small{outline:1px solid #d107b2!important}abbr{outline:1px solid #4a0263!important}q{outline:1px solid #240018!important}cite{outline:1px solid #64003c!important}dfn{outline:1px solid #b4005a!important}sub{outline:1px solid #dba0c8!important}sup{outline:1px solid #cc0256!important}time{outline:1px solid #d6606d!important}code{outline:1px solid #e04251!important}kbd{outline:1px solid #5e001f!important}samp{outline:1px solid #9c0033!important}var{outline:1px solid #d90047!important}mark{outline:1px solid #ff0053!important}bdi{outline:1px solid #bf3668!important}bdo{outline:1px solid #6f1400!important}ruby{outline:1px solid #ff7b93!important}rt{outline:1px solid #ff2f54!important}rp{outline:1px solid #803e49!important}span{outline:1px solid #cc2643!important}br{outline:1px solid #db687d!important}wbr{outline:1px solid #db175b!important}article:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}nav:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}aside:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}section:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}header:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}footer:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}h1:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}h2:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}h3:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}h4:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}h5:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}h6:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}main:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}address:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}div:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}p:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}hr:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}pre:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}blockquote:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}ol:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}ul:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}li:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}dl:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}dt:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}dd:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}figure:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}figcaption:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}table:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}caption:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}thead:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}tbody:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}tfoot:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}tr:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}th:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}td:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}col:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}colgroup:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}button:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}datalist:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}fieldset:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}form:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}input:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}keygen:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}label:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}legend:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}meter:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}optgroup:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}option:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}output:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}progress:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}select:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}textarea:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}details:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}summary:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}command:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}menu:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}del:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}ins:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}img:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}iframe:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}embed:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}object:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}param:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}video:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}audio:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}source:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}canvas:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}track:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}map:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}area:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}a:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}em:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}strong:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}i:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}b:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}u:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}s:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}small:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}abbr:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}q:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}cite:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}dfn:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}sub:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}sup:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}time:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}code:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}kbd:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}samp:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}var:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}mark:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}bdi:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}bdo:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}ruby:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}rt:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}rp:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}span:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}br:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)}wbr:hover{-webkit-box-shadow:0 0 1rem rgba(0,0,0,.6);box-shadow:0 0 1rem rgba(0,0,0,.6);background-color:rgba(255,255,255,.25)} */
+
+/* add'l style for extension */
+/* #pesticide-for-chrome-result {visibility:hidden; position: fixed; bottom: 0; width: 100%; padding: 20px 0; margin:0; background-color: #333; color: #eee; font-size: 16px; text-align: center; outline: none !important;-webkit-box-shadow:none !important;box-shadow:none !important;}
+#pesticide-for-chrome-result.show{visibility:visible;}
+#pesticide-for-chrome-result p {font-family: monospace; font-size: 16px; padding: 0; margin: 0; outline: none !important;-webkit-box-shadow:none !important;box-shadow:none !important;background-color:inherit !important;}
+#pesticide-for-chrome-result b {color:#0088C3;outline: none !important;-webkit-box-shadow:none !important;box-shadow:none !important;background-color:inherit !important} */

@@ -1,1 +1,3 @@
 # gitignore file to exclude the files that need not be tracked by GIT
+
+/img

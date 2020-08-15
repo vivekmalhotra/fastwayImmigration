@@ -5,9 +5,29 @@ All notable changes for this project - "fastwayimmigration.com website"  will be
 ## [Unreleased]
 
 - [ ] Put content in each individual service html page
-- [ ] Create about us & contact us page contents
-- [ ] setup mail on the contact us page
-- [x] Landing page - Picture overlay - similar to https://preview.oklerthemes.com/porto/7.1.0/demo-law-firm.html
+
+
+## [0.9] - 2020-08-14
+This is a fully working version of the new fastwayimmigration.com.  Now starting to add more services pages
+### Added
+    - Service - Study permit page added
+### Changed
+    - Index.php has been fully revamped for modern look
+### Removed
+    - CSS and HTML file cleaned up
+
+
+## [0.8.1] - 2020-04-05
+
+Special focus on adding the ReCaptcha validation
+
+### Added
+
+    - ReCaptcha Validation form added on contact page
+
+### Changed
+
+    - Modified the PHP script for mail handling it include validation of the ReCaptcha results
 
 ## [0.6] - 2019-02-21
 
@@ -18,8 +38,6 @@ Completely new page Homepage
     - Title bar on top of the page
     - Company logo + Email & Phone call to action
     - Single page running home page
-
-### Changed
 
 ### Removed
 
