@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Basic data related to the landing page -->
     <meta charset="utf-8">
@@ -9,21 +10,24 @@
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="fastway, fastwayim, fastway immigration, canada, canada immigration, canadian immigration, fastway immigration and visa services, fastway visa, canadian visa, canada study permit, canada work visa, canada LMIA, canada work permit, visit canada, canada visitor visa, canada tourist visa, AINP, alberta immigrant nominee program, edmonton, alberta, SINP, Saskatechwan immigrant nominee program">
     <!-- TITLE for the page -->
-    <title>Landing Page | Fastway Immigration & Visa Services</title>
+    <title>Home | Fastway Immigration & Visa Services</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."head_component.html"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets/";
+    include($IPATH . "head_component.html"); ?>
 </head>
 
 <!-- Sets a default background color class to Body element -->
+
 <body class="color-background-grey-light" data-spy="scroll" data-target="#mainNavigationBar" data-offset="10">
     <!-- PHP Serve - Top Navbar -->
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."nav_component.html"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets/";
+    include($IPATH . "nav_component.html"); ?>
 
     <!-- SECTION : COVER IMAGE CAROUSEL using Bootstrap Carousel -->
     <section id="cover-image-carousel-section">
         <div class="container-fluid p-0">
-            <div id="carouselWithBackgroundImage" class="carousel slide" data-ride="carousel" data-interval="80000">
+            <div id="carouselWithBackgroundImage" class="carousel slide" data-ride="carousel" data-interval="8000">
                 <!-- Carousel Inner main body -->
                 <div class="carousel-inner">
                     <!-- First Carousel Item -->
@@ -106,29 +110,16 @@
             <!-- Immigration related services provided by Fastway Immigration -->
             <div class="container">
                 <!-- Row/Column grid for services. Using Bootstrap's .row-cols-* class to arrange service cards well -->
-                <div class="row row-cols-2 row-cols-md-3 row-cols-xl-3">
-                    <!-- Service Card - Permanent Residence  -->
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+                    <!-- Service Card - Express Entry -->
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Permanent Residence service">
-                        <!-- Card container for each service  -->
+                        <a href="/pages/express_entry/main_page_express_entry.php" title="Express Entry service">
+                            <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-1-image">
                                 <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Permanent Residence</h3>
-                            </div>
-                        </a>
-                    </div>
-
-                    <!-- Service Card - Work Permit  -->
-                    <div class="col mb-4">
-                        <!-- TODO Correct hyperlinks for the services cards -->
-                        <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Work Permit service">
-                        <!-- Card container for each service  -->
-                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-2-image">
-                                <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Work Permit</h3>
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Express Entry</h3>
                             </div>
                         </a>
                     </div>
@@ -137,63 +128,102 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Family Sponsorship service">
-                        <!-- Card container for each service  -->
-                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-3-image">
+                        <a href="/pages/family_sponsorship/main_page_family_sponsorship.php" title="Family Sponsorship service">
+                            <!-- Card container for each service  -->
+                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-2-image">
                                 <!-- Text overlay of the card-container  -->
                                 <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Family Sponsorship</h3>
                             </div>
                         </a>
                     </div>
 
-                    <!-- Service Card - Study Permit -->
+                    <!-- Service Card - Provincial Immigration -->
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="./pages/study_in_canada/study_permit.php" title="Study Permit service">
-                        <!-- Card container for each service  -->
+                        <a href="/pages/provincial_immigration/main_page_provincial_nomination.php" title="Provincial Immigration service">
+                            <!-- Card container for each service  -->
+                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-3-image">
+                                <!-- Text overlay of the card-container  -->
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Provincial Immigration</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Service Card - Business Immigration  -->
+                    <div class="col mb-4">
+                        <!-- TODO Correct hyperlinks for the services cards -->
+                        <!-- Wraps the Background and Text overlay in an anchor tag -->
+                        <a href="#" title="Business Immigration service">
+                            <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-4-image">
                                 <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Study Permit</h3>
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Business Immigration</h3>
                             </div>
                         </a>
                     </div>
 
-                    <!-- Service Card - Express Entry -->
+                    <!-- Service Card - Canada Visitor Visa -->
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Express Entry service">
-                        <!-- Card container for each service  -->
+                        <a href="/pages/visitor_visa.php" title="Canada Visitor Visa service">
+                            <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-5-image">
                                 <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Express Entry</h3>
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Canada Visitor Visa (TRV)</h3>
                             </div>
                         </a>
                     </div>
 
-                    <!-- Service Card - Tourist Visa -->
+                    <!-- Service Card - Super Visa (Parents & Grandparents) -->
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Tourist Visa service">
-                        <!-- Card container for each service  -->
+                        <a href="/pages/super_visa.php" title="Super Visa service (Parents & Grand-parents)">
+                            <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-6-image">
                                 <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Tourist Visa</h3>
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Super Visa (Parents & Grand-parents)</h3>
                             </div>
                         </a>
                     </div>
 
-                    <!-- Service Card - Provincial Nomination -->
+                    <!-- Service Card - Business Visa -->
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Provincial Nomination service">
-                        <!-- Card container for each service  -->
+                        <a href="/pages/business_visa.php" title="Business Visa service">
+                            <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-7-image">
                                 <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Provincial Nomination</h3>
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Business Visa</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Service Card - Studying in Canada -->
+                    <div class="col mb-4">
+                        <!-- TODO Correct hyperlinks for the services cards -->
+                        <!-- Wraps the Background and Text overlay in an anchor tag -->
+                        <a href="/pages/study_permit/main_page_study_in_canada.php" title="Study Permit service">
+                            <!-- Card container for each service  -->
+                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-8-image">
+                                <!-- Text overlay of the card-container  -->
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Studying in Canada</h3>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Service Card - Work Permit  -->
+                    <div class="col mb-4">
+                        <!-- TODO Correct hyperlinks for the services cards -->
+                        <!-- Wraps the Background and Text overlay in an anchor tag -->
+                        <a href="/pages/work_permit/main_page_work_permit.php" title="Work Permit service">
+                            <!-- Card container for each service  -->
+                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-9-image">
+                                <!-- Text overlay of the card-container  -->
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Work Permit</h3>
                             </div>
                         </a>
                     </div>
@@ -202,11 +232,11 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="#" title="Other services">
-                        <!-- Card container for each service  -->
-                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-8-image">
+                        <a href="/pages/other_services/main_page_other_services.php" title="Other services provided by Fastway Immigration">
+                            <!-- Card container for each service  -->
+                            <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-10-image">
                                 <!-- Text overlay of the card-container  -->
-                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Other Services</h3>
+                                <h3 class="font-size-3 color-font-white text-center align-self-center px-2 m-0">Miscellaneous Services</h3>
                             </div>
                         </a>
                     </div>
@@ -259,10 +289,12 @@
     </section>
 
     <!-- PHP Serve - Contact Us Section Footer -->
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."contact_us_component.html"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets/";
+    include($IPATH . "contact_us_component.html"); ?>
 
     <!-- PHP Serve - Footer -->
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/assets/"; include($IPATH."footer_component.html"); ?>
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"] . "/assets/";
+    include($IPATH . "footer_component.html"); ?>
 </body>
 
 </html>
