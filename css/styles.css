@@ -184,7 +184,6 @@ body {
 
 /* Styling for all hyperlink hovers */
 a:hover {
-    /* font-weight: bold; */
     color: var(--color-brand-secondary-light);
     font-weight: bold;
     text-decoration: none;
@@ -1115,7 +1114,7 @@ This avoids the jitter effect*/
 /* --------------------------------------------------- */
 /* Services Pages - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
-/* Breadcrumbs for Page navigation*/
+/* Styling for the Breadcrumbs for Page navigation*/
 ol.breadcrumb {
     background-color: unset;
 }
@@ -1124,8 +1123,13 @@ ol.breadcrumb a {
     color: var(--color-brand-tertiary-dark);
 }
 
-.no-bullets {
-    list-style-type: none;
+/* Styling for Bootstrap Accordian cards for LMIA Streams */
+.card-accordian-lmia:hover{
+    background-color: var(--color-brand-secondary-dark);
+}
+a.card-heading-text:hover{
+    color: var(--color-white);
+    font-weight: normal;
 }
 
 /* General styling for the entire section  */
@@ -1338,6 +1342,20 @@ Keep the anchor tag font-weight the same upon mouse hover */
 }
 .service-selection-card-provincial-nomination-image4{
     background-image: url(/img/thumbnail_selection_card_provincial_nomination_nova_scotia.svg);
+}
+
+/* ------ Main Page | Work Permit page ------ */
+.service-selection-card-work-permit-image1{
+    background-image: url(/img/thumbnail_selection_card_work_permit_lmia.svg);
+}
+.service-selection-card-work-permit-image2{
+    background-image: url(/img/thumbnail_selection_card_work_permit_work_permit.svg);
+}
+.service-selection-card-work-permit-image3{
+    background-image: url(/img/thumbnail_selection_card_work_permit_extension_of_permit.svg);
+}
+.service-selection-card-work-permit-image4{
+    background-image: url(/img/thumbnail_selection_card_work_permit_restoration_of_status.svg);
 }
 
 /* ------ Main Page | Other Services page ------ */

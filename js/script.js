@@ -33,3 +33,8 @@ if(form.checkValidity() == false){
 }
 form.classList.add('was-validated')
 });
+
+// TODO Bootstrap popover for Blog button on Navbar - Remove once blog button is functional
+$(function () {
+    $('[data-toggle="popover"]').popover()
+})
