@@ -35,7 +35,7 @@
                         <div class="container carousel-overlay h-75 mt-5 pl-3 pl-md-5 color-font-black d-flex flex-column justify-content-center">
                             <h3 class="font-size-4 font-type-sans-serif w-50 color-font-brand-secondary-light font-weight-bold p-1 mb-1 animate__animated animate__fadeInUp" style="animation-delay: 1.3s; animation-duration: 1.6s;">COMMITTED TO SUCCESS</h3>
                             <h1 class="font-size-1 font-weight-bold px-1 font-type-serif animate__animated animate__fadeIn" style="animation-delay: 0.1s;">Affordable Services</h1>
-                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Our team provides you the best case representation at competitive fees. Contact us today to discuss your case</h2>
+                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Our team provides you the best case representation at competitive fees. Contact us today to discuss your case.</h2>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@
                         <div class="container carousel-overlay h-75 mt-5 pl-3 pl-md-5 color-font-black d-flex flex-column justify-content-center">
                             <h3 class="font-size-4 font-type-sans-serif w-50 color-font-brand-secondary-light font-weight-bold p-1 mb-1 animate__animated animate__fadeInUp" style="animation-delay: 1.3s; animation-duration: 1.6s;">DEDICATED & TRUSTWORTHY</h3>
                             <h1 class="font-size-1 font-weight-bold px-1 font-type-serif animate__animated animate__fadeIn" style="animation-delay: 0.1s;">Knowledgeable Team</h1>
-                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Canadian Immigration can be quite complex. Your Fastway team is Experienced and Capable in all aspects of Immigration Law. Whether your case is a Fresh application or you need to re-apply, our Team can help you.</h2>
+                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Canadian Immigration is quite complex. Your Fastway team is experienced and capable of handling all Immigration matters. Whether your case is a fresh application or you need to re-apply, our Team can help you.</h2>
                         </div>
                     </div>
 
@@ -83,7 +83,7 @@
                     <hr class="horizontal-row-divider">
                     <div class="p-3 p-lg-5">
                         <p class="font-size-4 font-type-sans-serif text-justify">An Immigration consulting firm based in Edmonton, Alberta, Canada. We provide consultation and representation services to our clients in all their Canadian Immigration, Visa and Citizenship matters.</p>
-                        <p class="font-size-4 font-type-sans-serif text-justify">Our consultants are Regulated Canadian Immigration Consultants (RCIC) & member in good standing with Immigration Consultants of Canada Regulatory Council (ICCRC)</p>
+                        <p class="font-size-4 font-type-sans-serif text-justify">Fastway's team takes pride in helping individuals and families all over the world successfully immigrate to Canada. Our consultants are Regulated Canadian Immigration Consultants (RCIC) & member in good standing with Immigration Consultants of Canada Regulatory Council (ICCRC)</p>
                     </div>
                 </div>
 
@@ -96,6 +96,18 @@
                     </div>
                 </div>
             </div>
+
+            <div class="container text-center">
+                <h4 class="font-size-4 px-2">We are a proud Member-in-good-standing of the following Professional Associations:</h4>
+                <div class="row align-items-center">
+                    <div class="col d-none d-lg-block d-lg-2"></div>
+                    <div class="col d-lg-3 logo-associations logo-iccrc"></div>
+                    <div class="col d-lg-2 logo-associations logo-rcic"></div>
+                    <div class="col d-lg-3 logo-associations logo-capic"></div>
+                    <div class="col d-none d-lg-block d-lg-2"></div>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -105,7 +117,7 @@
             <!-- Heading of Services we Offer -->
             <h2 class="font-type-serif font-size-2 p-3 text-center"><strong>SERVICES WE OFFER</strong></h2>
             <hr class="horizontal-row-divider">
-            <p class="font-type-sans-serif font-size-5 p-2 text-center color-font-dark-grey">One stop for all your Canadian Immigration matters</p>
+            <p class="font-type-sans-serif font-size-4 p-2 text-center color-color-font-brand-secondary-dark">One stop for all your Canadian Immigration matters</p>
 
             <!-- Immigration related services provided by Fastway Immigration -->
             <div class="container">

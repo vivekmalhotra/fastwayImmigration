@@ -673,6 +673,28 @@ This avoids the jitter effect*/
 /* --------------------------------------------------- */
 /* COMPANY DETAIL SECTION - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
+/* ICCRC, RCIC & CAPIC Logos */
+.logo-iccrc{
+    background: url(/img/logo_iccrc.svg);
+    background-position-x: right;
+}
+.logo-rcic{
+    background: url(/img/logo_iccrc_new.svg);
+    background-position: center;
+}
+
+.logo-capic{
+    background: url(/img/logo_capic.svg);
+    background-position: center;
+    background-position-x: left;
+}
+
+.logo-associations{
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
 
 /* --------------------------------------------------- */
 /* COMPANY DETAIL SECTION - All elements - RESPONSIVE STYLING*/

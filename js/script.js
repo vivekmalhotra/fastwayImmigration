@@ -16,13 +16,13 @@ $("a.social-media-button").on("mouseleave", function(){
         - Animates using Animate.css */
 $("button.contact-us-form-submit-button").on("mouseenter", function(){
     $(this).addClass("animate__animated animate__pulse")
-})
+});
 
 /* Script upon Mouse Leaving the Contact Us form "Send Button"
         - Animates using Animate.css */
 $("button.contact-us-form-submit-button").on("mouseleave", function(){
     $(this).removeClass("animate__animated animate__pulse")
-})
+});
 
 /* Contact Form validation script */
 var form = document.querySelector('.needs-validation');
@@ -37,4 +37,4 @@ form.classList.add('was-validated')
 // TODO Bootstrap popover for Blog button on Navbar - Remove once blog button is functional
 $(function () {
     $('[data-toggle="popover"]').popover()
-})
+});
