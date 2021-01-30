@@ -221,9 +221,9 @@
             <h2 class="font-size-2 font-weight-bold text-center py-4">How can our Team help you ?</h1>
             <ul class="fa-ul font-size-4 px-2 px-md-3 py-2">
                 <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>We are licensed Immigration Consultants of Saskatchewan Province</li>
-                <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>Our team is extensive knowledge of the program</li>
+                <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>Our team has extensive knowledge of the program</li>
                 <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>Our team has record of successful submission of SINP Applications</li>
-                <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>Other than International Skilled Worker Categories, we can help you with other Saskatchewan Programs like Student, Entrepreneur and Farm Categories</li>
+                <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>We can also help you with other Saskatchewan Entrepreneur and Farm Categories</li>
             </ul>
         </div>
     </div>

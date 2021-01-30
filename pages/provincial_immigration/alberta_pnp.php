@@ -45,11 +45,11 @@
             </p>
 
             <p class="font-size-4 py-1">
-                Alberta Immigrant Nominee Program (AINP) targets immigrants that are in high demand throughout the province and the fill the shortage of skilled labor with immigrants that have the training and experience needed. This program allows prospective immigrants with the right mix of experience and skills to get an Alberta Provincial Nomination Certificate.
+                Alberta Immigrant Nominee Program (AINP) targets immigrants that are in high demand throughout the province who can fill shortage of skilled labor with immigrants that have required training and experience. This program allows prospective immigrants with the right mix of experience and skills to get an Alberta Provincial Nomination Certificate.
             </p>
 
             <p class="font-size-4 py-1">
-                Being nominated and by applying via the Alberta Immigrant Nominee Program (Alberta PNP program 2020), will speed up the permanent residency application process by some time
+                Being nominated and by applying via the Alberta Immigrant Nominee Program (Alberta PNP program 2020), will speed up the permanent residency application process by some time.
             </p>
         </div>
 
@@ -65,11 +65,11 @@
             </p>
 
             <p class="font-size-4 py-1">
-                <strong>Alberta Opportunity Stream</strong> – This stream is for the immigrants who are able to meet the streams requirements and are working in Alberta in an eligible occupation to apply for Alberta provincial nomination. Alberta Opportunity stream has replaced AINP’s Strategic Recruitment and Employer-Driven streams from June 14, 2018
+                <strong>Alberta Opportunity Stream</strong> – This stream is for the immigrants who can meet the streams requirements and are working in Alberta in an eligible occupation.  Alberta Opportunity Stream has replaced AINP’s Strategic Recruitment and Employer-Driven streams from June 14, 2018.
             </p>
 
             <p class="font-size-4 py-1">
-                <strong>Alberta Express Entry Stream</strong> – In this Stream, Province searches for the capable immigrants in the Federal Government’s Express pool.   This stream allows the express entry registered candidates to apply for provincial nomination.  Once Provincial Nomination Certificate is issued, it adds 600 CRS points in Express Entry Profile of the respective client thus guaranteeing ITA in next Express Entry Draw.
+                <strong>Alberta Express Entry Stream</strong> – In this Stream, Province searches for the capable immigrants in the Federal Government’s Express Entry Pool. This stream allows the express entry registered candidates to apply for provincial nomination. Once Provincial Nomination Certificate is issued, it adds 600 CRS points in Express Entry Profile of the respective client thus guaranteeing ITA in next Express Entry Draw.
             </p>
 
             <p class="font-size-4 py-1">
@@ -77,11 +77,11 @@
             </p>
 
             <p class="font-size-4 py-1">
-                Every stream of AINP PNP 2020 has different requirements. We will look into the process for each stream under AINP.
+                <strong>Alberta Opportunity Stream</strong> - This stream provides a pathway to Canada PR to applicants working in Alberta and international graduates who have completed their studies at a recognized Alberta educational post-secondary institution.
             </p>
 
             <p class="font-size-4 py-1">
-                <strong>Alberta Opportunity Stream</strong> - This stream provides a pathway to Canada PR to applicants working in Alberta and international graduates who have completed their studies at a recognized Alberta educational post-secondary institution.
+                Every AINP Stream has different requirements.
             </p>
 
             <h4 class="font-size-4 color-font-black"><strong>Eligibility</strong></h4>
@@ -131,7 +131,7 @@
 
             <h4 class="font-size-4 color-font-black"><strong>Express entry process of Alberta immigration nominee program (AINP)</strong></h4>
             <p class="font-size-4 py-1">
-                his stream allows the AINP to nominate skilled and capable immigrants from the federal government’s express entry program.  For express entry candidates to apply under AINP, they must be invited by the province to do so. To get invited, the candidate must show strong ties to the province or can be the one that will support the province’s economic growth and diversification priorities.  International graduates from Canadian post-secondary institutions can also be asked to submit under this stream.
+                This stream allows AINP to nominate skilled and capable immigrants from the federal government’s express entry pool.  For express entry candidates to apply under AINP, they must be invited by the province to do so. To get invited, the candidate must show strong ties to the province or can be the one that will support the province’s economic growth and diversification priorities. International graduates from Canadian post-secondary institutions can also be issued Notification of Interest under this stream.
             </p>
 
             <h4 class="font-size-4 color-font-black"><strong>Getting Notification of Interest from AINP under Express Entry</strong></h4>
@@ -140,7 +140,7 @@
             </p>
             <ul class="font-size-4">
                 <li>Must have an active express entry profile</li>
-                <li>Must show an intention to immigrate to province and settle their permanently</li>
+                <li>Must show an intention to immigrate to province and settle there permanently</li>
                 <li>Must be working in an occupation that supports Alberta’s economic development and diversification, and</li>
                 <li>Must have minimum <strong>Comprehensive Ranking System</strong> (CRS) score of 300 points</li>
             </ul>

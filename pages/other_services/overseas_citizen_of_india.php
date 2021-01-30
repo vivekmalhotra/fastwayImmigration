@@ -48,12 +48,6 @@
             </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
         <div class="container py-3 text-justify">
             <h3 class="font-size-3 color-font-black"><strong>Applying for OCI card</strong></h3>
             <p class="font-size-4 py-1 mb-1">

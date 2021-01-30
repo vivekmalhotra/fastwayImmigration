@@ -58,11 +58,6 @@
                 However, if you are offered a different job in Canada, you must apply for new work permit.
             </p>
         </div>
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
 
         <div class="container py-3 text-justify">
             <h3 class="font-size-3 color-font-black"><strong>Who can apply?</strong></h3>

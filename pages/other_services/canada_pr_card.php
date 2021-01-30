@@ -45,12 +45,6 @@
             </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
         <div class="container py-3 text-justify">
             <p class="font-size-4 py-1">
                 <strong>You should only apply for a PR card if:</strong>

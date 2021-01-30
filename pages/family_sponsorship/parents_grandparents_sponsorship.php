@@ -85,13 +85,13 @@
         </div>
 
         <div class="container py-3 text-justify alert alert-danger font-weight-bold">
-            Currently submitting “Interest to sponsor form” is closed right now.  When Interest to Sponsor Form is opened, IRCC will announce it on their Web page, twitter account, Facebook page.
+            For a limited period of time, Canadian Government is accepting "Interest to Sponsor" for sponsoring parents and grand-parents. Contact us immediately for more details
         </div>
 
         <div class="container py-3 text-justify">
             <h2 class="font-size-2 color-font-black py-2"><strong>Super Visa</strong></h2>
             <p class="font-size-4 py-1">
-                If the meantime, if you want your parents and/or grand-parents to come to Canada, You can apply for Super Visa.   Super Visa Program allows Parents and grand parents to come to Canada as long term Visitors allowing them to stay with their children as a long time Visitors.   Successful applicants will receive multiple entry visitor visa lasting upto 10 years allowing them to stay with their children for two years at a time.   The parents and grand-parents are required to meet standard visitor visa requirements.    They must submit written commitment of financial support from their child or grandchild in Canada, purchase Canadian Health Insurance for a least one-year, complete medical exam.   Also the sponsor needs to meet minimum income requirements.
+                In the meantime, if you want your parents and/or grand-parents to come to Canada, you can apply for Super Visa.   Super Visa Program allows Parents and grand parents to come to Canada as long term Visitors allowing them to stay with their children as a long time Visitors.   Successful applicants will receive multiple entry visitor visa lasting upto 10 years allowing them to stay with their children for two years at a time.   The parents and grand-parents are required to meet standard visitor visa requirements.    They must submit written commitment of financial support from their child or grandchild in Canada, purchase Canadian Health Insurance for at least one-year and complete a medical exam. In addition, the sponsor needs to meet minimum income requirements.
             </p>
         </div>
     </article>
@@ -103,7 +103,7 @@
             <p class="font-size-4 py-1">Our team will help you :</p>
             <ul class="fa-ul font-size-4 px-2 px-md-3 py-2">
                 <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>To express online your interest to sponsor</li>
-                <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>To complete file after Invitation to Apply</li>
+                <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>To submit PR Application on receipt of Invitation to Apply (ITA)</li>
                 <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>Providing expert guidance throughout the process</li>
                 <li class="py-1"><span class="fa-li"><i class="fas fa-check color-font-white"></i></span>To submit Super Visa Application</li>
             </ul>
