@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Super Visa - How can Fastway Immigration team assist your parents and grandparents application to Canada">
+    <meta name="description" content="Details about the Super Visa program to Canada for your parents and grandparents, its related requirements and in which ways can your team at Fastway Immigration assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="super visa, parents and grandparents visa, canada visa, visit canada, fastway services, fastway visa, fastway immigration and visa services, fastwayim, sunil malhotra, sangeeta malhotra">
+    <meta name="keywords" content="super visa, parents and grandparents visa, parents visa, grandparents visa, super visa canada, apply super visa, canada visa, visit canada, fastway services, fastway visa, fastway immigration and visa services, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Super Visa | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -46,19 +45,20 @@
             <p class="font-size-4 py-1">
                 If a Foreign National has a Canadian Temporary Resident Visa, he/she may visit for up to six months when they first enter Canada unless they apply and get extension for their Visitor Visa. Therefore, visitors who wish to stay longer must apply for an extension, and pay a new fee. Whereas in case of <strong>parent and grandparent super visa,</strong> eligible parents and grandparents can visit their family in Canada for <strong>up to two years</strong> without the need to renew their status.
             </p>
-
-            <p class="font-size-4 py-1">
-                A person who is neither a Canadian Citizen nor a Permanent Resident of Canada and wants to visit Canada on holidays/vacations, visit family or conduct business etc.  such Foreign National will need Temporary Resident Visa also known as Visitor Visa to enter Canada.   The requirement for a visa also applies to temporary residents who are transiting in Canada.  All the foreign nationals do not need Temporary Resident Visa to enter Canada.     Citizens of certain countries does not require Temporary Resident Visa.   They need Electronic Travel Authorization (eTA) to enter Canada.    What you need will depend on where you are from, how you are travelling, and what documents you are travelling with.  Before applying for Temporary Resident Visa, it is advisable you check if your country is in the list of visa exempt countries.   In that case, you will require -Electronic Travel Authorization- eTA.
-            </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
+        <!-- Main image for SUPER VISA page -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+                To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-super-visa-main-image" class="mainImage shadow" title="Photo of a an older couple walking"></div>
         </div>
 
         <div class="container py-3 text-justify">
+            <p class="font-size-4 py-1">
+                A person who is neither a Canadian Citizen nor a Permanent Resident of Canada and wants to visit Canada on holidays/vacations, visit family or conduct business etc.  such Foreign National will need Temporary Resident Visa also known as Visitor Visa to enter Canada.   The requirement for a visa also applies to temporary residents who are transiting in Canada.  All the foreign nationals do not need Temporary Resident Visa to enter Canada.     Citizens of certain countries does not require Temporary Resident Visa.   They need Electronic Travel Authorization (eTA) to enter Canada.    What you need will depend on where you are from, how you are travelling, and what documents you are travelling with.  Before applying for Temporary Resident Visa, it is advisable you check if your country is in the list of visa exempt countries.   In that case, you will require -Electronic Travel Authorization- eTA.
+            </p>
+
             <p class="font-size-4 py-1">
                 Super Visa is a multiple visa issued to the eligible parents and grandparents of Permanent Residents and Citizens of Canada.   Multiple Visa provides for allowing the holder multiple entries for a period up to 10 years.   The key difference is that the Super Visa allows an individual to stay for up to two years on initial entry into Canada whereas in the case of 10-years multiple entry visa, the holder could stay for a period of six months only unless applying and getting extension from within Canada.
             </p>

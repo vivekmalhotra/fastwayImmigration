@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Federal Skilled Workers program requirements and how can Fastway Immigration team assist you in your application">
+    <meta name="description" content="Details about the Federal Skilled Worker program, related requirements and the ways that your Fastway Immigration team assist you in your application process"
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="federal skilled workers, fsw, federal skilled worker program, express entry, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
     <title>Federal Skilled Workers | Fastway Immigration</title>
@@ -49,13 +48,14 @@
             </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
+        <!-- Main image for EXPRESS ENTRY  > Federal Skilled workers services page -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+                To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-federal-skilled-worker-main-image" class="mainImage shadow" title="Photo of a person working on computer"></div>
         </div>
 
-        <div class="container py-2 text-justify">
+        <div class="container py-3 text-justify">
             <p class="font-size-4 py-1">
                 Such applications will also be assessed based on six selection factors of Age, Education, Work Experience, whether having valid job offer, English and/or French Language abilities, Adaptability.   These factors are part of a 100-point grid used to assess Federal Skilled Workers.   Applicant earns points for how well they do in each of these six factors.   The current pass mark is 67 points to qualify for the Express Entry Pool.
 

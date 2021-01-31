@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Labour Market Impact Assessment (LMIA) program for Canada - Information and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Labour Market Impact Assessment (LMIA) program for Canada, its related requirements and ways in which your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="lmia, lmia work permit, canada work permit, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
+    <meta name="keywords" content="lmia, lmia work permit, labour market impact assessment, labor market impact assessment, work in canada, work permit, canada work permit, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Labour Market Impact Assessment (LMIA) | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -43,6 +42,16 @@
             <p class="font-size-4 py-1">
                 LMIA applications are complex and require lots of documentation and statistical tabulation e.g. numerical breakdown of the number of Canadians applied for the position, the number of offers of employment made, and the number of unqualified applicants. Employers must provide a written description of why each un-hired Canadian was not qualified for the job.
             </p>
+        </div>
+
+        <!-- Main image for WORK PERMIT RELATED > LMIA -->
+        <div class="container-md">
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-lmia-main-image" class="mainImage shadow" title="Photo collage of various professions"></div>
+        </div>
+
+        <div class="container py-3 text-justify">
             <p class="font-size-4 py-1">
                 Employment and Social Development Canada (ESDC) oversees Canada’s LMIA process. ESDC while considering LMIA applications takes into consideration following elements of the job offer:
             </p>
@@ -55,14 +64,7 @@
                 <li>That Canadian employer has made adequate recruitment efforts to find a Canadian to fill that position</li>
                 <li>That hiring foreign worker will help to create or retain jobs for Canadians</li>
             </ul>
-        </div>
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
 
-        <div class="container py-3 text-justify">
             <p class="font-size-4 py-1">
                 Temporary Foreign Workers Program is divided into streams for Higher-skilled workers and Lower-skilled workers. Positions falling in skill levels 0, A and B of the National Occupational Classification (NOC) system are placed in the Higher-skilled category. Positions falling in skills levels C and D are considered in low-skilled category.
             </p>

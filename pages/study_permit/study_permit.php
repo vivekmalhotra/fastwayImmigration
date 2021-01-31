@@ -21,7 +21,6 @@
     <div class="container breadcrumbs">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb pl-0 py-1 mb-0">
-                <!-- TODO Change all_services.html to all_services.php -->
                 <li class="breadcrumb-item"><a href="/index.php#services">All Services</a></li>
                 <li class="breadcrumb-item"><a href="/pages/study_permit/main_page_study_in_canada.php">Study in Canada</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Study Permit</li>
@@ -48,9 +47,11 @@
             </p>
         </div>
 
-        <!-- Main image for Study permit services page -->
+        <!-- Main image for Studying in Canada > Study permit services page -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+                To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-study-permit-main-image" class="mainImage shadow" title="Photo of students studying together"></div>
         </div>
 
         <div class="container py-2 text-justify">
@@ -102,8 +103,8 @@
         <div class="container py-3 text-justify">
             <h2 class="font-size-2 py-2 color-font-black font-weight-bolder">Post-Graduation Work Permit</h2>
 
-            <!-- TODO Proper Thumbnail image needed along with Alt text -->
-            <div class="square-right-floating-thumbnail-image study-permit-image2 mx-3 my-2 shadow" title="photo of an new student graduates"></div>
+            <!-- Thumbnail image 1 - STUDYING IN CANADA > Study permit -->
+            <div id="thumbnail-study-permit-image2" class="square-right-floating-thumbnail-image mx-3 my-2 shadow" title="Photo of an new student graduates"></div>
             <p class="font-size-4 py-1">
                 If you have graduated from a designated learning institution, and want to stay in Canada temporarily while working, you may be eligible to apply for a post-graduation work permit (PGWP).  You need to apply for a work permit within 90 days of when it was confirmed that you completed your program and have a valid study permit when you apply for the work permit.   How long the post-graduation work permit is valid for depends on the length of your study program.   You can work full-time until a decision is made on your work permit application if you :
             </p>
@@ -116,8 +117,8 @@
                 The Post-Graduation Work Permit Program (PGWPP) allows students, who have graduated from an eligible Canadian post-secondary institutions, to gain valuable Canadian work experience. Skilled Canadian work experience gained through the PGWPP helps graduates qualify for permanent residence in Canada.
             </p>
             <h2 class="font-size-2 py-2 color-font-black font-weight-bolder">Express Entry</h3>
-            <!-- TODO Proper Thumbnail image needed along with Alt text -->
-            <div class="square-right-floating-thumbnail-image study-permit-image3 mx-3 my-2 shadow" title="photo of a new intern"></div>
+            <!-- Thumbnail image 2 - STUDYING IN CANADA > Study permit -->
+            <div id="thumbnail-study-permit-image3" class="square-right-floating-thumbnail-image mx-3 my-2 shadow" title="photo of new intern"></div>
             <p class="font-size-4 py-1">
                 Express Entry is the first step for most people who wish to immigrate to Canada permanently as a skilled worker. After you have studied and worked in Canada, complete an online profile to see if you have the education, skills, work experience and language ability to be accepted into the pool of candidates. The top candidates are invited to apply for permanent residence.
             </p>

@@ -537,9 +537,10 @@ This avoids the jitter effect*/
 /* --------------------------------------------------- */
 /* MAIN IMAGE - All elements - NORMAL STYLING*/
 /* --------------------------------------------------- */
-/* MAIN IMAGE - Using Jumbotron of Bootstrap */
+/* MAIN IMAGE - Using Carousel of Bootstrap */
 
-.carousel-item {
+/* Settings for the image carousel that is on the main landing page */
+#carouselMainPage .carousel-inner .carousel-item {
     /* Sets the width of the Main image carousel. Setting the height relative
     to Vmax instead of Vh helps with landscape mobile devices. And to check
     unwanted height increase on laptops/desktops, max-height is restricted to Vh */
@@ -1161,7 +1162,7 @@ a.card-heading-text:hover{
 
 /* The main image for each of the Services page.
 The image for each page is set by a different class */
-#mainImage {
+.mainImage {
     height: 50vh;
     min-height: 300px;
     max-height: 600px;
@@ -1169,6 +1170,9 @@ The image for each page is set by a different class */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* fallback background color in case image does not display */
+    background-color: var(--color-brand-tertiary-light);
+
 }
 
 /* The image is a square sized to have a minimum height and width of 150 px
@@ -1187,28 +1191,120 @@ The image for each page is set by a different class */
     float: right;
 }
 
-/* TODO set the correct Background image */
-/* Main Image for Study Permit page */
-.study-permit-main-image {
-    /* fallback background color in case image does not display */
-    background-color: var(--color-brand-secondary-light);
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~ Setting images for different pages  ~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Main image - EXPRESS ENTRY > Federal skilled worker */
+#img-federal-skilled-worker-main-image {
+    background-image: url(../img/federal_skilled_worker_main_img_900px.jpg);
+}
+
+/* Main image - EXPRESS ENTRY > Federal skilled trader */
+#img-federal-skilled-trades-main-image {
+    background-image: url(../img/federal_skilled_trades_main_img_900px.jpg);
+}
+
+/* Main image - EXPRESS ENTRY > Canadian Experience class */
+#img-canadian-experience-class-main-image {
+    background-image: url(../img/canadian_experience_class_main_img_900px.jpg);
+}
+
+/* Main image - FAMILY SPONSORSHIP > Spousal Sponsorship */
+#img-spousal-sponsorship-main-image {
+    background-image: url(../img/spousal_sponsorship_main_image_900px.jpg);
+}
+
+/* Second Thumbnail Image for STUDYING IN CANADA > Study Permit page*/
+#thumbnail-spousal-sponsorship-image2 {
+    background-image: url(../img/spousal_sponsorship_image2_300px.jpg);
+}
+
+/* Main image - FAMILY SPONSORSHIP > Parents Grandparents Sponsorship */
+#img-parents-grandparents-sponsorship-main-image {
+    background-image: url(../img/parents_grandparents_sponsorship_main_image_900px.jpg);
+}
+
+/* Main image - PROVINCIAL NOMINATION > Alberta */
+#img-provincial-nomination-alberta-main-image {
+    background-image: url(../img/provincial_nomination_alberta_main_image_900px.jpg);
+}
+
+/* Main image - PROVINCIAL NOMINATION > Manitoba */
+#img-provincial-nomination-manitoba-main-image {
+    background-image: url(../img/provincial_nomination_manitoba_main_image_900px.jpg);
+}
+
+/* Main image - PROVINCIAL NOMINATION > Saskatchewan */
+#img-provincial-nomination-saskatchewan-main-image {
+    background-image: url(../img/provincial_nomination_saskatchewan_main_image_900px.jpg);
+}
+
+/* Main image - PROVINCIAL NOMINATION > Nova Scotia */
+#img-provincial-nomination-nova-scotia-main-image {
+    background-image: url(../img/provincial_nomination_nova_scotia_main_image_900px.jpg);
+}
+
+/* Main image - CANADA TOURIST/VISITOR VISA */
+#img-canada-visitor-visa-carousel-image1 {
+    background-image: url(../img/canada_visitor_visa_carousel_img1_900px.jpg);
+}
+#img-canada-visitor-visa-carousel-image2 {
+    background-image: url(../img/canada_visitor_visa_carousel_img2_900px.jpg);
+}
+#img-canada-visitor-visa-carousel-image3 {
+    background-image: url(../img/canada_visitor_visa_carousel_img3_900px.jpg);
+}
+
+/* Main image - SUPER VISA (Parents & Grandparents) */
+#img-super-visa-main-image {
+    background-image: url(../img/supervisa_main_img_900px.jpg);
+}
+
+/* Main image - BUSINESS VISA */
+#img-business-visa-main-image {
+    background-image: url(../img/business_visa_main_img_900px.jpg);
+}
+
+/* Main Image - STUDYING IN CANADA > Study Permit page */
+#img-study-permit-main-image {
     background-image: url(../img/study_permit_main_img_900px.jpg);
-    background-position: center;
 }
 
-/* Second Thumbnail Image for Permit page*/
-.study-permit-image2 {
-    background-color: var(--color-brand-secondary-light);
+/* Second Thumbnail Image for STUDYING IN CANADA > Study Permit page*/
+#thumbnail-study-permit-image2 {
     background-image: url(../img/study_permit_img_2_300px.jpg);
-    background-position: center;
 }
 
-/* Third Thumbnail Image for Permit page*/
-.study-permit-image3 {
-    background-color: var(--color-brand-secondary-light);
+/* Third Thumbnail Image for STUDYING IN CANADA > Study Permit page*/
+#thumbnail-study-permit-image3 {
     background-image: url(../img/study_permit_img_3_300px.jpg);
-    background-position: center;
 }
+
+/* Main Image - STUDYING IN CANADA > Post-graduate work permit page */
+#img-post-graduate-work-permit-main-image {
+    background-image: url(../img/post_graduation_work_permit_main_img_900px.jpg);
+}
+
+/* Second Thumbnail Image for STUDYING IN CANADA > Post-graduate work permit page */
+#thumbnail-post-graduate-work-permit-image2 {
+    background-image: url(../img/post_graduation_work_permit_img2_300px.jpg);
+}
+
+/* Main image - WORK PERMIT RELATED > LMIA */
+#img-lmia-main-image {
+    background-image: url(../img/lmia_main_img_900px.jpg);
+}
+
+/* Main image - WORK PERMIT RELATED > Work Permit */
+#img-work-permit-main-image {
+    background-image: url(../img/work_permit_main_img_900px.jpg);
+}
+
+/* Second Thumbnail Image for STUDYING IN CANADA > Work Permit page */
+#thumbnail-work-permit-image2 {
+    background-image: url(../img/work_permit_img2_300px.jpg);
+}
+
 
 
 /* --------------------------------------------------- */
@@ -1222,35 +1318,180 @@ The image for each page is set by a different class */
 
 /* Small screen-width devices (Landscape phones, 576px and up) */
 @media all and (min-width: 576px) {
-    .study-permit-main-image {
+    #img-study-permit-main-image {
         background-image: url(../img/study_permit_main_img_1200px.jpg);
     }
 
-    .study-permit-image2 {
+    #thumbnail-study-permit-image2 {
         background-image: url(../img/study_permit_img_2_600px.jpg);
     }
 
-    .study-permit-image3 {
+    #thumbnail-study-permit-image3 {
         background-image: url(../img/study_permit_img_3_600px.jpg);
+    }
+
+    #img-federal-skilled-worker-main-image {
+        background-image: url(../img/federal_skilled_worker_main_img_1200px.jpg);
+    }
+
+    #img-federal-skilled-trades-main-image {
+        background-image: url(../img/federal_skilled_trades_main_img_1200px.jpg);
+    }
+
+    #img-canadian-experience-class-main-image {
+        background-image: url(../img/canadian_experience_class_main_img_1200px.jpg);
+    }
+
+    #img-spousal-sponsorship-main-image {
+        background-image: url(../img/spousal_sponsorship_main_image_1200px.jpg);
+    }
+
+    #thumbnail-spousal-sponsorship-image2 {
+        background-image: url(../img/spousal_sponsorship_image2_600px.jpg);
+    }
+
+    #img-parents-grandparents-sponsorship-main-image {
+        background-image: url(../img/parents_grandparents_sponsorship_main_image_1200px.jpg);
+    }
+
+    #img-provincial-nomination-alberta-main-image {
+        background-image: url(../img/provincial_nomination_alberta_main_image_1200px.jpg);
+    }
+
+    #img-provincial-nomination-manitoba-main-image {
+        background-image: url(../img/provincial_nomination_manitoba_main_image_1200px.jpg);
+    }
+
+    #img-provincial-nomination-saskatchewan-main-image {
+        background-image: url(../img/provincial_nomination_saskatchewan_main_image_1200px.jpg);
+    }
+
+    #img-provincial-nomination-nova-scotia-main-image {
+        background-image: url(../img/provincial_nomination_nova_scotia_main_image_1200px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image1 {
+        background-image: url(../img/canada_visitor_visa_carousel_img1_1200px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image2 {
+        background-image: url(../img/canada_visitor_visa_carousel_img2_1200px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image3 {
+        background-image: url(../img/canada_visitor_visa_carousel_img3_1200px.jpg);
+    }
+
+    #img-super-visa-main-image {
+        background-image: url(../img/supervisa_main_img_1200px.jpg);
+    }
+
+    #img-business-visa-main-image {
+        background-image: url(../img/business_visa_main_img_1200px.jpg);
+    }
+
+    #img-lmia-main-image {
+        background-image: url(../img/lmia_main_img_1200px.jpg);
+    }
+
+    #img-work-permit-main-image {
+        background-image: url(../img/work_permit_main_img_1200px.jpg);
+    }
+
+    #thumbnail-work-permit-image2 {
+        background-image: url(../img/work_permit_img2_600px.jpg);
     }
 }
 
 /* Medium screen-width devices (Tablets, 768px and up) */
 @media all and (min-width: 768px) {
-    .study-permit-image2 {
+    #thumbnail-study-permit-image2 {
         background-image: url(../img/study_permit_img_2_900px.jpg);
     }
 
-    .study-permit-image3 {
+    #thumbnail-study-permit-image3 {
         background-image: url(../img/study_permit_img_3_900px.jpg);
+    }
+
+    #thumbnail-spousal-sponsorship-image2 {
+        background-image: url(../img/spousal_sponsorship_image2_900px.jpg);
+    }
+
+    #thumbnail-work-permit-image2 {
+        background-image: url(../img/work_permit_img2_900px.jpg);
     }
 }
 
 /* Medium to Large Screen-width devices (Laptops, 992 px and up)*/
 @media all and (min-width: 992px) {
-    .study-permit-main-image {
+    #img-study-permit-main-image {
         background-image: url(../img/study_permit_main_img_1600px.jpg);
     }
+
+    #img-federal-skilled-worker-main-image {
+        background-image: url(../img/federal_skilled_worker_main_img_1600px.jpg);
+    }
+
+    #img-federal-skilled-trades-main-image {
+        background-image: url(../img/federal_skilled_trades_main_img_1600px.jpg);
+    }
+
+    #img-canadian-experience-class-main-image {
+        background-image: url(../img/canadian_experience_class_main_img_1600px.jpg);
+    }
+
+    #img-spousal-sponsorship-main-image {
+        background-image: url(../img/spousal_sponsorship_main_image_1600px.jpg);
+    }
+
+    #img-parents-grandparents-sponsorship-main-image {
+        background-image: url(../img/parents_grandparents_sponsorship_main_image_1600px.jpg);
+    }
+
+    #img-provincial-nomination-alberta-main-image {
+        background-image: url(../img/provincial_nomination_alberta_main_image_1600px.jpg);
+    }
+
+    #img-provincial-nomination-manitoba-main-image {
+        background-image: url(../img/provincial_nomination_manitoba_main_image_1600px.jpg);
+    }
+
+    #img-provincial-nomination-saskatchewan-main-image {
+        background-image: url(../img/provincial_nomination_saskatchewan_main_image_1600px.jpg);
+    }
+
+    #img-provincial-nomination-nova-scotia-main-image {
+        background-image: url(../img/provincial_nomination_nova_scotia_main_image_1600px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image1 {
+        background-image: url(../img/canada_visitor_visa_carousel_img1_1600px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image2 {
+        background-image: url(../img/canada_visitor_visa_carousel_img2_1600px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image3 {
+        background-image: url(../img/canada_visitor_visa_carousel_img3_1600px.jpg);
+    }
+
+    #img-super-visa-main-image {
+        background-image: url(../img/supervisa_main_img_1600px.jpg);
+    }
+
+    #img-business-visa-main-image {
+        background-image: url(../img/business_visa_main_img_1600px.jpg);
+    }
+
+    #img-lmia-main-image {
+        background-image: url(../img/lmia_main_img_1600px.jpg);
+    }
+
+    #img-work-permit-main-image {
+        background-image: url(../img/work_permit_main_img_1600px.jpg);
+    }
+
 }
 
 /* Large devices screen-width devices (Desktops above 1200px and up) */
@@ -1258,9 +1499,74 @@ The image for each page is set by a different class */
 
 /* Extra large screen-width devices (Desktops above 2560px and up) */
 @media all and (min-width: 2700px) {
-    .study-permit-main-image {
+    #img-study-permit-main-image {
         background-image: url(../img/study_permit_main_img_3000px.jpg);
     }
+
+    #img-federal-skilled-worker-main-image {
+        background-image: url(../img/federal_skilled_worker_main_img_3000px.jpg);
+    }
+
+    #img-federal-skilled-trades-main-image {
+        background-image: url(../img/federal_skilled_trades_main_img_3000px.jpg);
+    }
+
+    #img-canadian-experience-class-main-image {
+        background-image: url(../img/canadian_experience_class_main_img_3000px.jpg);
+    }
+
+    #img-spousal-sponsorship-main-image {
+        background-image: url(../img/spousal_sponsorship_main_image_3000px.jpg);
+    }
+
+    #img-parents-grandparents-sponsorship-main-image {
+        background-image: url(../img/parents_grandparents_sponsorship_main_image_3000px.jpg);
+    }
+
+    #img-provincial-nomination-alberta-main-image {
+        background-image: url(../img/provincial_nomination_alberta_main_image_3000px.jpg);
+    }
+
+    #img-provincial-nomination-manitoba-main-image {
+        background-image: url(../img/provincial_nomination_manitoba_main_image_3000px.jpg);
+    }
+
+    #img-provincial-nomination-saskatchewan-main-image {
+        background-image: url(../img/provincial_nomination_saskatchewan_main_image_3000px.jpg);
+    }
+
+    #img-provincial-nomination-nova-scotia-main-image {
+        background-image: url(../img/provincial_nomination_nova_scotia_main_image_3000px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image1 {
+        background-image: url(../img/canada_visitor_visa_carousel_img1_3000px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image2 {
+        background-image: url(../img/canada_visitor_visa_carousel_img2_3000px.jpg);
+    }
+
+    #img-canada-visitor-visa-carousel-image3 {
+        background-image: url(../img/canada_visitor_visa_carousel_img3_3000px.jpg);
+    }
+
+    #img-super-visa-main-image {
+        background-image: url(../img/supervisa_main_img_3000px.jpg);
+    }
+
+    #img-business-visa-main-image {
+        background-image: url(../img/business_visa_main_img_3000px.jpg);
+    }
+
+    #img-lmia-main-image {
+        background-image: url(../img/lmia_main_img_3000px.jpg);
+    }
+
+    #img-work-permit-main-image {
+        background-image: url(../img/work_permit_main_img_3000px.jpg);
+    }
+
 }
 
 /* --------------------------------------------------- */

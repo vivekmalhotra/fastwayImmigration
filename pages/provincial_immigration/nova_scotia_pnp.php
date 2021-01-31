@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Nova Scotia Provincial Nomination Program (NS PNP) - Information and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Nova Scotia Provincial Nomination Program (NS PNP), related requirements and the ways in which your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="nova scotia provincial nominee program, ns pnp, nova scotia immigration, atlantic immigration pilot, atlantic canada immigration, canada provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
+    <meta name="keywords" content="nova scotia provincial nominee program, ns pnp, nova scotia immigration, atlantic immigration pilot, atlantic canada immigration, canada provincial nomination, provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Nova Scotia Provincial Nominee Program (NS PNP) | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -47,7 +46,16 @@
             <p class="font-size-4 py-1">
                 To meet the demands of the labour market, Nova Scotia has an immigration pathway for the skilled immigrants who will be able to help in the economic development of the province and that immigration pathway is known as Nova Scotia Provincial Nomination Program (NS PNP).
             </p>
+        <div>
 
+        <!-- Main image for PROVINCIAL NOMINATION > Nova Scotia -->
+        <div class="container-md">
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-provincial-nomination-nova-scotia-main-image" class="mainImage shadow" title="Photo of a city in Nova Scotia"></div>
+        </div>
+
+        <div class="container py-3 text-justify">
             <h2 class="font-size-2 color-font-black py-2"><strong>What is Nova Scotia PNP?</strong></h2>
             <p class="font-size-4 py-1">
                 Nova Scotia Provincial Nominee Program (NS PNP) allows the province to nominate the prospective immigrants for permanent resident status in the province with skill sets and work experience that is targeted by the Nova Scotia’s local labor market.
@@ -66,15 +74,6 @@
                 <li>International Graduate Entrepreneur Stream</li>
                 <li>Physician Stream</li>
             </ul>
-        <div>
-
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
-        <div class="container py-3 text-justify">
             <h4 class="font-size-4 color-font-black"><strong>Nova Scotia Demand : Express Entry</strong></h4>
             <p class="font-size-4 py-1">
                 This stream uses the federal government’s express entry program selection system to select the candidates for provincial nomination. Highly skilled immigrants are selected who wants to live in the province as a permanent resident. There are two categories under this stream:

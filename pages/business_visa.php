@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Business Visa to Canada - Information and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about the Business Visa program for Canada, its related requirements and the ways in which your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="business visa, canada visa, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
+    <meta name="keywords" content="business visa, business visitor, business visitor program, business visa program, canada visa, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Business Visa to Canada | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -56,7 +55,16 @@
                     </ul>
                 </li>
             </ul>
+        </div>
 
+        <!-- Main image for BUSINESS VISA page -->
+        <div class="container-md">
+            <!--The mainImage class is general styling for main images on each services page
+                To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-business-visa-main-image" class="mainImage shadow" title="Photo of a business people working together in a business meeting"></div>
+        </div>
+
+        <div class="container py-3 text-justify">
             <h2 class="font-size-2 color-font-black py-2"><strong>How to show you are a Business Visitor</strong></h2>
             <p class="font-size-4 py-1">
                 To qualify as a business visitor to Canada, you must show that :
@@ -75,15 +83,7 @@
                     </ul>
                 </li>
             </ul>
-        </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
-        <div class="container py-3 text-justify">
             <h4 class="font-size-4 color-font-black py-1"><strong>Activities you may conduct as a business visitor include</strong></h2>
             <ul class="font-size-4">
                 <li>buying Canadian goods or services for a foreign business or government</li>

@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Canadian Permanent Residence (PR) card issuance and renewal - Information about the process and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Canadian Permanent Residence (PR) card issuance and renewal and ways in which your your team at Fastway Immigration assist you in your application process">
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="canadian pr card, canadian permanent residence, canada pr card, renew canada pr card, canada pr card renewal, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Canadian PR card Renewal/Issuance | Fastway Immigration</title>

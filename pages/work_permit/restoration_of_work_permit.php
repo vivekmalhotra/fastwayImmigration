@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Restoration of Work Permit - Information about the process and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about apply for Restoration of your Work Permit and how can your team at Fastway Immigration assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="work permit, canada work permit, restore status, restore work permit status, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
+    <meta name="keywords" content="restore work permit, work permit restoration, extend work permit, work permit, canada work permit, restore status, restore work permit status, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Restoration of Work Permit | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -57,9 +56,7 @@
                 <li>has not failed to comply with conditions other than paragraph R185(a), any of subparagraphs R185(b)(i) to (iii) or paragraph R185(c)</li>
                 <li>is not subject of a declaration under subsection A22.1(1)</li>
             </ul>
-        </div>
 
-        <div class="container py-3 text-justify">
             <p class="font-size-4 py-1 mb-1">
                 <strong>All in-Canada visitor record, study permit and work permit applications must be submitted electronically.</strong> There are exceptions for specific programs that are not available in the online process.
             </p>

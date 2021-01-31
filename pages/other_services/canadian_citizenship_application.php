@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Canada Citizenship - Information about the process and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Canada Citizenship - Information about the process, its related requirements and ways in which your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="canada citizenship, canada citizenship application, citizenship application, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
+    <meta name="keywords" content="canada citizenship, canada citizenship application, citizenship application, apply for canada citizenship, citizen of canada, citizenship canada, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Canadian Citizenship | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -37,13 +36,6 @@
                 <h1 class="font-size-1 font-type-serif py-1">Canadian Citizenship Application</h1>
             </div>
         </div>
-
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
         <!-- Paragraphs of content -->
         <div class="container py-3 text-justify">
             <p class="font-size-4 py-1">

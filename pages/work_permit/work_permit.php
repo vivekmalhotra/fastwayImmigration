@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Work Permit program for Canada - Information and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details for the Work Permit program for Canada, its related requirements and the ways in which your Fastway Immigration team  assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="work permit, canada work permit, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
+    <meta name="keywords" content="work permit, work permit program, work permit application, canada work permit, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Canada Work Permit | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -34,7 +33,7 @@
         <div class="color-background-brand-tertiary-dark color-font-white shadow py-2">
             <div class="container">
                 <!-- Page Heading -->
-                <h1 class="font-size-1 font-type-serif py-1">Work Permit</h1>
+                <h1 class="font-size-1 font-type-serif py-1">Work Permit (inside/outside)</h1>
             </div>
         </div>
 
@@ -58,10 +57,12 @@
                 <li>give the officer any other documents they ask for to prove you can enter the country</li>
             </ul>
         </div>
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
+
+        <!-- Main image for WORK PERMIT RELATED > work permit (inside/outside) page -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+                To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-work-permit-main-image" class="mainImage shadow" title="Photo collage of different types of workers"></div>
         </div>
 
         <div class="container py-3 text-justify">
@@ -129,6 +130,8 @@
             <p class="font-size-4 py-1">
                 In addition, depending on the position, the ESDC may insist on national advertising to attract Canadian candidates for senior level positions.
             </p>
+            <!-- Thumbnail image - WORK PERMIT RELATED > Work Permit page -->
+            <div id="thumbnail-work-permit-image2" class="square-right-floating-thumbnail-image mx-3 my-2 shadow" title="photo of a new graduate"></div>
             <p class="font-size-4 py-1">
                 Moreover, the ESDC will also review the salary and working conditions to determine that they are consistent with the current labour market in the area.
             </p>

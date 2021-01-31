@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Extension of Canada Work Permit - Information about the process and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Extension of Canada Work Permit, its related requirements and ways in which your team at Fastway Immigration assist you in your application process">
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="work permit, canada work permit, work permit extension, extending your work permit, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Extension of Work Permit | Fastway Immigration</title>
@@ -57,9 +56,6 @@
             <p class="font-size-4 py-1">
                 However, if you are offered a different job in Canada, you must apply for new work permit.
             </p>
-        </div>
-
-        <div class="container py-3 text-justify">
             <h3 class="font-size-3 color-font-black"><strong>Who can apply?</strong></h3>
             <p class="font-size-4 py-1 mb-1">
                 This application is for you if you:

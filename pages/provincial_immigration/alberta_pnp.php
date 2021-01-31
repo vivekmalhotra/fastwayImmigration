@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Alberta Immigrant Nominee Program (AINP) to Canada - Information and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Alberta Immigrant Nomination Program (AINP), related requirements and the ways that your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="alberta immigrant nominee program, ainp, alberta immigration, canada provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
+    <meta name="keywords" content="alberta immigrant nominee program, ainp, alberta immigration, canada provincial nomination, provincial nomination program, provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Alberta Immigrant Nominee Program (AINP) | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -53,10 +52,11 @@
             </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
+        <!-- Main image for PROVINCIAL NOMINATION > Alberta -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-provincial-nomination-alberta-main-image" class="mainImage shadow" title="Photo of a scenic location near Banff in Alberta"></div>
         </div>
 
         <div class="container py-3 text-justify">

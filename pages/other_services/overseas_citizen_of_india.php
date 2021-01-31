@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Overseas Citizen of India Application - Information about the process and how your Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Overseas Citizen of India (OCI) application requirements and ways in which your team at Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="overseas citizen of india, oci card, oci, india visa, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Overseas Citizen of India (OCI) | Fastway Immigration</title>

@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Saskatchewan Immigrant Nominee Program to Canada - Information and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Saskatchewan Immigrant Nominee Program to Canada, related requirements and the ways in which your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="saskatchewan immigrant nominee program, sinp, saskatchewan immigration, canada provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
+    <meta name="keywords" content="saskatchewan immigrant nominee program, sinp, immigrate to saskatchewan, saskatchewan immigration, provincial nomination, canada provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Saskatchewan Immigrant Nominee Program (SINP) | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -66,10 +65,11 @@
             </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
+        <!-- Main image for PROVINCIAL NOMINATION > Saskatchewan -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-provincial-nomination-saskatchewan-main-image" class="mainImage shadow" title="Photo of a place in Saskatchewan"></div>
         </div>
 
         <div class="container py-3 text-justify">

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Federal Skilled Trades program requirements and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Federal Skilled Trades program, related requirements and the ways that your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="federal skilled trades, fst, federal skilled trades program, express entry, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
     <title>Federal Skilled Trades | Fastway Immigration</title>
@@ -34,7 +34,7 @@
         <div class="color-background-brand-tertiary-dark color-font-white shadow py-2">
             <div class="container">
                 <!-- Page Heading -->
-                <h1 class="font-size-1 font-type-serif py-1">Federal Skilled Workers</h1>
+                <h1 class="font-size-1 font-type-serif py-1">Federal Skilled Trades</h1>
             </div>
         </div>
 
@@ -43,7 +43,16 @@
             <p class="font-size-4 py-1">
                 The Federal Skilled Trades Program is for people who want to become permanent residents based on being qualified in a skilled trade. Express Entry is now the first step to immigrate to Canada Permanently under FSWP, FSTP, Canadian Experience Class and a portion of PNP.  It is not a new program.   Criteria for existing programs continue to apply.
             </p>
+        </div>
 
+        <!-- Main image for EXPRESS ENTRY  > Federal Skilled trades page -->
+        <div class="container-md">
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-federal-skilled-trades-main-image" class="mainImage shadow" title="Photo of a people working in a plant"></div>
+        </div>
+
+        <div class="container py-3 text-justify">
             <p class="font-size-4 py-1">
                 Express Entry is fully electronic application process.   Under EE, IRCC selects candidates who are most likely to succeed in Canada.  Processing time is six months or less.   Potential Candidate to meet minimum requirements must :
             </p>
@@ -55,15 +64,7 @@
                 <li>meet the job requirements for that skilled trade as set out in the National Occupational Classification (NOC), except for requiring a certificate of qualification, and</li>
                 <li>have an offer of employment from up to two employers in Canada of at least 1 year or Certificate of Trade Qualification issued by Canadian Provincial/Territorial Authority</li>
             </ul>
-        </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
-        <div class="container py-2 text-justify">
             <h2 class="font-size-2 color-font-black py-2"><strong>Skilled Work Experience</strong></h2>
             <p class="font-size-4 py-1">
                 Skilled Trades currently eligible for the Federal Skilled Trades Program are organized under these major and minor groups of NOC:

@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Spousal Sponsorship program requirements and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Spousal Sponsorship program, related requirements and the ways that your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
     <meta name="keywords" content="spousal sponsorship, family sponsorship, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
     <title>Spousal Sponsorship | Fastway Immigration</title>
@@ -55,10 +54,11 @@
             </p>
         </div>
 
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
+        <!-- Main image for FAMILY SPONSORSHIP  > SPOUSAL SPONSORSHIP -->
         <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-spousal-sponsorship-main-image" class="mainImage shadow" title="Photo of a couple"></div>
         </div>
 
         <div class="container py-3 text-justify">
@@ -144,6 +144,9 @@
             <p class="font-size-4 py-1 font-weight-bold color-font-black">
                 Sponsoring your spouse or common-law partner who lives with you in Canada
             </p>
+
+            <!-- Thumbnail image - FAMILY SPONSORSHIP > Spousal Sponsorship -->
+            <div id="thumbnail-spousal-sponsorship-image2" class="square-right-floating-thumbnail-image mx-3 my-2 shadow" title="thumbnail of a couple"></div>
 
             <p class="font-size-4 py-1">
                 You can apply under the Spouse or Common-Law Partner in Canada (SLPC) class if your spouse or common-law partner cohabits (lives) with you in Canada and has temporary resident status.

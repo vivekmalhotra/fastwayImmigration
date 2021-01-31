@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="description" content="Post Graduation Work Permit (PGWP) - Fastway Immigration team will provide you professional service each step of the way in your application process">
+    <meta name="description" content="Details about the Post Graduation Work Permit (PGWP) program in Canada, its related requirements and the ways in which your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="study permit, study in canada, post graduation work permit, pgwp, start working after study, fastway immigration, fastwayim, sunil malhotra, canada immigration">
+    <meta name="keywords" content="post graduation work permit, pgwp, pgwp application, start working after study, work in canada after studies, fastway immigration, fastwayim, sunil malhotra">
     <title>Post Graduation Work Permit (PGWP) | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -21,7 +21,6 @@
     <div class="container breadcrumbs">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb pl-0 py-1 mb-0">
-                <!-- TODO Change all_services.html to all_services.php -->
                 <li class="breadcrumb-item"><a href="/index.php#services">All Services</a></li>
                 <li class="breadcrumb-item"><a href="/pages/study_permit/main_page_study_in_canada.php">Study in Canada</a></li>
                 <li class="breadcrumb-item active" aria-current="page">PGWP</li>
@@ -51,10 +50,11 @@
             </p>
         </div>
 
-        <!-- Main image for PGWP services page -->
-        <!-- TODO Proper image needed for PGWP -->
-        <div class="container-md px-0 px-md-3">
-            <div id="mainImage" class="study-permit-main-image shadow-sm" title="photo of students studying together"></div>
+        <!-- Main image for POST GRADUATION WORK PERMIT page -->
+        <div class="container-md">
+            <!--The mainImage class is general styling for main images on each services page
+                To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-work-permit-main-image" class="mainImage shadow" title="Photo of people working together on a project"></div>
         </div>
 
         <div class="container py-3 text-justify">
@@ -80,6 +80,8 @@
             </ul>
 
             <h3 class="font-size-3 color-font-black py-2"><strong>Accelerated Studies</strong></h3>
+            <!-- Thumbnail image - STUDYING IN CANADA > Post graduate work permit page -->
+            <div id="thumbnail-post-graduate-work-permit-image2" class="square-right-floating-thumbnail-image mx-3 my-2 shadow" title="photo of a new graduate"></div>
             <p class="font-size-4 py-1">
                 If a student completes their studies in less time than the normal length of the program (that is, they have accelerated their studies), the post-graduation work permit should be assessed on the length of the program of study.
             </p>

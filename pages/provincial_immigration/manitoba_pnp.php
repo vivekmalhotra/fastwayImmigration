@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- TODO proper description and other meta tags -->
-    <meta name="description" content="Manitoba Provincial Nominee Program (MPNP) - Information and how the Fastway Immigration team can assist you in your application process">
+    <meta name="description" content="Details about Manitoba Provincial Nominee Program (MPNP), related requirements and the ways that your Fastway Immigration team assist you in your application process">
     <meta name="author" content="Fastway Immigration">
-    <meta name="keywords" content="manitoba provincial nominee program, mpnp, manitoba immigration, canada provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra, canada immigration">
+    <meta name="keywords" content="manitoba provincial nominee program, mpnp, manitoba immigration, provincial nomination program, canada provincial nomination, canada immigration, fastway services, fastway immigration, fastwayim, sunil malhotra, sangeeta malhotra">
     <title>Manitoba Provincial Nominee Program (MPNP) | Fastway Immigration</title>
 
     <!-- PHP Serve - Head content - favicons, google analytics script, bootstrap script etc. -->
@@ -46,13 +45,22 @@
 
             <h2 class="font-size-2 color-font-black py-2"><strong>SKILLED WORKERS STREAM</strong></h2>
             <p class="font-size-4 py-1">
-                The Manitoba Provincial Nominee Program (MPNP) seeks recent graduates, skilled workers, businesspeople and their families with the intention and ability to successfully settle and economically establish in Manitoba as permanent residents. Manitoba makes it easy to immigrate and settle in the Province.
+                The Manitoba Provincial Nominee Program (MPNP) seeks recent graduates, skilled workers, business people and their families with the intention and ability to successfully settle and economically establish in Manitoba as permanent residents. Manitoba makes it easy to immigrate and settle in the Province.
             </p>
 
             <p class="font-size-4 py-1">
                 The <strong>MPNP for Skilled Workers</strong> is locally driven and based on the needs of Manitoba employers. It select internationally trained and experienced workers who have the skills needed in the local labour market, and nominate them to receive Canadian permanent resident visas to settle and work in Manitoba.
             </p>
+        </div>
 
+        <!-- Main image for PROVINCIAL NOMINATION > Manitoba -->
+        <div class="container-md">
+            <!--The mainImage class is general styling for main images on each services page
+            To assign appropriate/unique images for each page, using different IDs -->
+            <div id="img-provincial-nomination-manitoba-main-image" class="mainImage shadow" title="Photo of Winnipeg city in Manitoba"></div>
+        </div>
+
+        <div class="container py-3 text-justify">
             <h4 class="font-size-4 color-font-black"><strong>Skilled Workers in Manitoba</strong></h4>
             <p class="font-size-4 py-1">
                 The MPNP for Skilled Workers in Manitoba nominates applicants who have a strong connection to our province through ongoing employment and sufficient skills, education and training, work experience and official language proficiency to make an immediate and ongoing contribution to the Manitoba economy and our community at large.
@@ -71,15 +79,6 @@
                 The new <strong>International Education Stream</strong> (IES) for Manitoba graduates is dedicated to providing international students graduating in Manitoba and meeting the needs of industry faster pathways to nomination.
             </p>
 
-        </div>
-
-        <!-- TODO proper image needed -->
-        <!-- Main image for Federal Skilled Worker services page -->
-        <div class="container-md">
-            <div id="mainImage" class="study-permit-main-image shadow" title="photo of students studying together"></div>
-        </div>
-
-        <div class="container py-3 text-justify">
             <h4 class="font-size-4 color-font-black"><strong>Career Employment Pathway</strong></h4>
             <p class="font-size-4 py-1">
                 The Graduate Internship Pathway provides faster nomination pathways for international student master and doctoral graduates through internships contributing to industry innovation in Manitoba. Graduates who complete an Accelerate or Elevate internship with Mitacs in Manitoba can apply to the MPNP immediately after graduation, whether or not they have a job offer.
