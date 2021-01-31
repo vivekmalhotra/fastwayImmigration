@@ -44,7 +44,7 @@
                         <div class="container carousel-overlay h-75 mt-5 pl-3 pl-md-5 color-font-black d-flex flex-column justify-content-center">
                             <h3 class="font-size-4 font-type-sans-serif w-50 color-font-brand-secondary-light font-weight-bold p-1 mb-1 animate__animated animate__fadeInUp" style="animation-delay: 1.3s; animation-duration: 1.6s;">DEDICATED & TRUSTWORTHY</h3>
                             <h1 class="font-size-1 font-weight-bold px-1 font-type-serif animate__animated animate__fadeIn" style="animation-delay: 0.1s;">Knowledgeable Team</h1>
-                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Canadian Immigration is quite complex. Your Fastway team is experienced and capable of handling all Immigration matters. Whether your case is a fresh application or you need to re-apply, our Team can help you.</h2>
+                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Canadian Immigration is quite complex. Your Fastway team is experienced and capable of handling all Immigration matters. Whether your case is a fresh application or you need to re-apply, our team can help you.</h2>
                         </div>
                     </div>
 
@@ -107,7 +107,6 @@
                     <div class="col d-none d-lg-block d-lg-2"></div>
                 </div>
             </div>
-
         </div>
     </section>
 
@@ -127,7 +126,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/express_entry/main_page_express_entry.php" title="Express Entry service">
+                        <a href="/pages/express_entry/main_page_express_entry" title="Express Entry service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-1-image">
                                 <!-- Text overlay of the card-container  -->
@@ -140,7 +139,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/family_sponsorship/main_page_family_sponsorship.php" title="Family Sponsorship service">
+                        <a href="/pages/family_sponsorship/main_page_family_sponsorship" title="Family Sponsorship service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-2-image">
                                 <!-- Text overlay of the card-container  -->
@@ -153,7 +152,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/provincial_immigration/main_page_provincial_nomination.php" title="Provincial Immigration service">
+                        <a href="/pages/provincial_immigration/main_page_provincial_nomination" title="Provincial Immigration service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-3-image">
                                 <!-- Text overlay of the card-container  -->
@@ -179,7 +178,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/visitor_visa.php" title="Canada Visitor Visa service">
+                        <a href="/pages/visitor_visa" title="Canada Visitor Visa service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-5-image">
                                 <!-- Text overlay of the card-container  -->
@@ -192,7 +191,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/super_visa.php" title="Super Visa service (Parents & Grand-parents)">
+                        <a href="/pages/super_visa" title="Super Visa service (Parents & Grand-parents)">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-6-image">
                                 <!-- Text overlay of the card-container  -->
@@ -205,7 +204,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/business_visa.php" title="Business Visa service">
+                        <a href="/pages/business_visa" title="Business Visa service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-7-image">
                                 <!-- Text overlay of the card-container  -->
@@ -218,7 +217,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/study_permit/main_page_study_in_canada.php" title="Study Permit service">
+                        <a href="/pages/study_permit/main_page_study_in_canada" title="Study Permit service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-8-image">
                                 <!-- Text overlay of the card-container  -->
@@ -231,7 +230,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/work_permit/main_page_work_permit.php" title="Work Permit service">
+                        <a href="/pages/work_permit/main_page_work_permit" title="Work Permit service">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-9-image">
                                 <!-- Text overlay of the card-container  -->
@@ -244,7 +243,7 @@
                     <div class="col mb-4">
                         <!-- TODO Correct hyperlinks for the services cards -->
                         <!-- Wraps the Background and Text overlay in an anchor tag -->
-                        <a href="/pages/other_services/main_page_other_services.php" title="Other services provided by Fastway Immigration">
+                        <a href="/pages/other_services/main_page_other_services" title="Other services provided by Fastway Immigration">
                             <!-- Card container for each service  -->
                             <div class="card-container h-100 w-100 border-0 d-flex justify-content-center service-card-10-image">
                                 <!-- Text overlay of the card-container  -->

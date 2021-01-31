@@ -1566,7 +1566,6 @@ The image for each page is set by a different class */
     #img-work-permit-main-image {
         background-image: url(../img/work_permit_main_img_3000px.jpg);
     }
-
 }
 
 /* --------------------------------------------------- */
@@ -1585,7 +1584,6 @@ The image for each page is set by a different class */
     max-width: 25rem;
     max-height: 40rem;
 }
-
 
 /* --------------------------------------------------- */
 /* Services selection Pages - All elements - NORMAL STYLING*/

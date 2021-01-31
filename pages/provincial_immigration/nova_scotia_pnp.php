@@ -46,16 +46,12 @@
             <p class="font-size-4 py-1">
                 To meet the demands of the labour market, Nova Scotia has an immigration pathway for the skilled immigrants who will be able to help in the economic development of the province and that immigration pathway is known as Nova Scotia Provincial Nomination Program (NS PNP).
             </p>
-        <div>
 
-        <!-- Main image for PROVINCIAL NOMINATION > Nova Scotia -->
-        <div class="container-md">
+            <!-- Main image for PROVINCIAL NOMINATION > Nova Scotia -->
             <!--The mainImage class is general styling for main images on each services page
             To assign appropriate/unique images for each page, using different IDs -->
             <div id="img-provincial-nomination-nova-scotia-main-image" class="mainImage shadow" title="Photo of a city in Nova Scotia"></div>
-        </div>
 
-        <div class="container py-3 text-justify">
             <h2 class="font-size-2 color-font-black py-2"><strong>What is Nova Scotia PNP?</strong></h2>
             <p class="font-size-4 py-1">
                 Nova Scotia Provincial Nominee Program (NS PNP) allows the province to nominate the prospective immigrants for permanent resident status in the province with skill sets and work experience that is targeted by the Nova Scotia’s local labor market.

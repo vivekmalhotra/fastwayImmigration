@@ -1,6 +1,16 @@
+######################################################
+# The code below lets us hide the .PHP from the URLs
+######################################################
+RewriteEngine on
+
+# If user requests a URL ending with .PHP it removes it and redirects it properly
+RewriteCond %{THE_REQUEST} /([^.]+)\.php [NC]
+RewriteRule ^ /%1 [NC,L,R]
+
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php  [NC,L]
 
 Options -Indexes
-
 
 ## EXPIRES CACHING ##
 
