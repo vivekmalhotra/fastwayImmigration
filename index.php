@@ -44,7 +44,7 @@
                         <div class="container carousel-overlay h-75 mt-5 pl-3 pl-md-5 color-font-black d-flex flex-column justify-content-center">
                             <h3 class="font-size-4 font-type-sans-serif w-50 color-font-brand-secondary-light font-weight-bold p-1 mb-1 animate__animated animate__fadeInUp" style="animation-delay: 1.3s; animation-duration: 1.6s;">DEDICATED & TRUSTWORTHY</h3>
                             <h1 class="font-size-1 font-weight-bold px-1 font-type-serif animate__animated animate__fadeIn" style="animation-delay: 0.1s;">Knowledgeable Team</h1>
-                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Canadian Immigration is quite complex. Your Fastway team is experienced and capable of handling all Immigration matters. Whether your case is a fresh application or you need to re-apply, our team can help you.</h2>
+                            <h2 class="font-size-4 w-50 font-type-sans-serif p-1 animate__animated animate__fadeInDown" style="animation-delay: 0.5s; animation-duration: 1.2s;">Canadian Immigration is quite complex. Your Fastway team is experienced in and capable of handling all Immigration matters. Whether your case is a fresh application or you need to re-apply, our team can help you.</h2>
                         </div>
                     </div>
 
@@ -83,7 +83,7 @@
                     <hr class="horizontal-row-divider">
                     <div class="p-3 p-lg-5">
                         <p class="font-size-4 font-type-sans-serif text-justify">An Immigration consulting firm based in Edmonton, Alberta, Canada. We provide consultation and representation services to our clients in all their Canadian Immigration, Visa and Citizenship matters.</p>
-                        <p class="font-size-4 font-type-sans-serif text-justify">Fastway's team takes pride in helping individuals and families all over the world successfully immigrate to Canada. Our consultants are Regulated Canadian Immigration Consultants (RCIC) & member in good standing with Immigration Consultants of Canada Regulatory Council (ICCRC)</p>
+                        <p class="font-size-4 font-type-sans-serif text-justify">Fastway's team takes pride in helping individuals & families all over the world in their pursuit to visit, study, work, and permanently settle in Canada. We also help candidates with entrepreneurial or management experience to permanently immigrate to Canada under Start-up Visa and Provincial Nominee Programs (PNP) for Business. We are Regulated Canadian Immigration Consultants (RCIC) & member in good standing with Immigration Consultants of Canada Regulatory Council (ICCRC)</p>
                     </div>
                 </div>
 
